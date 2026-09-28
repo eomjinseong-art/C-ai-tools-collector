@@ -1,15 +1,4 @@
-import Anthropic from "@anthropic-ai/sdk";
-
-let client: Anthropic | undefined;
-
-function anthropic(): Anthropic {
-  if (!client) {
-    const apiKey = process.env.ANTHROPIC_API_KEY;
-    if (!apiKey) throw new Error("Missing ANTHROPIC_API_KEY env var");
-    client = new Anthropic({ apiKey });
-  }
-  return client;
-}
+import { openai, openaiModel } from "./openai.js";
 
 export type Summary = {
   summary: string;
@@ -54,17 +43,20 @@ function looksTruncated(raw: string): boolean {
   }
 }
 
-async function callClaude(userContent: string, maxTokens: number): Promise<{ raw: string; truncated: boolean }> {
-  const message = await anthropic().messages.create({
-    model: "claude-fable-5",
-    max_tokens: maxTokens,
-    system: SYSTEM_PROMPT,
-    messages: [{ role: "user", content: userContent }],
+async function callModel(userContent: string, maxTokens: number): Promise<{ raw: string; truncated: boolean }> {
+  const completion = await openai().chat.completions.create({
+    model: openaiModel(),
+    max_completion_tokens: maxTokens,
+    messages: [
+      { role: "system", content: SYSTEM_PROMPT },
+      { role: "user", content: userContent },
+    ],
   });
 
-  const textBlock = message.content.find((block) => block.type === "text");
-  const raw = textBlock && "text" in textBlock ? textBlock.text : "";
-  const truncated = message.stop_reason === "max_tokens" || looksTruncated(raw);
+  const choice = completion.choices[0];
+  const content = choice?.message?.content;
+  const raw = typeof content === "string" ? content : "";
+  const truncated = choice?.finish_reason === "length" || looksTruncated(raw);
   return { raw, truncated };
 }
 
@@ -85,7 +77,7 @@ function parseSummary(raw: string): Summary | null {
   }
 }
 
-/** Bulk daily batch job — uses a fast/cheap model since this runs over ~200 videos/day. */
+/** Bulk daily batch job — model comes from OPENAI_MODEL (default gpt-4.1-mini). */
 export async function summarizeVideo(input: {
   title: string;
   description: string;
@@ -101,10 +93,10 @@ export async function summarizeVideo(input: {
 
   // First attempt at a generous token budget; if the model still ran out of room,
   // retry once with even more headroom rather than saving a truncated JSON blob.
-  let { raw, truncated } = await callClaude(userContent, 2000);
+  let { raw, truncated } = await callModel(userContent, 2000);
   if (truncated) {
     console.warn("  요약 응답이 잘림, max_tokens 늘려 재시도");
-    ({ raw, truncated } = await callClaude(userContent, 4000));
+    ({ raw, truncated } = await callModel(userContent, 4000));
   }
 
   const parsed = parseSummary(raw);

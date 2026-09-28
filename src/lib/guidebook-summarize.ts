@@ -1,15 +1,4 @@
-import Anthropic from "@anthropic-ai/sdk";
-
-let client: Anthropic | undefined;
-
-function anthropic(): Anthropic {
-  if (!client) {
-    const apiKey = process.env.ANTHROPIC_API_KEY;
-    if (!apiKey) throw new Error("Missing ANTHROPIC_API_KEY env var");
-    client = new Anthropic({ apiKey });
-  }
-  return client;
-}
+import { openai, openaiModel } from "./openai.js";
 
 export type GuidebookInputVideo = {
   index: number;
@@ -48,17 +37,20 @@ function looksTruncated(raw: string): boolean {
   }
 }
 
-async function callClaude(userContent: string, maxTokens: number): Promise<{ raw: string; truncated: boolean }> {
-  const message = await anthropic().messages.create({
-    model: "claude-sonnet-5",
-    max_tokens: maxTokens,
-    system: SYSTEM_PROMPT,
-    messages: [{ role: "user", content: userContent }],
+async function callModel(userContent: string, maxTokens: number): Promise<{ raw: string; truncated: boolean }> {
+  const completion = await openai().chat.completions.create({
+    model: openaiModel(),
+    max_completion_tokens: maxTokens,
+    messages: [
+      { role: "system", content: SYSTEM_PROMPT },
+      { role: "user", content: userContent },
+    ],
   });
 
-  const textBlock = message.content.find((block) => block.type === "text");
-  const raw = textBlock && "text" in textBlock ? textBlock.text : "";
-  const truncated = message.stop_reason === "max_tokens" || looksTruncated(raw);
+  const choice = completion.choices[0];
+  const content = choice?.message?.content;
+  const raw = typeof content === "string" ? content : "";
+  const truncated = choice?.finish_reason === "length" || looksTruncated(raw);
   return { raw, truncated };
 }
 
@@ -73,7 +65,7 @@ function parseSections(raw: string): GuidebookSectionDraft[] | null {
   }
 }
 
-/** Low-frequency batch (~20 calls/run, one per category) — uses a stronger model since it needs to cluster/dedupe across videos. */
+/** Low-frequency batch (~20 calls/run, one per category). Model comes from OPENAI_MODEL (default gpt-4.1-mini). */
 export async function generateGuidebookSections(
   categoryName: string,
   videos: GuidebookInputVideo[],
@@ -88,10 +80,10 @@ export async function generateGuidebookSections(
 
   // First attempt at a generous token budget; if the model still ran out of
   // room, retry once with even more headroom rather than dropping the section.
-  let { raw, truncated } = await callClaude(userContent, 4000);
+  let { raw, truncated } = await callModel(userContent, 4000);
   if (truncated) {
     console.warn(`  [${categoryName}] 가이드북 응답이 잘림, max_tokens 늘려 재시도`);
-    ({ raw, truncated } = await callClaude(userContent, 7000));
+    ({ raw, truncated } = await callModel(userContent, 7000));
   }
 
   const sections = parseSections(raw);

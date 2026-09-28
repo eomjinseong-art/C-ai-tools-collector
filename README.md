@@ -2,7 +2,7 @@
 
 한국 AI 툴 교육 사이트([ai-tools-site](../ai-tools-site))에 데이터를 공급하는 수집기입니다.
 매일 GitHub Actions에서 실행되어, 30개 카테고리별로 YouTube에서 영상을 검색하고
-Claude로 요약한 뒤 Supabase에 저장합니다.
+OpenAI로 요약한 뒤 Supabase에 저장합니다.
 
 ## 동작 방식
 
@@ -11,7 +11,7 @@ Claude로 요약한 뒤 Supabase에 저장합니다.
 3. `excluded_videos`에 등록된 영상은 제외합니다.
 4. `videos.list`로 조회수·좋아요·길이를 가져와 60초 미만(쇼츠성 영상)은 제외합니다.
 5. 조회수와 게시일을 함께 고려한 점수(`view_count / (daysAgo+2)^1.4`)로 정렬해 카테고리별 `target_video_count`만큼(기본 10개, 신규 소규모 카테고리는 5개) 상위 영상을 선정합니다.
-6. 새로 추가되었거나 제목/설명이 바뀐 영상만 자막(가능한 경우)과 함께 Claude(`claude-fable-5`)로 요약합니다 — 이미 요약된 영상은 API 비용을 아끼기 위해 건너뜁니다.
+6. 새로 추가되었거나 제목/설명이 바뀐 영상만 자막(가능한 경우)과 함께 OpenAI로 요약합니다. 모델은 `OPENAI_MODEL`이고, 비어 있으면 `gpt-4.1-mini`를 사용합니다. 이미 요약된 영상은 API 비용을 아끼기 위해 건너뜁니다.
 7. 카테고리별로 target 개수 밖으로 밀려난 기존 영상은 삭제하고, 최신 top-N을 upsert합니다.
 
 ## 필요한 GitHub Secrets
@@ -21,7 +21,9 @@ Claude로 요약한 뒤 Supabase에 저장합니다.
 | `SUPABASE_URL` | Supabase 프로젝트 URL |
 | `SUPABASE_SERVICE_ROLE_KEY` | Supabase service_role 키 (RLS 우회, 쓰기 권한) |
 | `YOUTUBE_API_KEY` | Google Cloud Console에서 발급한 YouTube Data API v3 키 |
-| `ANTHROPIC_API_KEY` | console.anthropic.com에서 발급한 API 키 |
+| `OPENAI_API_KEY` | platform.openai.com에서 발급한 API 키 |
+
+요약·가이드북에 쓰는 모델은 시크릿이 아니라 환경변수 `OPENAI_MODEL`입니다. 지정하지 않으면 `gpt-4.1-mini`입니다. 일일 워크플로는 `OPENAI_API_KEY`만 넘기고, 모델은 코드 기본값을 사용합니다.
 
 ## 로컬 실행
 
