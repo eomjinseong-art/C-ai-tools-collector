@@ -25,12 +25,15 @@ OpenAI로 요약한 뒤 Supabase에 저장합니다.
 
 요약·가이드북에 쓰는 모델은 시크릿이 아니라 환경변수 `OPENAI_MODEL`입니다. 지정하지 않으면 `gpt-4.1-mini`입니다. 일일 워크플로는 `OPENAI_API_KEY`만 넘기고, 모델은 코드 기본값을 사용합니다.
 
+수집이 끝난 뒤 일일 워크플로는 `npm run resummarize`를 `continue-on-error`로 한 번 더 실행합니다. `hook`이 비어 있거나 요약이 깨진 JSON으로 남은 영상만 OpenAI로 다시 요약하므로, 키 오류로 빈 요약이 저장된 경우 다음 실행에서 메워집니다. 이 단계가 실패해도 수집 잡 자체는 성공으로 남습니다. 같은 스크립트를 지금 돌리려면 Actions에서 **Resummarize videos missing summaries** 워크플로를 수동 실행하면 됩니다 (`workflow_dispatch` 전용).
+
 ## 로컬 실행
 
 ```bash
 npm install
 cp .env.example .env   # 값 채우기
 npm run collect
+npm run resummarize    # hook이 비었거나 요약이 깨진 영상만 OpenAI로 다시 요약
 ```
 
 ## 최초 1회: DB 스키마/카테고리 적용
