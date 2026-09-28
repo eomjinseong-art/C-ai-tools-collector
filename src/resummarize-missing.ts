@@ -7,7 +7,7 @@ import { summarizeVideo } from "./lib/summarize.js";
  * One-off backfill: re-summarize only videos that are missing `hook` (old-schema
  * rows never reprocessed) or that still have a corrupted raw-JSON `summary` blob.
  * Does NOT touch YouTube search/collection — avoids burning API quota for a fix
- * that's purely about re-running the Claude summarization step.
+ * that's purely about re-running the OpenAI summarization step.
  */
 async function main() {
   const { data: rows, error } = await supabase

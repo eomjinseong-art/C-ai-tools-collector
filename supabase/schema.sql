@@ -36,7 +36,7 @@ create table if not exists videos (
   view_count bigint default 0,
   like_count bigint default 0,
   duration_seconds int,
-  summary text,                 -- AI-generated summary (Claude)
+  summary text,                 -- AI-generated summary (OpenAI)
   summary_points text[],        -- bullet-point takeaways (aka "key steps")
   hook text,                    -- one-line attention-grabbing teaser
   tool_features text[],         -- AI tool features/capabilities mentioned in the video
