@@ -1,10 +1,43 @@
 import "dotenv/config";
+import { shouldReplaceSummary } from "./lib/collect-decision.js";
+import {
+  buildFallbackSummary,
+  descriptionExcerpt,
+  MIN_USEFUL_CHARS,
+} from "./lib/fallback-summary.js";
+import {
+  dropFilledYoutubeIds,
+  dropPendingYoutubeIds,
+  enqueuePending,
+  loadFilledFile,
+  loadPendingFile,
+  PENDING_RELATIVE_PATH,
+  pendingCount,
+  pendingItemId,
+  retainPendingForCategory,
+  saveFilledFile,
+  savePendingFile,
+  youtubeWatchUrl,
+  type PendingSummaryItem,
+} from "./lib/pending-queue.js";
 import { supabase, type Category } from "./lib/supabase.js";
-import { searchVideos, fetchVideoDetails, type VideoDetails } from "./lib/youtube.js";
 import { fetchTranscript } from "./lib/transcript.js";
-import { summarizeVideo } from "./lib/summarize.js";
+import { searchVideos, fetchVideoDetails, type VideoDetails } from "./lib/youtube.js";
 
 const MIN_DURATION_SECONDS = 60; // skip Shorts / low-effort clips
+
+type ExistingVideoRow = {
+  youtube_id: string;
+  title: string;
+  description: string | null;
+  summary: string | null;
+  summary_points: string[] | null;
+  hook: string | null;
+  tool_features: string[] | null;
+  difficulty: string | null;
+  takeaway: string | null;
+  transcript_lang: string | null;
+};
 
 /** Simple "hot" ranking: popular AND recent beats either alone. */
 function rankScore(video: VideoDetails): number {
@@ -13,18 +46,18 @@ function rankScore(video: VideoDetails): number {
   return video.view_count / Math.pow(daysAgo + 2, 1.4);
 }
 
-async function collectCategory(
-  category: Category,
-  excludedIds: Set<string>,
-): Promise<void> {
+function asStringList(value: string[] | null | undefined): string[] {
+  return Array.isArray(value) ? value : [];
+}
+
+async function collectCategory(category: Category, excludedIds: Set<string>): Promise<void> {
   console.log(`\n=== [${category.name}] 수집 시작 (키워드: ${category.search_keywords.join(", ")}) ===`);
 
-  // 1) search each keyword, dedupe video ids
   const foundIds = new Set<string>();
   for (const keyword of category.search_keywords) {
     try {
       const results = await searchVideos(keyword);
-      for (const r of results) foundIds.add(r.videoId);
+      for (const result of results) foundIds.add(result.videoId);
     } catch (err) {
       console.error(`  검색 실패 "${keyword}":`, err);
     }
@@ -36,17 +69,13 @@ async function collectCategory(
     return;
   }
 
-  // 2) fetch details, filter shorts
   const details = (await fetchVideoDetails(candidateIds)).filter(
-    (v) => v.duration_seconds >= MIN_DURATION_SECONDS,
+    (video) => video.duration_seconds >= MIN_DURATION_SECONDS,
   );
 
-  // 3) rank, take top N (per-category cutoff — niche categories may target fewer)
   const top = [...details].sort((a, b) => rankScore(b) - rankScore(a)).slice(0, category.target_video_count);
   console.log(`  후보 ${details.length}개 중 상위 ${top.length}개 선정`);
 
-  // 4) load existing rows for this category to skip re-summarizing unchanged videos
-  //    and to know which old videos need to be dropped from the category.
   const { data: existingRows, error: existingErr } = await supabase
     .from("videos")
     .select(
@@ -55,53 +84,84 @@ async function collectCategory(
     .eq("category_id", category.id);
   if (existingErr) throw existingErr;
 
-  const existingByYoutubeId = new Map((existingRows ?? []).map((row) => [row.youtube_id, row]));
-  const freshIds = new Set(top.map((v) => v.youtube_id));
+  const existingByYoutubeId = new Map(
+    ((existingRows ?? []) as ExistingVideoRow[]).map((row) => [row.youtube_id, row]),
+  );
+  const freshIds = new Set(top.map((video) => video.youtube_id));
+  const existingIds = new Set((existingRows ?? []).map((row) => row.youtube_id as string));
 
-  // 5) summarize (skip if title+description unchanged from what we already have)
+  let queue = loadPendingFile();
+  let filled = loadFilledFile();
+  const keepIds = new Set([...existingIds, ...freshIds]);
+  const beforeRetain = new Set(queue.items.map((item) => item.youtube_id));
+  queue = retainPendingForCategory(queue, category.slug, keepIds);
+  const ghostIds = [...beforeRetain].filter(
+    (id) => !queue.items.some((item) => item.youtube_id === id),
+  );
+  filled = dropFilledYoutubeIds(filled, ghostIds);
+
   const upsertRows = [];
-  for (let i = 0; i < top.length; i++) {
-    const video = top[i];
+  let replaced = 0;
+  for (const [index, video] of top.entries()) {
     const existing = existingByYoutubeId.get(video.youtube_id);
-    const sameContent =
-      existing && existing.title === video.title && existing.description === video.description;
-    // A prior run may have saved a truncated/raw JSON blob into `summary` (see
-    // summarize.ts fix) — detect and force a re-summarize even if title/description
-    // didn't change, so old broken rows self-heal on the next run.
-    const isCorrupted = Boolean(existing?.summary && existing.summary.trim().startsWith("{"));
-    // Rows summarized before hook/tool_features/difficulty/takeaway existed in the
-    // prompt look "unchanged" by title/description alone and would otherwise never
-    // get backfilled — force a re-summarize for those too.
-    const missingNewFields = Boolean(existing) && !existing?.hook;
-    const unchanged = sameContent && !isCorrupted && !missingNewFields;
+    const replace = shouldReplaceSummary(existing, video);
+    const descriptionFallback = buildFallbackSummary({
+      title: video.title,
+      description: video.description,
+    });
 
     let summary = existing?.summary ?? "";
-    let summaryPoints = existing?.summary_points ?? [];
+    let summaryPoints = asStringList(existing?.summary_points);
     let hook = existing?.hook ?? "";
-    let toolFeatures = existing?.tool_features ?? [];
+    let toolFeatures = asStringList(existing?.tool_features);
     let difficulty = existing?.difficulty ?? "";
     let takeaway = existing?.takeaway ?? "";
     let transcriptLang = existing?.transcript_lang ?? null;
 
-    if (!unchanged) {
-      if (isCorrupted) console.log(`  깨진 요약 감지, 재요약: ${video.title}`);
-      const transcript = await fetchTranscript(video.youtube_id);
-      try {
-        const result = await summarizeVideo({
-          title: video.title,
-          description: video.description,
-          transcript: transcript?.text,
-        });
-        summary = result.summary;
-        summaryPoints = result.summary_points;
-        hook = result.hook;
-        toolFeatures = result.tool_features;
-        difficulty = result.difficulty;
-        takeaway = result.takeaway;
-        transcriptLang = transcript?.lang ?? null;
-      } catch (err) {
-        console.error(`  요약 실패 (${video.youtube_id}):`, err);
+    if (replace) {
+      let built = descriptionFallback;
+      let usedTranscript = false;
+      if (built.source === "title" || built.summary.length < MIN_USEFUL_CHARS) {
+        const transcript = await fetchTranscript(video.youtube_id);
+        if (transcript?.text) {
+          const withTranscript = buildFallbackSummary({
+            title: video.title,
+            description: video.description,
+            transcript: transcript.text,
+          });
+          if (withTranscript.summary.length > built.summary.length) {
+            built = withTranscript;
+            transcriptLang = transcript.lang;
+            usedTranscript = true;
+          }
+        }
       }
+      if (!usedTranscript) transcriptLang = null;
+      summary = built.summary;
+      summaryPoints = built.summary_points;
+      hook = built.hook;
+      toolFeatures = built.tool_features;
+      difficulty = built.difficulty;
+      takeaway = built.takeaway;
+      replaced += 1;
+    }
+
+    const storedSummary = existing?.summary ?? "";
+    const queueThis = replace || storedSummary === descriptionFallback.summary;
+    if (queueThis) {
+      const item: PendingSummaryItem = {
+        id: pendingItemId(video.youtube_id),
+        needs_summary: true,
+        kind: "video",
+        youtube_id: video.youtube_id,
+        title: video.title,
+        category_slug: category.slug,
+        source_url: youtubeWatchUrl(video.youtube_id),
+        fallback_summary: summary,
+        description_excerpt: descriptionExcerpt(video.description),
+        queued_at: new Date().toISOString(),
+      };
+      queue = enqueuePending(queue, item);
     }
 
     upsertRows.push({
@@ -123,14 +183,16 @@ async function collectCategory(
       difficulty,
       takeaway,
       transcript_lang: transcriptLang,
-      rank: i + 1,
+      rank: index + 1,
       status: "published" as const,
     });
   }
 
-  // 6) drop videos that fell out of this category's top N
+  savePendingFile(queue);
+  saveFilledFile(filled);
+
   const idsToRemove = (existingRows ?? [])
-    .map((row) => row.youtube_id)
+    .map((row) => row.youtube_id as string)
     .filter((id) => !freshIds.has(id));
   if (idsToRemove.length > 0) {
     const { error: deleteErr } = await supabase
@@ -139,16 +201,17 @@ async function collectCategory(
       .eq("category_id", category.id)
       .in("youtube_id", idsToRemove);
     if (deleteErr) throw deleteErr;
+    queue = dropPendingYoutubeIds(queue, idsToRemove);
+    filled = dropFilledYoutubeIds(filled, idsToRemove);
+    savePendingFile(queue);
+    saveFilledFile(filled);
     console.log(`  탈락 영상 ${idsToRemove.length}개 삭제`);
   }
 
-  // 7) upsert the fresh top N
   if (upsertRows.length > 0) {
-    const { error: upsertErr } = await supabase
-      .from("videos")
-      .upsert(upsertRows, { onConflict: "youtube_id" });
+    const { error: upsertErr } = await supabase.from("videos").upsert(upsertRows, { onConflict: "youtube_id" });
     if (upsertErr) throw upsertErr;
-    console.log(`  ${upsertRows.length}개 영상 upsert 완료`);
+    console.log(`  ${upsertRows.length}개 영상 upsert 완료 (임시 요약 ${replaced}개)`);
   }
 }
 
@@ -163,11 +226,9 @@ async function main() {
     return;
   }
 
-  const { data: excludedRows, error: exclErr } = await supabase
-    .from("excluded_videos")
-    .select("youtube_id");
+  const { data: excludedRows, error: exclErr } = await supabase.from("excluded_videos").select("youtube_id");
   if (exclErr) throw exclErr;
-  const excludedIds = new Set((excludedRows ?? []).map((row) => row.youtube_id));
+  const excludedIds = new Set((excludedRows ?? []).map((row) => row.youtube_id as string));
 
   console.log(`카테고리 ${categories.length}개, 제외 영상 ${excludedIds.size}개 로드 완료`);
 
@@ -179,7 +240,8 @@ async function main() {
     }
   }
 
-  console.log("\n전체 수집 완료");
+  const waiting = pendingCount(loadPendingFile());
+  console.log(`\n전체 수집 완료. 요약 대기 ${waiting}개 (${PENDING_RELATIVE_PATH})`);
 }
 
 main().catch((err) => {

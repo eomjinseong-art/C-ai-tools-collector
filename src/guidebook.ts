@@ -26,7 +26,7 @@ async function buildCategoryGuidebook(category: Category): Promise<void> {
     summary_points: (v.summary_points ?? []) as string[],
   }));
 
-  const sections = await generateGuidebookSections(category.name, inputVideos);
+  const sections = generateGuidebookSections(category.name, inputVideos);
   if (sections.length === 0) {
     console.log("  섹션 생성 실패 또는 근거 부족, 스킵");
     return;

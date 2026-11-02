@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "note": "이 파일에 한국어 요약을 채우면 npm run apply-summaries 가 Supabase에 반영하고 대기 목록에서 지웁니다. 스키마는 docs/CONTENT_QUEUE.md",
+  "items": []
+}
