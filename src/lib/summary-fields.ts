@@ -5,6 +5,9 @@ export type SummaryFields = {
   tool_features: string[];
   difficulty: string;
   takeaway: string;
+  useful_facts?: string[];
+  costs?: string;
+  limitations?: string;
 };
 
 export const EMPTY_SUMMARY: SummaryFields = {
@@ -36,5 +39,8 @@ export function toVideoUpdate(fields: SummaryFields): Record<string, string | st
   if (fields.tool_features.length) update.tool_features = fields.tool_features;
   if (fields.difficulty.trim()) update.difficulty = fields.difficulty.trim();
   if (fields.takeaway.trim()) update.takeaway = fields.takeaway.trim();
+  if (fields.useful_facts && fields.useful_facts.length > 0) update.useful_facts = fields.useful_facts;
+  if (fields.costs?.trim()) update.costs = fields.costs.trim();
+  if (fields.limitations?.trim()) update.limitations = fields.limitations.trim();
   return update;
 }
