@@ -1,5 +1,9 @@
 name: Apply filled summaries
 
+# pull_request does not trigger this workflow.
+# The command below does not pass --apply, so a push to main only dry-runs.
+# A reviewed write is a local `npm run apply-summaries -- --apply` after the provenance migration.
+
 on:
   push:
     branches: [main]
