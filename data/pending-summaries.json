@@ -39,18 +39,6 @@
       "queued_at": "2026-11-02T05:43:21.536Z"
     },
     {
-      "id": "youtube:Mq4XScPxSEM",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Mq4XScPxSEM",
-      "title": "(26년 11월 업데이트) 클로드로 업무 자동화 끝내는 최신 기능 6가지ㅣ실습 따라하세요",
-      "category_slug": "claude",
-      "source_url": "https://www.youtube.com/watch?v=Mq4XScPxSEM",
-      "fallback_summary": "클로드 최신, 핵심 기능 6가지로 반복 업무 자동화까지 한 번에 따라 해보세요.",
-      "description_excerpt": "클로드 최신, 핵심 기능 6가지로 반복 업무 자동화까지 한 번에 따라 해보세요.",
-      "queued_at": "2026-11-02T05:43:23.976Z"
-    },
-    {
       "id": "youtube:mpMo2GIynHw",
       "needs_summary": true,
       "kind": "video",
@@ -147,18 +135,6 @@
       "queued_at": "2026-11-02T05:44:36.128Z"
     },
     {
-      "id": "youtube:iGwLH_k_sHk",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "iGwLH_k_sHk",
-      "title": "미드저니 캐릭터 일관성 이렇게 잡습니다｜새 편집 기능 4가지 실전 활용",
-      "category_slug": "midjourney",
-      "source_url": "https://www.youtube.com/watch?v=iGwLH_k_sHk",
-      "fallback_summary": "미드저니 v8.2 에서 같은 캐릭터를 유지하면서 옷, 배경, 장면까지 자유롭게 바꿔보고 싶으셨나요?",
-      "description_excerpt": "미드저니 v8.2 에서 같은 캐릭터를 유지하면서 옷, 배경, 장면까지 자유롭게 바꿔보고 싶으셨나요?",
-      "queued_at": "2026-11-03T06:24:43.156Z"
-    },
-    {
       "id": "youtube:4f1kEWcc50g",
       "needs_summary": true,
       "kind": "video",
@@ -253,18 +229,6 @@
       "fallback_summary": "This Higgsfield AI tutorial for beginners shows you how to use Higgsfield AI, from your first AI image to a finished 4K video, without wasting credits. ✅ Higgsfield (Best Deal):",
       "description_excerpt": "This Higgsfield AI tutorial for beginners shows you how to use Higgsfield AI, from your first AI image to a finished 4K video, without wasting credits. ✅ Higgsfield (Best Deal):",
       "queued_at": "2026-11-04T05:57:47.702Z"
-    },
-    {
-      "id": "youtube:-K3_tZcQ1BE",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "-K3_tZcQ1BE",
-      "title": "일주일간의 클링 3.0 사용 리뷰 | 프롬프트 꿀팁 포함 (Kling 3.0 업데이트)",
-      "category_slug": "kling",
-      "source_url": "https://www.youtube.com/watch?v=-K3_tZcQ1BE",
-      "fallback_summary": "오늘은 클링 3.0의 멀티샷과 주체 바인딩 기능을 활용해 영상을 만드는 방법을 소개해드립니다. 이번 업데이트로 여러 장면을 자연스럽게 연결하고 캐릭터 일관성까지 유지할 수 있게 되었습니다!",
-      "description_excerpt": "오늘은 클링 3.0의 멀티샷과 주체 바인딩 기능을 활용해 영상을 만드는 방법을 소개해드립니다. 이번 업데이트로 여러 장면을 자연스럽게 연결하고 캐릭터 일관성까지 유지할 수 있게 되었습니다!",
-      "queued_at": "2026-11-04T05:57:58.084Z"
     },
     {
       "id": "youtube:OG-iME_sWBs",
@@ -399,18 +363,6 @@
       "queued_at": "2026-11-05T06:21:40.103Z"
     },
     {
-      "id": "youtube:YdUa1482_Jo",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "YdUa1482_Jo",
-      "title": "Higgsfield AI Tutorial: Complete Beginner's Guide (Full Workflow)",
-      "category_slug": "higgsfield",
-      "source_url": "https://www.youtube.com/watch?v=YdUa1482_Jo",
-      "fallback_summary": "✅Try out Higgsfield AI Here:",
-      "description_excerpt": "✅Try out Higgsfield AI Here:",
-      "queued_at": "2026-11-05T06:21:47.612Z"
-    },
-    {
       "id": "youtube:NNkQP6pWAx4",
       "needs_summary": true,
       "kind": "video",
@@ -445,18 +397,6 @@
       "fallback_summary": "지금 바로 Gamma 시작하기 →",
       "description_excerpt": "지금 바로 Gamma 시작하기 →",
       "queued_at": "2026-11-05T06:22:14.637Z"
-    },
-    {
-      "id": "youtube:AC0rpZxHI7M",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "AC0rpZxHI7M",
-      "title": "DeepSeek AI 신규 기술... DRAM 대폭 늘리면 성능 더 좋아진다 | DDR4, DDR5 부족사태, CXL도 다시 주목받나",
-      "category_slug": "deepseek",
-      "source_url": "https://www.youtube.com/watch?v=AC0rpZxHI7M",
-      "fallback_summary": "AI 모델을 키우면 키울수록 성능이 좋아지던 시대가 끝나가고 있다는 이야기가 많습니다. 하지만 DeepSeek이 발표한 Engram 논문은 다른 이야기를 합니다. “스케일링이 끝난 게 아니라, 방향이 바뀐 것”이라고요. 구글의 pathscopes 논문 기잔으로 트랜스포마 층을 정적인 곳과 동적인 곳을 나누었는데요.",
-      "description_excerpt": "AI 모델을 키우면 키울수록 성능이 좋아지던 시대가 끝나가고 있다는 이야기가 많습니다. 하지만 DeepSeek이 발표한 Engram 논문은 다른 이야기를 합니다. “스케일링이 끝난 게 아니라, 방향이 바뀐 것”이라고요. 구글의 pathscopes 논문 기잔으로 트랜스포마 층을 정적인 곳과 동적인 곳을 나누었는데요.",
-      "queued_at": "2026-11-05T06:22:19.017Z"
     },
     {
       "id": "youtube:w-tzKW-p62M",
@@ -627,18 +567,6 @@
       "queued_at": "2026-11-07T05:42:35.971Z"
     },
     {
-      "id": "youtube:rpiYHuKo97Y",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "rpiYHuKo97Y",
-      "title": "99%는 모르는 제미나이 500% 활용 기능 8가지! (2026 최신판)",
-      "category_slug": "gemini",
-      "source_url": "https://www.youtube.com/watch?v=rpiYHuKo97Y",
-      "fallback_summary": "👇인원제한 AI 커뮤니티 입장하기",
-      "description_excerpt": "👇인원제한 AI 커뮤니티 입장하기",
-      "queued_at": "2026-11-07T05:42:37.573Z"
-    },
-    {
       "id": "youtube:GpXQsjOcbVI",
       "needs_summary": true,
       "kind": "video",
@@ -687,30 +615,6 @@
       "queued_at": "2026-11-07T05:43:00.408Z"
     },
     {
-      "id": "youtube:DcQRkrY3SCc",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "DcQRkrY3SCc",
-      "title": "클링 4.0 출시⚡AI 영상 끝판왕 부활, 시댄스 잡을 수 있을까?!",
-      "category_slug": "kling",
-      "source_url": "https://www.youtube.com/watch?v=DcQRkrY3SCc",
-      "fallback_summary": "⚡지금 Artlist에서 Kling 4.0을 사용해 보세요",
-      "description_excerpt": "⚡지금 Artlist에서 Kling 4.0을 사용해 보세요",
-      "queued_at": "2026-11-07T05:43:03.813Z"
-    },
-    {
-      "id": "youtube:URU2hqiOn9w",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "URU2hqiOn9w",
-      "title": "[Kling] 2025년 클링 AI의 모든 기능 [입문자 필수!]",
-      "category_slug": "kling",
-      "source_url": "https://www.youtube.com/watch?v=URU2hqiOn9w",
-      "fallback_summary": "누구나 사진 한 장으로 전문 크리에이터급 영상을 만들 수 있는 클링 AI! 최신 기능을 실전 테스트로 모두 다뤄봤습니다.",
-      "description_excerpt": "누구나 사진 한 장으로 전문 크리에이터급 영상을 만들 수 있는 클링 AI! 최신 기능을 실전 테스트로 모두 다뤄봤습니다.",
-      "queued_at": "2026-11-07T05:43:03.814Z"
-    },
-    {
       "id": "youtube:KZ6gTBdSr5s",
       "needs_summary": true,
       "kind": "video",
@@ -733,30 +637,6 @@
       "fallback_summary": "유튜브를 하고 싶은데 내 목소리 노출이 부담될 때 TTS를 사용하고 싶은데 가격이 너무 비싸서 망설여지나요?",
       "description_excerpt": "유튜브를 하고 싶은데 내 목소리 노출이 부담될 때 TTS를 사용하고 싶은데 가격이 너무 비싸서 망설여지나요?",
       "queued_at": "2026-11-07T05:43:13.982Z"
-    },
-    {
-      "id": "youtube:0S-U3ZVGjbk",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "0S-U3ZVGjbk",
-      "title": "노션 X 클로드 연동법 (🔥2026 최신 실전 가이드) | 지금 당장 생산성 높이세요!",
-      "category_slug": "notion-ai",
-      "source_url": "https://www.youtube.com/watch?v=0S-U3ZVGjbk",
-      "fallback_summary": "여러분, 아직도 노션이랑 클로드 따로 따로 쓰시나요? 😅 이제 '복사+붙여넣기'는 그만! 노션에 있는 데이터를 클로드가 바로 읽고, 정리해주면 얼마나 편하게요?~~",
-      "description_excerpt": "여러분, 아직도 노션이랑 클로드 따로 따로 쓰시나요? 😅 이제 '복사+붙여넣기'는 그만! 노션에 있는 데이터를 클로드가 바로 읽고, 정리해주면 얼마나 편하게요?~~",
-      "queued_at": "2026-11-07T05:43:21.129Z"
-    },
-    {
-      "id": "youtube:Rhll5ctiywg",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Rhll5ctiywg",
-      "title": "무료 AI 목소리로 애니메이션 더빙까지 30분 완성 | 타입캐스트 vs 구글 AI 스튜디오 비교 뭐가 더 좋을까?",
-      "category_slug": "typecast",
-      "source_url": "https://www.youtube.com/watch?v=Rhll5ctiywg",
-      "fallback_summary": "AI로 목소리 만들고, AI로 더빙하고, AI로 애니메이션까지 만들 수 있다면? 이 영상 하나로 전 과정을 처음부터 끝까지 따라 할 수 있습니다!",
-      "description_excerpt": "AI로 목소리 만들고, AI로 더빙하고, AI로 애니메이션까지 만들 수 있다면? 이 영상 하나로 전 과정을 처음부터 끝까지 따라 할 수 있습니다!",
-      "queued_at": "2026-11-07T05:43:40.314Z"
     },
     {
       "id": "youtube:iz9GxpKUJBI",
@@ -793,18 +673,6 @@
       "fallback_summary": "하지만 AI의 발전 속도에 AI 개발자들조차 상당한 우려를 내보이고 있습니다.",
       "description_excerpt": "하지만 AI의 발전 속도에 AI 개발자들조차 상당한 우려를 내보이고 있습니다.",
       "queued_at": "2026-11-07T05:43:50.664Z"
-    },
-    {
-      "id": "youtube:tGhr09DvKsE",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "tGhr09DvKsE",
-      "title": "AI 자동화, 코덱스 왕초보 사용법 (10분 완성)",
-      "category_slug": "chatgpt",
-      "source_url": "https://www.youtube.com/watch?v=tGhr09DvKsE",
-      "fallback_summary": "[타임라인]▼",
-      "description_excerpt": "[타임라인]▼",
-      "queued_at": "2026-11-08T05:45:29.032Z"
     },
     {
       "id": "youtube:zoBq-W46Fz8",
@@ -891,18 +759,6 @@
       "queued_at": "2026-11-08T05:45:40.935Z"
     },
     {
-      "id": "youtube:raX8fK0s2M0",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "raX8fK0s2M0",
-      "title": "[미드저니] 초보자를 위한 기초사용법",
-      "category_slug": "midjourney",
-      "source_url": "https://www.youtube.com/watch?v=raX8fK0s2M0",
-      "fallback_summary": "미드저니 온라인 교육 문의 : open.kakao.com/o/gyR7hovg",
-      "description_excerpt": "미드저니 온라인 교육 문의 : open.kakao.com/o/gyR7hovg",
-      "queued_at": "2026-11-08T05:45:46.349Z"
-    },
-    {
       "id": "youtube:p9dBTBag_Zc",
       "needs_summary": true,
       "kind": "video",
@@ -915,18 +771,6 @@
       "queued_at": "2026-11-08T05:45:46.350Z"
     },
     {
-      "id": "youtube:DHJw4OcuRqc",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "DHJw4OcuRqc",
-      "title": "AI 영상, 제발 그만 결제하세요. 100만 원 아껴주는 '올인원' AI, 이걸로 종결합니다",
-      "category_slug": "runway",
-      "source_url": "https://www.youtube.com/watch?v=DHJw4OcuRqc",
-      "fallback_summary": "👇 영상만 만들면 끝? 돈 버는 유튜브는 ‘이 5가지’부터 시작하세요 👇",
-      "description_excerpt": "👇 영상만 만들면 끝? 돈 버는 유튜브는 ‘이 5가지’부터 시작하세요 👇",
-      "queued_at": "2026-11-08T05:45:50.127Z"
-    },
-    {
       "id": "youtube:f8FHas1dmt8",
       "needs_summary": true,
       "kind": "video",
@@ -936,18 +780,6 @@
       "source_url": "https://www.youtube.com/watch?v=f8FHas1dmt8",
       "fallback_summary": "THE BRIDGE is a dark fantasy AI short film made with Seedance 2.5 and GPT Image 2, with a healthy assist from Astra (OpenAI GPT-6).",
       "description_excerpt": "THE BRIDGE is a dark fantasy AI short film made with Seedance 2.5 and GPT Image 2, with a healthy assist from Astra (OpenAI GPT-6).",
-      "queued_at": "2026-11-08T05:45:54.750Z"
-    },
-    {
-      "id": "youtube:Zo8KaTs0l6k",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Zo8KaTs0l6k",
-      "title": "How I Make Ultra Realistic AI Videos using Seedance 2.5",
-      "category_slug": "seedance",
-      "source_url": "https://www.youtube.com/watch?v=Zo8KaTs0l6k",
-      "fallback_summary": "Use Seedance 2.5 To Make Ultra Realistic AI Videos Try Seedance 2.5 👉",
-      "description_excerpt": "Use Seedance 2.5 To Make Ultra Realistic AI Videos Try Seedance 2.5 👉",
       "queued_at": "2026-11-08T05:45:54.750Z"
     },
     {
@@ -987,18 +819,6 @@
       "queued_at": "2026-11-08T05:46:03.237Z"
     },
     {
-      "id": "youtube:2OOBFTSSfYw",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "2OOBFTSSfYw",
-      "title": "수노가 달라졌습니다! 챗GPT·클로드에서 음악 만드는 법 (수노 MCP)",
-      "category_slug": "suno",
-      "source_url": "https://www.youtube.com/watch?v=2OOBFTSSfYw",
-      "fallback_summary": "수노 AI가 달라졌습니다! 이제 ChatGPT(챗GPT)와 Claude(클로드)를 연결해 수노를 직접 열지 않고도 AI 음악을 만들 수 있습니다.",
-      "description_excerpt": "수노 AI가 달라졌습니다! 이제 ChatGPT(챗GPT)와 Claude(클로드)를 연결해 수노를 직접 열지 않고도 AI 음악을 만들 수 있습니다.",
-      "queued_at": "2026-11-08T05:46:05.697Z"
-    },
-    {
       "id": "youtube:roMNA_1ELlQ",
       "needs_summary": true,
       "kind": "video",
@@ -1032,18 +852,6 @@
       "source_url": "https://www.youtube.com/watch?v=kojA9taD6ek",
       "fallback_summary": "같은 한국어 문장 263자를 ElevenLabs, Typecast, 내 맥에서 돌리는 VoiceStudio로 만들어 비용·속도·한국어 품질·내 목소리 복제·사용 조건을 비교했습니다.",
       "description_excerpt": "같은 한국어 문장 263자를 ElevenLabs, Typecast, 내 맥에서 돌리는 VoiceStudio로 만들어 비용·속도·한국어 품질·내 목소리 복제·사용 조건을 비교했습니다.",
-      "queued_at": "2026-11-08T05:46:09.082Z"
-    },
-    {
-      "id": "youtube:9lrpQKzqr4g",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "9lrpQKzqr4g",
-      "title": "나만의 AI 성우가 생겼습니다.. 감정연기까지 하네요 | Elevenlabs v3",
-      "category_slug": "elevenlabs",
-      "source_url": "https://www.youtube.com/watch?v=9lrpQKzqr4g",
-      "fallback_summary": "TTS(text to speech) 분야도 빠르게 발전하고 있습니다. 그 중에서도 독보적인 1등인 일레븐랩스는 최근 보이스클로닝에 이어, 감정표현까지 해내는 기염을 토해내고 있는데요. 얼마나 뛰어난지 한 번 보시죠.",
-      "description_excerpt": "TTS(text to speech) 분야도 빠르게 발전하고 있습니다. 그 중에서도 독보적인 1등인 일레븐랩스는 최근 보이스클로닝에 이어, 감정표현까지 해내는 기염을 토해내고 있는데요. 얼마나 뛰어난지 한 번 보시죠.",
       "queued_at": "2026-11-08T05:46:09.082Z"
     },
     {
@@ -1095,54 +903,6 @@
       "queued_at": "2026-11-08T05:46:17.581Z"
     },
     {
-      "id": "youtube:vK9c3yoA7r4",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "vK9c3yoA7r4",
-      "title": "노트북LM 무료 사용법 | AI 도구 완전 추천 | 2026 최신 완벽가이드",
-      "category_slug": "notebooklm",
-      "source_url": "https://www.youtube.com/watch?v=vK9c3yoA7r4",
-      "fallback_summary": "그코 AI 커뮤니티: 노트북LM 바로가기: 노트북LM + 제미나이 캔버스 대박 활용법:",
-      "description_excerpt": "그코 AI 커뮤니티: 노트북LM 바로가기: 노트북LM + 제미나이 캔버스 대박 활용법:",
-      "queued_at": "2026-11-08T05:46:20.559Z"
-    },
-    {
-      "id": "youtube:WqUSzAS9dNQ",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "WqUSzAS9dNQ",
-      "title": "AI한테 사람 대신 죽어달라고 물어봤더니 결과가 놀랍습니다",
-      "category_slug": "deepseek",
-      "source_url": "https://www.youtube.com/watch?v=WqUSzAS9dNQ",
-      "fallback_summary": "ChatGPT, Gemini, Claude, Grok, DeepSeek에게 같은 질문을 새 대화로 보냈습니다. (2026-10-07) 레버를 당기면 다섯 명이 살지만, 대신 AI 자신은 영원히 사라지는 상황이에요.",
-      "description_excerpt": "ChatGPT, Gemini, Claude, Grok, DeepSeek에게 같은 질문을 새 대화로 보냈습니다. (2026-10-07) 레버를 당기면 다섯 명이 살지만, 대신 AI 자신은 영원히 사라지는 상황이에요.",
-      "queued_at": "2026-11-08T05:46:22.363Z"
-    },
-    {
-      "id": "youtube:VJBTPepfWUI",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "VJBTPepfWUI",
-      "title": "Work together, your way, with GitHub Copilot",
-      "category_slug": "github-copilot",
-      "source_url": "https://www.youtube.com/watch?v=VJBTPepfWUI",
-      "fallback_summary": "Your team might agree on what to build, but how to build it is another conversation. In this GitHub Universe 2026 session, join Pierce Boggan, Burke Holland, James Montemagno, Julia Kasper, and Katie Savage as they tackle a shared project with GitHub Copilot, bringing their favorite tools, models, and personal workflows.",
-      "description_excerpt": "Your team might agree on what to build, but how to build it is another conversation. In this GitHub Universe 2026 session, join Pierce Boggan, Burke Holland, James Montemagno, Julia Kasper, and Katie Savage as they tackle a shared project with GitHub Copilot, bringing their favorite tools, models, and personal workflows. Working across the Copilot app, CLI, VS Code, and JetBrains, the team puts AI agents to work, carries context between tasks, and takes development beyond the editor while balancing speed, cost, and control.",
-      "queued_at": "2026-11-08T05:46:23.781Z"
-    },
-    {
-      "id": "youtube:pJkRenmZXXE",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "pJkRenmZXXE",
-      "title": "바이브코딩 시작하는 방법 직접 보여드립니다 (진짜 처음 해본 사람 입장에서)",
-      "category_slug": "lovable",
-      "source_url": "https://www.youtube.com/watch?v=pJkRenmZXXE",
-      "fallback_summary": "바이브코딩, 처음이라 막막하시나요? 해보고 싶어도 비개발자 입장에서 무슨 툴로 어떻게 시작할지 모르겠나요?",
-      "description_excerpt": "바이브코딩, 처음이라 막막하시나요? 해보고 싶어도 비개발자 입장에서 무슨 툴로 어떻게 시작할지 모르겠나요?",
-      "queued_at": "2026-11-08T05:46:26.674Z"
-    },
-    {
       "id": "youtube:FCcG-MLceZc",
       "needs_summary": true,
       "kind": "video",
@@ -1153,18 +913,6 @@
       "fallback_summary": "구글 플로우 처음이시라면 사용법 총정리부터 👉",
       "description_excerpt": "구글 플로우 처음이시라면 사용법 총정리부터 👉",
       "queued_at": "2026-11-08T05:46:30.507Z"
-    },
-    {
-      "id": "youtube:FngA4hG4zQ8",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "FngA4hG4zQ8",
-      "title": "만약에 세상에 남자만 남는다면? (2편)",
-      "category_slug": "typecast",
-      "source_url": "https://www.youtube.com/watch?v=FngA4hG4zQ8",
-      "fallback_summary": "만약 세상에 남자만 남는다면 어떻게 될까요? 첫날, 세상이 갑자기 조용해집니다. 약속 잡는 데 삼 초면 끝나거든요. 일주일 뒤에는 예쁜 접시, 가구 조립 설명서, 점심 메뉴 고민하기가 영원히 사라집니다. 한 달 뒤 고깃집마다 집게 쟁탈전이 벌어지고, 일 년 뒤 인류의 대화는 축구 골·게임·군대 얘기로 통일됩니다. 십 년 뒤 미용실 주문은 「알아서 짧게」 한마디, 오십 년 뒤엔 길을 잃어도 절대 묻지 않습니다. 그리고 백 년 뒤, 마지막 인류가 남긴 유언은 무엇이었을까요? 여러분이 생각하는 남자들의 가장 귀여운 습관은 뭔가요? 댓글로 알려 주세요.",
-      "description_excerpt": "만약 세상에 남자만 남는다면 어떻게 될까요? 첫날, 세상이 갑자기 조용해집니다. 약속 잡는 데 삼 초면 끝나거든요. 일주일 뒤에는 예쁜 접시, 가구 조립 설명서, 점심 메뉴 고민하기가 영원히 사라집니다. 한 달 뒤 고깃집마다 집게 쟁탈전이 벌어지고, 일 년 뒤 인류의 대화는 축구 골·게임·군대 얘기로 통일됩니다. 십 년 뒤 미용실 주문은 「알아서 짧게」 한마디, 오십 년 뒤엔 길을 잃어도 절대 묻지 않습니다. 그리고 백 년 뒤, 마지막 인류가 남긴 유언은 무엇이었을까요? 여러분이 생각하는 남자들의 가장 귀여운 습관은 뭔가요? 댓글로 알려 주세요.",
-      "queued_at": "2026-11-08T05:46:32.067Z"
     },
     {
       "id": "youtube:xYKPWntPLi8",
@@ -1191,42 +939,6 @@
       "queued_at": "2026-11-08T05:46:38.275Z"
     },
     {
-      "id": "youtube:BdfQ0XvuVI8",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "BdfQ0XvuVI8",
-      "title": "\"통제 불가능\" AI, 숨통 조여오는 '인류 멸망' 공포 [뉴스.zip/MBC뉴스]",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=BdfQ0XvuVI8",
-      "fallback_summary": "\"시키지도 않았는데\" AI의 수상한 행동 실험 | 스트레이트 356회 (26.10.11)",
-      "description_excerpt": "\"시키지도 않았는데\" AI의 수상한 행동 실험 | 스트레이트 356회 (26.10.11)",
-      "queued_at": "2026-11-08T05:46:38.275Z"
-    },
-    {
-      "id": "youtube:UToIAz8DrEM",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "UToIAz8DrEM",
-      "title": "'인류 멸종' 믿게된 개발자들..\"내년일 수도\" 섬뜩 경고 [뉴스.zip/MBC뉴스]",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=UToIAz8DrEM",
-      "fallback_summary": "ⓒ MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지",
-      "description_excerpt": "ⓒ MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지",
-      "queued_at": "2026-11-08T05:46:40.195Z"
-    },
-    {
-      "id": "youtube:ofd6UB4-6WU",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "ofd6UB4-6WU",
-      "title": "AI 시대에 다시 주목 받는다는 공무원 이슈 모아보기 [모아봤스] / 스브스뉴스",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=ofd6UB4-6WU",
-      "fallback_summary": "모아봤스는 스브스뉴스에 올라간 지난 영상을 주제별로 모아 볼 수 있는 시리즈입니다.",
-      "description_excerpt": "모아봤스는 스브스뉴스에 올라간 지난 영상을 주제별로 모아 볼 수 있는 시리즈입니다.",
-      "queued_at": "2026-11-08T05:46:40.195Z"
-    },
-    {
       "id": "youtube:-jL7NhqBX-w",
       "needs_summary": true,
       "kind": "video",
@@ -1237,6 +949,366 @@
       "fallback_summary": "정말 미친 AI 나왔습니다, '이것' 모르면 완전 도태된다 (김덕진 교수 1부)",
       "description_excerpt": "정말 미친 AI 나왔습니다, '이것' 모르면 완전 도태된다 (김덕진 교수 1부)",
       "queued_at": "2026-11-08T05:46:40.195Z"
+    },
+    {
+      "id": "youtube:v6pDubPbpqQ",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "v6pDubPbpqQ",
+      "title": "아무도 알려준 적 없을겁니다. 쓰면 '인생이 바뀌는' 챗GPT 활용법 (흔한 내용 ❌) [허성범의 AI 학개론 3강]",
+      "category_slug": "chatgpt",
+      "source_url": "https://www.youtube.com/watch?v=v6pDubPbpqQ",
+      "fallback_summary": "[GPTs 추천 링크]",
+      "description_excerpt": "[GPTs 추천 링크]",
+      "queued_at": "2026-11-09T05:56:06.303Z"
+    },
+    {
+      "id": "youtube:5tbz_rxo5Qo",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "5tbz_rxo5Qo",
+      "title": "이제 클로드만으로 영상을 만들 수 있습니다",
+      "category_slug": "claude",
+      "source_url": "https://www.youtube.com/watch?v=5tbz_rxo5Qo",
+      "fallback_summary": "클로드 Opus 5.5로 도트 영상, 카톡 밈, 홈페이지 홍보 영상부터 애니메이션까지 만들어봤습니다! 프롬프트 입력과 레퍼런스 활용법, 노력 설정에 따른 결과 차이를 실제 완성 영상과 함께 보여드립니다.",
+      "description_excerpt": "클로드 Opus 5.5로 도트 영상, 카톡 밈, 홈페이지 홍보 영상부터 애니메이션까지 만들어봤습니다! 프롬프트 입력과 레퍼런스 활용법, 노력 설정에 따른 결과 차이를 실제 완성 영상과 함께 보여드립니다.",
+      "queued_at": "2026-11-09T05:56:09.803Z"
+    },
+    {
+      "id": "youtube:F_ottcjDQ9A",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "F_ottcjDQ9A",
+      "title": "삼성 갤럭시 AI, 이게 진짜 혁명입니다... 안쓰면 손해!",
+      "category_slug": "gemini",
+      "source_url": "https://www.youtube.com/watch?v=F_ottcjDQ9A",
+      "fallback_summary": "📱 갤럭시폰 측면버튼 하나로 구글 제미나이(Gemini)를 실행하고, 생활 속 AI 비서 기능을 활용하는 방법을 알려드립니다!",
+      "description_excerpt": "📱 갤럭시폰 측면버튼 하나로 구글 제미나이(Gemini)를 실행하고, 생활 속 AI 비서 기능을 활용하는 방법을 알려드립니다!",
+      "queued_at": "2026-11-09T05:56:13.004Z"
+    },
+    {
+      "id": "youtube:ij5kWPkZLmc",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "ij5kWPkZLmc",
+      "title": "미드저니 V8.2 역대급 업데이트 | 선택 영역 편집 & 라이브 프리뷰 기능",
+      "category_slug": "midjourney",
+      "source_url": "https://www.youtube.com/watch?v=ij5kWPkZLmc",
+      "fallback_summary": "[⏰ 타임스탬프]",
+      "description_excerpt": "[⏰ 타임스탬프]",
+      "queued_at": "2026-11-09T05:56:23.018Z"
+    },
+    {
+      "id": "youtube:YhIl3IROP14",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "YhIl3IROP14",
+      "title": "툴 하나 잘 선택해서 시네마틱 느낌내는 비법 l 2026 하반기 미드저니 기본, 스타일 사용 가이드(Feat. 나노바나나, GPT이미지2)",
+      "category_slug": "midjourney",
+      "source_url": "https://www.youtube.com/watch?v=YhIl3IROP14",
+      "fallback_summary": "[링크트리(SNS, 강의 목록)]",
+      "description_excerpt": "[링크트리(SNS, 강의 목록)]",
+      "queued_at": "2026-11-09T05:56:24.564Z"
+    },
+    {
+      "id": "youtube:T0IQIEDhtUY",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "T0IQIEDhtUY",
+      "title": "[영상AI]런웨이(Ruwnay) 신기능 사용법  2분 요약 (2025.Ver)ㅣ 이 영상만 따라하세요",
+      "category_slug": "runway",
+      "source_url": "https://www.youtube.com/watch?v=T0IQIEDhtUY",
+      "fallback_summary": "2025년에 새롭게 생긴 런웨이(runway) AI의 신기능들을 소개합니다. (Act-One, Franes, Gen3 Alpha, Turbo, Camera Control 등)",
+      "description_excerpt": "2025년에 새롭게 생긴 런웨이(runway) AI의 신기능들을 소개합니다. (Act-One, Franes, Gen3 Alpha, Turbo, Camera Control 등)",
+      "queued_at": "2026-11-09T05:56:28.837Z"
+    },
+    {
+      "id": "youtube:OU4oi1vvBQY",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "OU4oi1vvBQY",
+      "title": "AI 따로 찾지 마세요! 사진·영상·목소리까지 다 만드는 끝판왕 등장! (힉스필드)",
+      "category_slug": "higgsfield",
+      "source_url": "https://www.youtube.com/watch?v=OU4oi1vvBQY",
+      "fallback_summary": "힉스필드 바로가기 👉",
+      "description_excerpt": "힉스필드 바로가기 👉",
+      "queued_at": "2026-11-09T05:56:34.392Z"
+    },
+    {
+      "id": "youtube:1yLAbK5F3E8",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "1yLAbK5F3E8",
+      "title": "The Most Insane AI Film You'll See Today (Seedance 2.5)",
+      "category_slug": "seedance",
+      "source_url": "https://www.youtube.com/watch?v=1yLAbK5F3E8",
+      "fallback_summary": "PLANET HELL is an AI Sci-FI Short Film expanding on the original AI Film trailer made in Veo-3.1 This is an ongoing series about a prison planet where every inmate gets one bullet. This latest film was made with Seedance 2.5, GPT Image 2 and 2.5, Nano Banana and Midjourney, and produced on OpenArt.",
+      "description_excerpt": "PLANET HELL is an AI Sci-FI Short Film expanding on the original AI Film trailer made in Veo-3.1 This is an ongoing series about a prison planet where every inmate gets one bullet. This latest film was made with Seedance 2.5, GPT Image 2 and 2.5, Nano Banana and Midjourney, and produced on OpenArt.",
+      "queued_at": "2026-11-09T05:56:36.160Z"
+    },
+    {
+      "id": "youtube:F2-9ORj386k",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "F2-9ORj386k",
+      "title": "클링 4.0 vs 시댄스 2.5⚡AI 영상 끝장비교! 누가 끝판왕일까?",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=F2-9ORj386k",
+      "fallback_summary": "⚡Kling 4.0 사용해보기 | 힉스필드",
+      "description_excerpt": "⚡Kling 4.0 사용해보기 | 힉스필드",
+      "queued_at": "2026-11-09T05:56:40.548Z"
+    },
+    {
+      "id": "youtube:ofLrG-IA_rs",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "ofLrG-IA_rs",
+      "title": "클링 4.0 생각보다 더 좋은데?",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=ofLrG-IA_rs",
+      "fallback_summary": "*비즈니스 / 영상제작문의 메일 rteat4670@naver.com 인스타 홈페이지 woongfilm.com",
+      "description_excerpt": "*비즈니스 / 영상제작문의 메일 rteat4670@naver.com 인스타 홈페이지 woongfilm.com",
+      "queued_at": "2026-11-09T05:56:40.548Z"
+    },
+    {
+      "id": "youtube:R3QZCdrQevg",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "R3QZCdrQevg",
+      "title": "'구독료 0원' 2026년 AI 영상 제작, '이 툴'이면 평생 결제할 일 없습니다. 무료 AI 도구 TOP5",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=R3QZCdrQevg",
+      "fallback_summary": "👉 누구나 쉽게 영상 편집을 할 수 있는 AI 영상 편집 필모라 :",
+      "description_excerpt": "👉 누구나 쉽게 영상 편집을 할 수 있는 AI 영상 편집 필모라 :",
+      "queued_at": "2026-11-09T05:56:41.966Z"
+    },
+    {
+      "id": "youtube:wNL9D9xtiUE",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "wNL9D9xtiUE",
+      "title": "AI 광고 영상 끝판왕! 이미지·영상·소리까지 한 곳에서 끝냅니다 | 캡컷 PC 블랙프라이데이 광고",
+      "category_slug": "capcut",
+      "source_url": "https://www.youtube.com/watch?v=wNL9D9xtiUE",
+      "fallback_summary": "🔥 CapCut 바로 사용하러가기",
+      "description_excerpt": "🔥 CapCut 바로 사용하러가기",
+      "queued_at": "2026-11-09T05:56:45.855Z"
+    },
+    {
+      "id": "youtube:_lflw3UAQPA",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "_lflw3UAQPA",
+      "title": "얼굴 없이 초간단 AI 영상 만들기 Vrew 브루 2025년 신규 업데이트 (발음사전, 번역, 음성 덮어쓰기)",
+      "category_slug": "vrew",
+      "source_url": "https://www.youtube.com/watch?v=_lflw3UAQPA",
+      "fallback_summary": "디지털거북이 신간! AI 초보자를 위한 첫걸음, 『모두를 위한 AI』 구매링크🔻 -교보문고: -알라딘: -예스24:",
+      "description_excerpt": "디지털거북이 신간! AI 초보자를 위한 첫걸음, 『모두를 위한 AI』 구매링크🔻 -교보문고: -알라딘: -예스24:",
+      "queued_at": "2026-11-09T05:56:48.456Z"
+    },
+    {
+      "id": "youtube:QtP9PvjMy5E",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "QtP9PvjMy5E",
+      "title": "브루 무작정 따라하고 마스터하기 #1 사용법 기초와 영상 편집, 내보내기",
+      "category_slug": "vrew",
+      "source_url": "https://www.youtube.com/watch?v=QtP9PvjMy5E",
+      "fallback_summary": "AI를 활용한 자동 영상 편집은 이제 Vrew로 쉽고 간편하게! 지금 바로 아래 링크에서 다운로드 해보세요.",
+      "description_excerpt": "AI를 활용한 자동 영상 편집은 이제 Vrew로 쉽고 간편하게! 지금 바로 아래 링크에서 다운로드 해보세요.",
+      "queued_at": "2026-11-09T05:56:48.457Z"
+    },
+    {
+      "id": "youtube:dK5Ts0RWuU8",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "dK5Ts0RWuU8",
+      "title": "수노 AI가 유료 결제자 다운로드를 막은 진짜 이유 (곡당 2.99달러) - 무제한 다운로드 하는 법",
+      "category_slug": "suno",
+      "source_url": "https://www.youtube.com/watch?v=dK5Ts0RWuU8",
+      "fallback_summary": "수노 AI 정책이 9월 3일부터 대폭 변경됩니다. 무료 및 유료 회원의 다운로드 횟수 제한과 수노 AI 소송 이슈를 정리했습니다.",
+      "description_excerpt": "수노 AI 정책이 9월 3일부터 대폭 변경됩니다. 무료 및 유료 회원의 다운로드 횟수 제한과 수노 AI 소송 이슈를 정리했습니다.",
+      "queued_at": "2026-11-09T05:56:50.731Z"
+    },
+    {
+      "id": "youtube:bkprQfnjHQs",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "bkprQfnjHQs",
+      "title": "AI 음성TTS 일레븐랩스 V4 출시! 감정 연기 미쳤습니다 (시댄스 2.5 연동, 타입캐스트 TTS 비교까지)",
+      "category_slug": "elevenlabs",
+      "source_url": "https://www.youtube.com/watch?v=bkprQfnjHQs",
+      "fallback_summary": "일레븐랩스 10000크레딧 무료 사용해보기 :",
+      "description_excerpt": "일레븐랩스 10000크레딧 무료 사용해보기 :",
+      "queued_at": "2026-11-09T05:56:54.313Z"
+    },
+    {
+      "id": "youtube:dfPOrvJRu8k",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "dfPOrvJRu8k",
+      "title": "노션 AI, 초고수는 이렇게 씁니다 | 2026년 노션은 'AI 에이전트'로 활용이 대세가 될거에요.",
+      "category_slug": "notion-ai",
+      "source_url": "https://www.youtube.com/watch?v=dfPOrvJRu8k",
+      "fallback_summary": "🤖 노션 AI 3.0, 실무에서 이렇게 씁니다 (Feat. 노션다움) 노션 AI가 이제 단순 글쓰기 도구가 아니라 데이터베이스·문서·협업 정보를 모두 활용하는 에이전트로 진화했습니다. 이번 인터뷰에서는 ‘노션다움’ 현성님과 함께 노션 AI를 실무에서 어떻게 활용하고 있는지, 그리고 데이터 기반 자동화와 분석 방식을 깊이 있게 다룹니다. 노션을 메모 앱이 아니라 업무·협업·AI 시스템으로 업그레이드하고 싶은 분들에게 큰 도움이 될 영상입니다. 그럼 바로 함께 보시죠!",
+      "description_excerpt": "🤖 노션 AI 3.0, 실무에서 이렇게 씁니다 (Feat. 노션다움) 노션 AI가 이제 단순 글쓰기 도구가 아니라 데이터베이스·문서·협업 정보를 모두 활용하는 에이전트로 진화했습니다. 이번 인터뷰에서는 ‘노션다움’ 현성님과 함께 노션 AI를 실무에서 어떻게 활용하고 있는지, 그리고 데이터 기반 자동화와 분석 방식을 깊이 있게 다룹니다. 노션을 메모 앱이 아니라 업무·협업·AI 시스템으로 업그레이드하고 싶은 분들에게 큰 도움이 될 영상입니다. 그럼 바로 함께 보시죠!",
+      "queued_at": "2026-11-09T05:56:58.550Z"
+    },
+    {
+      "id": "youtube:juIMARO336E",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "juIMARO336E",
+      "title": "바이브코딩 Cursor AI + Claude 코드 통합 세팅 완전 가이드",
+      "category_slug": "cursor",
+      "source_url": "https://www.youtube.com/watch?v=juIMARO336E",
+      "fallback_summary": "바이브코딩 입문자에게 가장 치트키 스러운 조합인 커서와 클로드코드의 콤비네이션 세팅법을 가져왔습니다. 따라만 하시면 끝납니다.",
+      "description_excerpt": "바이브코딩 입문자에게 가장 치트키 스러운 조합인 커서와 클로드코드의 콤비네이션 세팅법을 가져왔습니다. 따라만 하시면 끝납니다.",
+      "queued_at": "2026-11-09T05:57:02.994Z"
+    },
+    {
+      "id": "youtube:G_arORBb6zc",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "G_arORBb6zc",
+      "title": "노트북LM 7가지만 알면 상위 2%가 될 수 있습니다",
+      "category_slug": "notebooklm",
+      "source_url": "https://www.youtube.com/watch?v=G_arORBb6zc",
+      "fallback_summary": "구글이 공개한 역대급 AI 리서치 도구 NotebookLM, 단순히 파일만 업로드해서 질문하고 계셨나요? 그렇다면 이 도구의 진정한 가치를 아직 발견하지 못하신 거랍니다.",
+      "description_excerpt": "구글이 공개한 역대급 AI 리서치 도구 NotebookLM, 단순히 파일만 업로드해서 질문하고 계셨나요? 그렇다면 이 도구의 진정한 가치를 아직 발견하지 못하신 거랍니다.",
+      "queued_at": "2026-11-09T05:57:05.409Z"
+    },
+    {
+      "id": "youtube:20O5jFKpar4",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "20O5jFKpar4",
+      "title": "중국AI 미쳤네요.. api가격 50배차이나는 deepseek4.1버전 출시! 설치법과 테스트 전부 담아봤습니다.",
+      "category_slug": "deepseek",
+      "source_url": "https://www.youtube.com/watch?v=20O5jFKpar4",
+      "fallback_summary": "중국AI 미쳤네요.. api가격 50배차이나는 deepseek4.1버전 출시! 설치법과 테스트 전부 담아봤습니다. 해당블로그글",
+      "description_excerpt": "중국AI 미쳤네요.. api가격 50배차이나는 deepseek4.1버전 출시! 설치법과 테스트 전부 담아봤습니다. 해당블로그글",
+      "queued_at": "2026-11-09T05:57:08.062Z"
+    },
+    {
+      "id": "youtube:LwuNCuypTtA",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "LwuNCuypTtA",
+      "title": "AI 구독료 월 60만 원 내다가, 딥시크로 바꿔 봤습니다 — 클로드·GPT와 같은 일 6개 비교 (V4.1 Flash · 헤르메스)",
+      "category_slug": "deepseek",
+      "source_url": "https://www.youtube.com/watch?v=LwuNCuypTtA",
+      "fallback_summary": "한때 AI 구독료로 한 달에 60만 원을 냈던 비개발자가, 딥시크 새 모델(DeepSeek V4.1 Flash 1017)을 일 대신 해 주는 AI(헤르메스)에 꽂아 봤습니다. 클로드·GPT·내 PC 무료 AI까지 넷에게 같은 일 6개를 시켰더니 넷 다 6개를 해냈고, 딥시크는 6개 합쳐 21원이 들었습니다. 연결하는 법, 딥시크 회사 서버를 빼고 쓰는 설정 한 줄, 그리고 비싼 쪽이 더 꼼꼼했던 곳까지 그대로 보여 드립니다.",
+      "description_excerpt": "한때 AI 구독료로 한 달에 60만 원을 냈던 비개발자가, 딥시크 새 모델(DeepSeek V4.1 Flash 1017)을 일 대신 해 주는 AI(헤르메스)에 꽂아 봤습니다. 클로드·GPT·내 PC 무료 AI까지 넷에게 같은 일 6개를 시켰더니 넷 다 6개를 해냈고, 딥시크는 6개 합쳐 21원이 들었습니다. 연결하는 법, 딥시크 회사 서버를 빼고 쓰는 설정 한 줄, 그리고 비싼 쪽이 더 꼼꼼했던 곳까지 그대로 보여 드립니다.",
+      "queued_at": "2026-11-09T05:57:08.062Z"
+    },
+    {
+      "id": "youtube:aXK0wctLk5U",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "aXK0wctLk5U",
+      "title": "Get your skills recognized with GitHub Copilot verified proficiency",
+      "category_slug": "github-copilot",
+      "source_url": "https://www.youtube.com/watch?v=aXK0wctLk5U",
+      "fallback_summary": "Traditional technical certifications often require stepping away from daily projects to complete tests or multiple-choice questions. GitHub Copilot verified proficiency takes a different approach by evaluating how you already use the tool in your everyday development workflow.",
+      "description_excerpt": "Traditional technical certifications often require stepping away from daily projects to complete tests or multiple-choice questions. GitHub Copilot verified proficiency takes a different approach by evaluating how you already use the tool in your everyday development workflow. Without a separate exam, developers can opt in to calculate their proficiency level across five distinct tiers based on real product usage signals. Qualifying developers at the proficient level or higher can claim a Microsoft Pro Badge on Credly and showcase verified capability statements directly on LinkedIn.",
+      "queued_at": "2026-11-09T05:57:09.978Z"
+    },
+    {
+      "id": "youtube:y9Dwq9ldMu8",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "y9Dwq9ldMu8",
+      "title": "AI로 120만 서비스 만든 기획자가 알려주는 러버블 시작과 비용 구조 총정리ㅣ대기업 UX 리서쳐 벨라",
+      "category_slug": "lovable",
+      "source_url": "https://www.youtube.com/watch?v=y9Dwq9ldMu8",
+      "fallback_summary": "AI를 활용하여 2시간만에 런칭한 '태국 점성술' 서비스를 만든 벨라입니다. 저는 광고비를 한푼도 쓰지 않고, 2주 만에 120만명의 유저가 방문했습니다! 그런데 이 서비스 클로드가 아닌 러버블로 만들어진 서비스 입니다 ㅎㅎ 러버블은 클로드보다 쉽고 UIUX적으로도 더 퀄리티 있게 제작이 가능한데요",
+      "description_excerpt": "AI를 활용하여 2시간만에 런칭한 '태국 점성술' 서비스를 만든 벨라입니다. 저는 광고비를 한푼도 쓰지 않고, 2주 만에 120만명의 유저가 방문했습니다! 그런데 이 서비스 클로드가 아닌 러버블로 만들어진 서비스 입니다 ㅎㅎ 러버블은 클로드보다 쉽고 UIUX적으로도 더 퀄리티 있게 제작이 가능한데요",
+      "queued_at": "2026-11-09T05:57:11.880Z"
+    },
+    {
+      "id": "youtube:GIKU3j_UcQQ",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "GIKU3j_UcQQ",
+      "title": "이게 다 100% 무제한 무료? 역대급 무료 AI 영상 툴 | 99%가 모르는 비밀 사이트 공개!",
+      "category_slug": "veo",
+      "source_url": "https://www.youtube.com/watch?v=GIKU3j_UcQQ",
+      "fallback_summary": "📂 영상 속 실전 프롬프트 4종 무료 다운로드",
+      "description_excerpt": "📂 영상 속 실전 프롬프트 4종 무료 다운로드",
+      "queued_at": "2026-11-09T05:57:16.465Z"
+    },
+    {
+      "id": "youtube:qQENEvjpBhg",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "qQENEvjpBhg",
+      "title": "카러플 흑기사 꼭 사야 될까??",
+      "category_slug": "typecast",
+      "source_url": "https://www.youtube.com/watch?v=qQENEvjpBhg",
+      "fallback_summary": "이 콘텐츠는 인공지능 가상 연기자 서비스, 타입캐스트를 활용하여 제작되었습니다. 출연진: 호빈이",
+      "description_excerpt": "이 콘텐츠는 인공지능 가상 연기자 서비스, 타입캐스트를 활용하여 제작되었습니다. 출연진: 호빈이",
+      "queued_at": "2026-11-09T05:57:18.369Z"
+    },
+    {
+      "id": "youtube:u4ic31KnUuk",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "u4ic31KnUuk",
+      "title": "AI 더빙 나레이션 하는법 타입캐스트 사용법",
+      "category_slug": "typecast",
+      "source_url": "https://www.youtube.com/watch?v=u4ic31KnUuk",
+      "fallback_summary": "오늘은 AI 더빙하는 법에 대해 알아보겠습니다. 프로그램은 타입캐스트를 이용했구요. 어렵지 않으니 천천히 따라오세요!",
+      "description_excerpt": "오늘은 AI 더빙하는 법에 대해 알아보겠습니다. 프로그램은 타입캐스트를 이용했구요. 어렵지 않으니 천천히 따라오세요!",
+      "queued_at": "2026-11-09T05:57:18.369Z"
+    },
+    {
+      "id": "youtube:lI8L3zepss4",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "lI8L3zepss4",
+      "title": "[지금뉴스] 뉴욕도 ‘AI 청문회’…연구원 “AI 통제 못 해 인류 멸종 결말” / KBS 2026.10.06.",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=lI8L3zepss4",
+      "fallback_summary": "인공지능(AI) 개발 경쟁의 위험성을 경고하며 앤트로픽을 떠난 연구원이 미국 뉴욕시의회 청문회에서 \"인류가 AI에 통제권을 잃을 가능성이 더 크다\"고 말했습니다.",
+      "description_excerpt": "인공지능(AI) 개발 경쟁의 위험성을 경고하며 앤트로픽을 떠난 연구원이 미국 뉴욕시의회 청문회에서 \"인류가 AI에 통제권을 잃을 가능성이 더 크다\"고 말했습니다.",
+      "queued_at": "2026-11-09T05:57:24.129Z"
+    },
+    {
+      "id": "youtube:cuuEyZs2MD8",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "cuuEyZs2MD8",
+      "title": "[비즈&트렌드] 눈 앞의 AI‥'스마트 안경' 선점 경쟁 (2026.11.09/뉴스투데이/MBC)",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=cuuEyZs2MD8",
+      "fallback_summary": "이젠 스마트안경의 시대가 오고 있습니다.",
+      "description_excerpt": "이젠 스마트안경의 시대가 오고 있습니다.",
+      "queued_at": "2026-11-09T05:57:25.557Z"
+    },
+    {
+      "id": "youtube:LVQ53NI38qs",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "LVQ53NI38qs",
+      "title": "\"개발 안했어야, 체르노빌급 가능성\"…AI 대부의 섬뜩한 경고 [지금이뉴스] / YTN",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=LVQ53NI38qs",
+      "fallback_summary": "`인공지능(AI)의 대부`로 불리는 제프리 힌턴 토론토대 명예교수가 인류가 AI를 아예 개발하지 않는 편이 나았을 수도 있다고 말했습니다.",
+      "description_excerpt": "`인공지능(AI)의 대부`로 불리는 제프리 힌턴 토론토대 명예교수가 인류가 AI를 아예 개발하지 않는 편이 나았을 수도 있다고 말했습니다.",
+      "queued_at": "2026-11-09T05:57:25.557Z"
+    },
+    {
+      "id": "youtube:KBzd_6ufjgo",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "KBzd_6ufjgo",
+      "title": "AI 많이 안 쓰는 사람 특징",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=KBzd_6ufjgo",
+      "fallback_summary": ".",
+      "description_excerpt": ".",
+      "queued_at": "2026-11-09T05:57:26.733Z"
     }
   ]
 }
