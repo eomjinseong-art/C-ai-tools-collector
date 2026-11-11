@@ -1,0 +1,1219 @@
+{
+  "generated_at": "2026-11-06T00:35:40.550Z",
+  "source": "data/pending-summaries.json",
+  "public_site": "https://ai-tools-site-liart-one.vercel.app",
+  "count": 92,
+  "needs_summary": 92,
+  "quality_fail": 49,
+  "items": [
+    {
+      "id": "youtube:ft-TxnDq3N4",
+      "youtube_id": "ft-TxnDq3N4",
+      "title": "Perplexity 사용법 총정리 | 무료 범위·심층 리서치·모델 고르기·파일 올리기, 출처 달린 AI 검색 (2026년 10월 기준)",
+      "category_slug": "perplexity",
+      "source_url": "https://www.youtube.com/watch?v=ft-TxnDq3N4",
+      "queued_at": "2026-11-05T06:21:34.501Z",
+      "priority": 108,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/perplexity"
+    },
+    {
+      "id": "youtube:AC0rpZxHI7M",
+      "youtube_id": "AC0rpZxHI7M",
+      "title": "DeepSeek AI 신규 기술... DRAM 대폭 늘리면 성능 더 좋아진다 | DDR4, DDR5 부족사태, CXL도 다시 주목받나",
+      "category_slug": "deepseek",
+      "source_url": "https://www.youtube.com/watch?v=AC0rpZxHI7M",
+      "queued_at": "2026-11-05T06:22:19.017Z",
+      "priority": 107,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/deepseek"
+    },
+    {
+      "id": "youtube:cSx1GCgoCrU",
+      "youtube_id": "cSx1GCgoCrU",
+      "title": "클로드 코드(claude code)+ 피그마(figma)로 일관된 디자인 하는 방법. (디자인 시스템으로 바이브 코딩하기)",
+      "category_slug": "figma",
+      "source_url": "https://www.youtube.com/watch?v=cSx1GCgoCrU",
+      "queued_at": "2026-11-05T06:22:04.671Z",
+      "priority": 107,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/figma"
+    },
+    {
+      "id": "youtube:CPmDxBDbilQ",
+      "youtube_id": "CPmDxBDbilQ",
+      "title": "전세계에서 난리난 Seedance 2.0 직접 사용 후기: 현존 AI 영상 제작 끝판왕 등장. 직접 제작한 영상과 SNS 영상 비교!",
+      "category_slug": "seedance",
+      "source_url": "https://www.youtube.com/watch?v=CPmDxBDbilQ",
+      "queued_at": "2026-11-05T06:21:50.918Z",
+      "priority": 107,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/seedance"
+    },
+    {
+      "id": "youtube:3mLt4JSjHB8",
+      "youtube_id": "3mLt4JSjHB8",
+      "title": "포토샵 대신 캔바로 디자인하기! Canva 기본 사용법. 썸네일, 포스트, 전단지 직접 만들기. 캔바 AI 사용해보기. QR코드 생성하기",
+      "category_slug": "canva",
+      "source_url": "https://www.youtube.com/watch?v=3mLt4JSjHB8",
+      "queued_at": "2026-11-05T06:21:40.103Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/canva"
+    },
+    {
+      "id": "youtube:AwgbMaxb59c",
+      "youtube_id": "AwgbMaxb59c",
+      "title": "왕초보 피그마 기초 사용법🔥 셀러님들 지금 당장 피그마 시작하세요! 그대로 따라만 해서 피그마 정복하기",
+      "category_slug": "figma",
+      "source_url": "https://www.youtube.com/watch?v=AwgbMaxb59c",
+      "queued_at": "2026-11-05T06:22:04.672Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/figma"
+    },
+    {
+      "id": "youtube:SPbGBP0Izg4",
+      "youtube_id": "SPbGBP0Izg4",
+      "title": "상페디자인 피그마 입문은 이 영상으로 종결합니다.",
+      "category_slug": "figma",
+      "source_url": "https://www.youtube.com/watch?v=SPbGBP0Izg4",
+      "queued_at": "2026-11-05T06:22:04.672Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/figma"
+    },
+    {
+      "id": "youtube:Br7AtLkMNng",
+      "youtube_id": "Br7AtLkMNng",
+      "title": "구글 최신 업데이트! 제미나이 아르곤으로 혼자 일하는 AI 직원(에이전트) 만들기",
+      "category_slug": "gemini",
+      "source_url": "https://www.youtube.com/watch?v=Br7AtLkMNng",
+      "queued_at": "2026-11-05T06:21:29.937Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/gemini"
+    },
+    {
+      "id": "youtube:NNkQP6pWAx4",
+      "youtube_id": "NNkQP6pWAx4",
+      "title": "AI 영상계 미친 신모델 클링 4.0이 등장했습니다.. ㄷㄷ",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=NNkQP6pWAx4",
+      "queued_at": "2026-11-05T06:21:52.465Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/kling"
+    },
+    {
+      "id": "youtube:Q6L8HHDbHRw",
+      "youtube_id": "Q6L8HHDbHRw",
+      "title": "'퍼플렉시티 이것만 알면 됩니다' | 직장인 업무 효율 200% 올려주는 무료 기능 완전 정복",
+      "category_slug": "perplexity",
+      "source_url": "https://www.youtube.com/watch?v=Q6L8HHDbHRw",
+      "queued_at": "2026-11-04T05:57:35.708Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/perplexity"
+    },
+    {
+      "id": "youtube:uzWeq8RwLQY",
+      "youtube_id": "uzWeq8RwLQY",
+      "title": "씨댄스 2.5, 힉스필드만 쓰면 호구?! 저비용 고퀄리티 꿀팁｜Seedance 2.5 Prompts & Best Platforms",
+      "category_slug": "seedance",
+      "source_url": "https://www.youtube.com/watch?v=uzWeq8RwLQY",
+      "queued_at": "2026-11-05T06:21:50.918Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/seedance"
+    },
+    {
+      "id": "youtube:KZ6gTBdSr5s",
+      "youtube_id": "KZ6gTBdSr5s",
+      "title": "SUNO AI 수익화, 진짜 돈 되는 방법 알려드립니다",
+      "category_slug": "suno",
+      "source_url": "https://www.youtube.com/watch?v=KZ6gTBdSr5s",
+      "queued_at": "2026-11-05T06:21:57.957Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/suno"
+    },
+    {
+      "id": "youtube:Rhll5ctiywg",
+      "youtube_id": "Rhll5ctiywg",
+      "title": "무료 AI 목소리로 애니메이션 더빙까지 30분 완성 | 타입캐스트 vs 구글 AI 스튜디오 비교 뭐가 더 좋을까?",
+      "category_slug": "typecast",
+      "source_url": "https://www.youtube.com/watch?v=Rhll5ctiywg",
+      "queued_at": "2026-11-05T06:22:29.949Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/typecast"
+    },
+    {
+      "id": "youtube:W22qlb4IlfA",
+      "youtube_id": "W22qlb4IlfA",
+      "title": "무료 AI 쓰고 돈 버는 뤼튼 앱테크 (한국 생성형 AI 도구 추천, 글쓰기, 이미지 생성, N잡러 필수 설치 AI 툴 플랫폼, 캐쉬 리워드, 천보기 어플 짠테크)",
+      "category_slug": "wrtn",
+      "source_url": "https://www.youtube.com/watch?v=W22qlb4IlfA",
+      "queued_at": "2026-11-05T06:21:36.139Z",
+      "priority": 106,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/wrtn"
+    },
+    {
+      "id": "youtube:fNA4OHt8uDk",
+      "youtube_id": "fNA4OHt8uDk",
+      "title": "클로드 가입 및 설치부터 사용법까지. AI 왕초보 질문부터 게임개발까지. Claude Code 기초 사용법 총정리",
+      "category_slug": "claude",
+      "source_url": "https://www.youtube.com/watch?v=fNA4OHt8uDk",
+      "queued_at": "2026-11-04T05:57:31.331Z",
+      "priority": 105,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/claude"
+    },
+    {
+      "id": "youtube:ZN37IV4sbQg",
+      "youtube_id": "ZN37IV4sbQg",
+      "title": "2026 클로드 올인원 무료강의｜이거 하나면 끝 Claude 업무자동화 3시간 총정리 (무료 자료 제공)",
+      "category_slug": "claude",
+      "source_url": "https://www.youtube.com/watch?v=ZN37IV4sbQg",
+      "queued_at": "2026-11-05T06:21:28.137Z",
+      "priority": 105,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/claude"
+    },
+    {
+      "id": "youtube:kojA9taD6ek",
+      "youtube_id": "kojA9taD6ek",
+      "title": "ElevenLabs 끊어도 될까? 내 목소리 TTS를 내 맥에서 무료로 돌려 봤습니다",
+      "category_slug": "elevenlabs",
+      "source_url": "https://www.youtube.com/watch?v=kojA9taD6ek",
+      "queued_at": "2026-11-04T05:58:06.672Z",
+      "priority": 105,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/elevenlabs"
+    },
+    {
+      "id": "youtube:-K3_tZcQ1BE",
+      "youtube_id": "-K3_tZcQ1BE",
+      "title": "일주일간의 클링 3.0 사용 리뷰 | 프롬프트 꿀팁 포함 (Kling 3.0 업데이트)",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=-K3_tZcQ1BE",
+      "queued_at": "2026-11-04T05:57:58.084Z",
+      "priority": 105,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/kling"
+    },
+    {
+      "id": "youtube:ou0fE2tvGak",
+      "youtube_id": "ou0fE2tvGak",
+      "title": "노션 초보가 가장 빠르게, 나만의 노션 템플릿 만드는 방법 | 2026 최신 | 노션 사용법 | 노션 활용법",
+      "category_slug": "notion-ai",
+      "source_url": "https://www.youtube.com/watch?v=ou0fE2tvGak",
+      "queued_at": "2026-11-04T05:58:09.898Z",
+      "priority": 105,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/notion-ai"
+    },
+    {
+      "id": "youtube:u4ic31KnUuk",
+      "youtube_id": "u4ic31KnUuk",
+      "title": "AI 더빙 나레이션 하는법 타입캐스트 사용법",
+      "category_slug": "typecast",
+      "source_url": "https://www.youtube.com/watch?v=u4ic31KnUuk",
+      "queued_at": "2026-11-05T06:22:29.949Z",
+      "priority": 105,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/typecast"
+    },
+    {
+      "id": "youtube:iz9GxpKUJBI",
+      "youtube_id": "iz9GxpKUJBI",
+      "title": "요즘 직장인들 난리난 엑셀 역대급 함수 업데이트 ㄷㄷ #copilot #함수",
+      "category_slug": "copilot",
+      "source_url": "https://www.youtube.com/watch?v=iz9GxpKUJBI",
+      "queued_at": "2026-11-04T05:58:35.662Z",
+      "priority": 104,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/copilot"
+    },
+    {
+      "id": "youtube:buR2JBfu81g",
+      "youtube_id": "buR2JBfu81g",
+      "title": "왕초보를 위한 구글 제미나이 2시간 완벽 가이드 (Google Gemini)",
+      "category_slug": "gemini",
+      "source_url": "https://www.youtube.com/watch?v=buR2JBfu81g",
+      "queued_at": "2026-11-04T05:57:33.839Z",
+      "priority": 104,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/gemini"
+    },
+    {
+      "id": "youtube:URU2hqiOn9w",
+      "youtube_id": "URU2hqiOn9w",
+      "title": "[Kling] 2025년 클링 AI의 모든 기능 [입문자 필수!]",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=URU2hqiOn9w",
+      "queued_at": "2026-11-04T05:57:58.084Z",
+      "priority": 104,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/kling"
+    },
+    {
+      "id": "youtube:_lflw3UAQPA",
+      "youtube_id": "_lflw3UAQPA",
+      "title": "얼굴 없이 초간단 AI 영상 만들기 Vrew 브루 2025년 신규 업데이트 (발음사전, 번역, 음성 덮어쓰기)",
+      "category_slug": "vrew",
+      "source_url": "https://www.youtube.com/watch?v=_lflw3UAQPA",
+      "queued_at": "2026-11-04T05:58:03.057Z",
+      "priority": 104,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/vrew"
+    },
+    {
+      "id": "youtube:S5CjDAvcCFE",
+      "youtube_id": "S5CjDAvcCFE",
+      "title": "챗GPT 왕초보 | 50·60대도 딱 10분! 바로 시작하는 지피티 사용법, 똑똑한 질문 방법",
+      "category_slug": "chatgpt",
+      "source_url": "https://www.youtube.com/watch?v=S5CjDAvcCFE",
+      "queued_at": "2026-11-02T05:43:21.536Z",
+      "priority": 103,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/chatgpt"
+    },
+    {
+      "id": "youtube:_HkE6iIPf7g",
+      "youtube_id": "_HkE6iIPf7g",
+      "title": "절대 실패 없는 피그마 기초 A-Z 7분 단기 속성 강의 (무료 툴, 실무 압축)#피그마 #피그마사용법 #피그마강의",
+      "category_slug": "figma",
+      "source_url": "https://www.youtube.com/watch?v=_HkE6iIPf7g",
+      "queued_at": "2026-11-02T05:44:15.140Z",
+      "priority": 103,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/figma"
+    },
+    {
+      "id": "youtube:UYU_natPl-I",
+      "youtube_id": "UYU_natPl-I",
+      "title": "리얼한 AI 아바타 영상 만드는 방법 #ai영상",
+      "category_slug": "heygen",
+      "source_url": "https://www.youtube.com/watch?v=UYU_natPl-I",
+      "queued_at": "2026-11-03T06:25:13.546Z",
+      "priority": 103,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/heygen"
+    },
+    {
+      "id": "youtube:4f1kEWcc50g",
+      "youtube_id": "4f1kEWcc50g",
+      "title": "2026년 클링 AI 입문자를 위한 필수 영상(튜토리얼)",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=4f1kEWcc50g",
+      "queued_at": "2026-11-03T06:24:58.766Z",
+      "priority": 103,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/kling"
+    },
+    {
+      "id": "youtube:tYw7K-6Xk9s",
+      "youtube_id": "tYw7K-6Xk9s",
+      "title": "러버블(Lovable)로 2주 만에 AI 마케팅 SaaS 만들고 결제까지 붙인 후기",
+      "category_slug": "lovable",
+      "source_url": "https://www.youtube.com/watch?v=tYw7K-6Xk9s",
+      "queued_at": "2026-11-03T06:25:31.561Z",
+      "priority": 103,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/lovable"
+    },
+    {
+      "id": "youtube:iGwLH_k_sHk",
+      "youtube_id": "iGwLH_k_sHk",
+      "title": "미드저니 캐릭터 일관성 이렇게 잡습니다｜새 편집 기능 4가지 실전 활용",
+      "category_slug": "midjourney",
+      "source_url": "https://www.youtube.com/watch?v=iGwLH_k_sHk",
+      "queued_at": "2026-11-03T06:24:43.156Z",
+      "priority": 103,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/midjourney"
+    },
+    {
+      "id": "youtube:c80XdvftRD4",
+      "youtube_id": "c80XdvftRD4",
+      "title": "Grok Bot에게 모든 자동화를 맡겨봤습니다.",
+      "category_slug": "grok",
+      "source_url": "https://www.youtube.com/watch?v=c80XdvftRD4",
+      "queued_at": "2026-11-02T05:44:36.128Z",
+      "priority": 102,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/grok"
+    },
+    {
+      "id": "youtube:eJnh7VFO4Cg",
+      "youtube_id": "eJnh7VFO4Cg",
+      "title": "러버블(Lovable) 공식 앰버서더가 알려주는 1시간안에 끝내는 초고속 앱 개발 노하우",
+      "category_slug": "lovable",
+      "source_url": "https://www.youtube.com/watch?v=eJnh7VFO4Cg",
+      "queued_at": "2026-11-02T05:44:27.226Z",
+      "priority": 102,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/lovable"
+    },
+    {
+      "id": "youtube:1darAoUkOqY",
+      "youtube_id": "1darAoUkOqY",
+      "title": "8 New Features in Microsoft Copilot You Should Know About (October 2026)",
+      "category_slug": "copilot",
+      "source_url": "https://www.youtube.com/watch?v=1darAoUkOqY",
+      "queued_at": "2026-11-04T05:58:35.661Z",
+      "priority": 81,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/copilot"
+    },
+    {
+      "id": "youtube:knOhSmOkqMM",
+      "youtube_id": "knOhSmOkqMM",
+      "title": "How to Use the NEW Agent Builder in Microsoft Copilot - Build an AI Agent in Minutes (2026)",
+      "category_slug": "copilot",
+      "source_url": "https://www.youtube.com/watch?v=knOhSmOkqMM",
+      "queued_at": "2026-11-05T06:22:33.209Z",
+      "priority": 81,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/copilot"
+    },
+    {
+      "id": "youtube:HCSNhgmwAaw",
+      "youtube_id": "HCSNhgmwAaw",
+      "title": "Runway Ai Video To Video | Best Prompts & Tips",
+      "category_slug": "runway",
+      "source_url": "https://www.youtube.com/watch?v=HCSNhgmwAaw",
+      "queued_at": "2026-11-05T06:21:44.799Z",
+      "priority": 79,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/runway"
+    },
+    {
+      "id": "youtube:jXp5D5ZnxGM",
+      "youtube_id": "jXp5D5ZnxGM",
+      "title": "Get to know GitHub Copilot in VS Code and be productive IMMEDIATELY",
+      "category_slug": "github-copilot",
+      "source_url": "https://www.youtube.com/watch?v=jXp5D5ZnxGM",
+      "queued_at": "2026-11-05T06:22:21.845Z",
+      "priority": 77,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/github-copilot"
+    },
+    {
+      "id": "youtube:AIgZH8zbMTE",
+      "youtube_id": "AIgZH8zbMTE",
+      "title": "How To Use GitHub Copilot With Visual Studio Code | Set Up GitHub Copilot in VS Code (2026)",
+      "category_slug": "github-copilot",
+      "source_url": "https://www.youtube.com/watch?v=AIgZH8zbMTE",
+      "queued_at": "2026-11-05T06:22:21.845Z",
+      "priority": 76,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/github-copilot"
+    },
+    {
+      "id": "youtube:Mt91SiQotOU",
+      "youtube_id": "Mt91SiQotOU",
+      "title": "Higgsfield AI Tutorial for Beginners (2026) | Step-by-Step",
+      "category_slug": "higgsfield",
+      "source_url": "https://www.youtube.com/watch?v=Mt91SiQotOU",
+      "queued_at": "2026-11-04T05:57:47.702Z",
+      "priority": 76,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/higgsfield"
+    },
+    {
+      "id": "youtube:FpkeMi9Vg2k",
+      "youtube_id": "FpkeMi9Vg2k",
+      "title": "How To Use Runway AI For Beginners",
+      "category_slug": "runway",
+      "source_url": "https://www.youtube.com/watch?v=FpkeMi9Vg2k",
+      "queued_at": "2026-11-05T06:21:44.798Z",
+      "priority": 75,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/runway"
+    },
+    {
+      "id": "youtube:w-tzKW-p62M",
+      "youtube_id": "w-tzKW-p62M",
+      "title": "어도비 AI의 충격적인 역대급 기능, 직접 써봤습니다",
+      "category_slug": "adobe-firefly",
+      "source_url": "https://www.youtube.com/watch?v=w-tzKW-p62M",
+      "queued_at": "2026-11-05T06:22:27.485Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/adobe-firefly"
+    },
+    {
+      "id": "youtube:buG_WiRrnxI",
+      "youtube_id": "buG_WiRrnxI",
+      "title": "Canva 2025 11월 업데이트 총정리🔥 AI 기능까지 싹 다 바뀌었습니다!",
+      "category_slug": "canva",
+      "source_url": "https://www.youtube.com/watch?v=buG_WiRrnxI",
+      "queued_at": "2026-11-05T06:21:40.103Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/canva"
+    },
+    {
+      "id": "youtube:46HxP7kO9oY",
+      "youtube_id": "46HxP7kO9oY",
+      "title": "AI 시대의 필수 지식 MCP 이 영상 하나로 끝내세요!",
+      "category_slug": "cursor",
+      "source_url": "https://www.youtube.com/watch?v=46HxP7kO9oY",
+      "queued_at": "2026-11-05T06:22:08.039Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/cursor"
+    },
+    {
+      "id": "youtube:r54WCz3XQlw",
+      "youtube_id": "r54WCz3XQlw",
+      "title": "[무편집] 커서(Cursor)를 완전히 넘어선, 클로드 코드의 충격적 성능 같이 알아봅시다.",
+      "category_slug": "cursor",
+      "source_url": "https://www.youtube.com/watch?v=r54WCz3XQlw",
+      "queued_at": "2026-11-05T06:22:11.644Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/cursor"
+    },
+    {
+      "id": "youtube:m3bSnucS0JI",
+      "youtube_id": "m3bSnucS0JI",
+      "title": "중국 딥시크 AI 5시간 먹통! 챗봇·API 중단에 환불 사태",
+      "category_slug": "deepseek",
+      "source_url": "https://www.youtube.com/watch?v=m3bSnucS0JI",
+      "queued_at": "2026-11-05T06:22:20.597Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/deepseek"
+    },
+    {
+      "id": "youtube:TddOVO56bec",
+      "youtube_id": "TddOVO56bec",
+      "title": "PPT 노가다 끝! AI PPT 완전정복 | 아직도 모르면 손해입니다 (+프롬프트 무료 공개) | Gamma",
+      "category_slug": "gamma",
+      "source_url": "https://www.youtube.com/watch?v=TddOVO56bec",
+      "queued_at": "2026-11-05T06:22:14.637Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/gamma"
+    },
+    {
+      "id": "youtube:9RZS9yicqSI",
+      "youtube_id": "9RZS9yicqSI",
+      "title": "퇴근시간 2시간 당겨주는 제미나이 신기능 10가지 (무료 프롬프트 제공)",
+      "category_slug": "gemini",
+      "source_url": "https://www.youtube.com/watch?v=9RZS9yicqSI",
+      "queued_at": "2026-11-05T06:21:29.936Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/gemini"
+    },
+    {
+      "id": "youtube:c4ElCUnMA8E",
+      "youtube_id": "c4ElCUnMA8E",
+      "title": "AI 작업시간 2시간 줄여주는 제미나이 신기능 10가지",
+      "category_slug": "gemini",
+      "source_url": "https://www.youtube.com/watch?v=c4ElCUnMA8E",
+      "queued_at": "2026-11-05T06:21:31.487Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/gemini"
+    },
+    {
+      "id": "youtube:jzsn2sGX6b8",
+      "youtube_id": "jzsn2sGX6b8",
+      "title": "업무효율 500% 올려주는 제미나이 5가지 기능 | Gemini 3.7 Flash, Gemini Spark",
+      "category_slug": "gemini",
+      "source_url": "https://www.youtube.com/watch?v=jzsn2sGX6b8",
+      "queued_at": "2026-11-05T06:21:33.089Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/gemini"
+    },
+    {
+      "id": "youtube:p9dBTBag_Zc",
+      "youtube_id": "p9dBTBag_Zc",
+      "title": "미드저니(midjourney) 일관성 유지 끝판왕.. 대부분이 모르는 '에딧/무드보드' 활용법!!",
+      "category_slug": "midjourney",
+      "source_url": "https://www.youtube.com/watch?v=p9dBTBag_Zc",
+      "queued_at": "2026-11-05T06:21:41.662Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short",
+        "title_copy"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/midjourney"
+    },
+    {
+      "id": "youtube:davL3rRogTA",
+      "youtube_id": "davL3rRogTA",
+      "title": "제미나이 + 노트북LM 으로 고퀄리티 PPT 진짜 쉽게 만드는 미친 조합법 | 자료수집부터 편집까지 완전 공개",
+      "category_slug": "notebooklm",
+      "source_url": "https://www.youtube.com/watch?v=davL3rRogTA",
+      "queued_at": "2026-11-05T06:22:17.541Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/notebooklm"
+    },
+    {
+      "id": "youtube:MzjPbTOrcow",
+      "youtube_id": "MzjPbTOrcow",
+      "title": "챗GPT보다 실속 있는 무료 AI 비서, 퍼플렉시티 사용법 총정리",
+      "category_slug": "perplexity",
+      "source_url": "https://www.youtube.com/watch?v=MzjPbTOrcow",
+      "queued_at": "2026-11-05T06:21:34.500Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/perplexity"
+    },
+    {
+      "id": "youtube:IqCdzY-aPSQ",
+      "youtube_id": "IqCdzY-aPSQ",
+      "title": "Seedance2.5 vs Seedance 2.0 결과물 비교!! 시댄스2.5 무제한 사용 꿀팁",
+      "category_slug": "seedance",
+      "source_url": "https://www.youtube.com/watch?v=IqCdzY-aPSQ",
+      "queued_at": "2026-11-05T06:21:49.294Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/seedance"
+    },
+    {
+      "id": "youtube:zIwN0UAakZo",
+      "youtube_id": "zIwN0UAakZo",
+      "title": "Seedance 2.0 클링은 이제안씀 시댄스가 짱이다",
+      "category_slug": "seedance",
+      "source_url": "https://www.youtube.com/watch?v=zIwN0UAakZo",
+      "queued_at": "2026-11-05T06:21:50.918Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/seedance"
+    },
+    {
+      "id": "youtube:pMTdySOUNcQ",
+      "youtube_id": "pMTdySOUNcQ",
+      "title": "AI뉴스 - Gemini 4 Carbon, 검색의 종말, 앤트로픽 S1, GPT-6.1 테라, Subvocal, LFM3, agent-desktop, 바이낸스 해킹 등",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=pMTdySOUNcQ",
+      "queued_at": "2026-11-03T06:25:46.912Z",
+      "priority": 65,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/trend"
+    },
+    {
+      "id": "youtube:t5P8evxjfgg",
+      "youtube_id": "t5P8evxjfgg",
+      "title": "인류의 절멸을 가져올 AI가 있다면?..'초지능 AI'의 경고 [SDF] / SBS / #D리포트",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=t5P8evxjfgg",
+      "queued_at": "2026-11-04T05:58:37.894Z",
+      "priority": 65,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/trend"
+    },
+    {
+      "id": "youtube:kZEdxmSTjRI",
+      "youtube_id": "kZEdxmSTjRI",
+      "title": "[비즈&트렌드] \"잃느니 이자 받자\"‥'원금 보장' 돈 몰린다 (2026.11.02/뉴스투데이/MBC)",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=kZEdxmSTjRI",
+      "queued_at": "2026-11-05T06:22:36.618Z",
+      "priority": 65,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/trend"
+    },
+    {
+      "id": "youtube:HKE8tivl2LE",
+      "youtube_id": "HKE8tivl2LE",
+      "title": "브루(Vrew)를 활용한 쉽고 편한 유튜브 영상편집 - 01 프로젝트 만들기",
+      "category_slug": "vrew",
+      "source_url": "https://www.youtube.com/watch?v=HKE8tivl2LE",
+      "queued_at": "2026-11-05T06:21:56.829Z",
+      "priority": 65,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/vrew"
+    },
+    {
+      "id": "youtube:OG-iME_sWBs",
+      "youtube_id": "OG-iME_sWBs",
+      "title": "캡컷 마스터 클래스 : 초보자를 위한 영상편집 강의",
+      "category_slug": "capcut",
+      "source_url": "https://www.youtube.com/watch?v=OG-iME_sWBs",
+      "queued_at": "2026-11-04T05:58:03.056Z",
+      "priority": 64,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/capcut"
+    },
+    {
+      "id": "youtube:J37VcrEWgMg",
+      "youtube_id": "J37VcrEWgMg",
+      "title": "클로드를  첫날로 돌아간다면, 가장 먼저 할 5가지  ㅣ  #클로드 #Claude #클로드사용법 #AI활용 #AI툴 #앤트로픽 #anthropic",
+      "category_slug": "claude",
+      "source_url": "https://www.youtube.com/watch?v=J37VcrEWgMg",
+      "queued_at": "2026-11-04T05:57:31.331Z",
+      "priority": 64,
+      "quality_ok": false,
+      "quality_reasons": [
+        "title_copy"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/claude"
+    },
+    {
+      "id": "youtube:Kpvi6R83EEU",
+      "youtube_id": "Kpvi6R83EEU",
+      "title": "(26년 10월 업데이트) 클로드 x Gamma로 PPT 고퀄 만드는 방법ㅣ실습자료 제공",
+      "category_slug": "gamma",
+      "source_url": "https://www.youtube.com/watch?v=Kpvi6R83EEU",
+      "queued_at": "2026-11-04T05:58:20.867Z",
+      "priority": 64,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/gamma"
+    },
+    {
+      "id": "youtube:4znhEM0W8VE",
+      "youtube_id": "4znhEM0W8VE",
+      "title": "노션 왕초보 필수시청 ✍️일잘러 업무노트 사용법 (무료 템플릿 有)",
+      "category_slug": "notion-ai",
+      "source_url": "https://www.youtube.com/watch?v=4znhEM0W8VE",
+      "queued_at": "2026-11-04T05:58:09.897Z",
+      "priority": 64,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/notion-ai"
+    },
+    {
+      "id": "youtube:bmbNjx6U-p4",
+      "youtube_id": "bmbNjx6U-p4",
+      "title": "Notion 노션 템플릿도 필요 없음! 30분 → 5분 🚀 노션 AI 에이전트의 진짜 능력",
+      "category_slug": "notion-ai",
+      "source_url": "https://www.youtube.com/watch?v=bmbNjx6U-p4",
+      "queued_at": "2026-11-04T05:58:11.468Z",
+      "priority": 64,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/notion-ai"
+    },
+    {
+      "id": "youtube:qOV-iaoc5_s",
+      "youtube_id": "qOV-iaoc5_s",
+      "title": "AI 이미지, 그만 생성하세요. 이제 잘 고치는 게 실력입니다",
+      "category_slug": "adobe-firefly",
+      "source_url": "https://www.youtube.com/watch?v=qOV-iaoc5_s",
+      "queued_at": "2026-11-03T06:25:32.923Z",
+      "priority": 63,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/adobe-firefly"
+    },
+    {
+      "id": "youtube:bkprQfnjHQs",
+      "youtube_id": "bkprQfnjHQs",
+      "title": "AI 음성TTS 일레븐랩스 V4 출시! 감정 연기 미쳤습니다 (시댄스 2.5 연동, 타입캐스트 TTS 비교까지)",
+      "category_slug": "elevenlabs",
+      "source_url": "https://www.youtube.com/watch?v=bkprQfnjHQs",
+      "queued_at": "2026-11-03T06:25:11.301Z",
+      "priority": 63,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/elevenlabs"
+    },
+    {
+      "id": "youtube:luT_F13bTtk",
+      "youtube_id": "luT_F13bTtk",
+      "title": "이제 코파일럿이 무료로 제공됩니다! | 실무자를 위한 M365 코파일럿 5가지 실전 활용법",
+      "category_slug": "github-copilot",
+      "source_url": "https://www.youtube.com/watch?v=luT_F13bTtk",
+      "queued_at": "2026-11-03T06:25:28.532Z",
+      "priority": 63,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/github-copilot"
+    },
+    {
+      "id": "youtube:raX8fK0s2M0",
+      "youtube_id": "raX8fK0s2M0",
+      "title": "[미드저니] 초보자를 위한 기초사용법",
+      "category_slug": "midjourney",
+      "source_url": "https://www.youtube.com/watch?v=raX8fK0s2M0",
+      "queued_at": "2026-11-03T06:24:43.155Z",
+      "priority": 63,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/midjourney"
+    },
+    {
+      "id": "youtube:4u_Q2O6r3NU",
+      "youtube_id": "4u_Q2O6r3NU",
+      "title": "90%는 모르는 수노AI 활용법 5가지",
+      "category_slug": "suno",
+      "source_url": "https://www.youtube.com/watch?v=4u_Q2O6r3NU",
+      "queued_at": "2026-11-03T06:25:05.857Z",
+      "priority": 63,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/suno"
+    },
+    {
+      "id": "youtube:1gaJeRy8uq4",
+      "youtube_id": "1gaJeRy8uq4",
+      "title": "AI 작곡 수노 V5 성능 미쳤네요;; 현타옵니다.",
+      "category_slug": "suno",
+      "source_url": "https://www.youtube.com/watch?v=1gaJeRy8uq4",
+      "queued_at": "2026-11-03T06:25:07.521Z",
+      "priority": 63,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/suno"
+    },
+    {
+      "id": "youtube:R9VDv478N2g",
+      "youtube_id": "R9VDv478N2g",
+      "title": "AI가 열어버린 '판도라의 상자'…엔지니어들 대혼란 [지금이뉴스] / YTN",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=R9VDv478N2g",
+      "queued_at": "2026-11-03T06:25:43.340Z",
+      "priority": 63,
+      "quality_ok": true,
+      "quality_reasons": [],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/trend"
+    },
+    {
+      "id": "youtube:p33DteU7nFg",
+      "youtube_id": "p33DteU7nFg",
+      "title": "누구나 할수 있는 ‘캡컷’ 모바일 완벽 강좌 | 릴스, 쇼츠 만들기",
+      "category_slug": "capcut",
+      "source_url": "https://www.youtube.com/watch?v=p33DteU7nFg",
+      "queued_at": "2026-11-02T05:44:00.516Z",
+      "priority": 62,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/capcut"
+    },
+    {
+      "id": "youtube:JHYnBCqL-Dc",
+      "youtube_id": "JHYnBCqL-Dc",
+      "title": "챗GPT 무료 특강 (1시간 기본 완성)",
+      "category_slug": "chatgpt",
+      "source_url": "https://www.youtube.com/watch?v=JHYnBCqL-Dc",
+      "queued_at": "2026-11-02T05:43:21.536Z",
+      "priority": 62,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/chatgpt"
+    },
+    {
+      "id": "youtube:Mq4XScPxSEM",
+      "youtube_id": "Mq4XScPxSEM",
+      "title": "(26년 11월 업데이트) 클로드로 업무 자동화 끝내는 최신 기능 6가지ㅣ실습 따라하세요",
+      "category_slug": "claude",
+      "source_url": "https://www.youtube.com/watch?v=Mq4XScPxSEM",
+      "queued_at": "2026-11-02T05:43:23.976Z",
+      "priority": 62,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/claude"
+    },
+    {
+      "id": "youtube:mpMo2GIynHw",
+      "youtube_id": "mpMo2GIynHw",
+      "title": "무료 AI 영상 무제한으로 만드는 방법｜힉스필드 활용법까지",
+      "category_slug": "higgsfield",
+      "source_url": "https://www.youtube.com/watch?v=mpMo2GIynHw",
+      "queued_at": "2026-11-02T05:43:48.559Z",
+      "priority": 62,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short",
+        "title_copy"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/higgsfield"
+    },
+    {
+      "id": "youtube:F2-9ORj386k",
+      "youtube_id": "F2-9ORj386k",
+      "title": "클링 4.0 vs 시댄스 2.5⚡AI 영상 끝장비교! 누가 끝판왕일까?",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=F2-9ORj386k",
+      "queued_at": "2026-11-02T05:43:57.043Z",
+      "priority": 62,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/kling"
+    },
+    {
+      "id": "youtube:TImjZnT87ys",
+      "youtube_id": "TImjZnT87ys",
+      "title": "바이브코딩 딱 15분만에 전부 알려드립니다 l 개념, 툴, 사용법 - [유퀴즈 출연한 코로나맵 개발자]",
+      "category_slug": "lovable",
+      "source_url": "https://www.youtube.com/watch?v=TImjZnT87ys",
+      "queued_at": "2026-11-02T05:44:18.766Z",
+      "priority": 62,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/lovable"
+    },
+    {
+      "id": "youtube:HP8YODI7HhY",
+      "youtube_id": "HP8YODI7HhY",
+      "title": "제미나이 노트북 역대급 신기능 3가지 (핵심압축)",
+      "category_slug": "notebooklm",
+      "source_url": "https://www.youtube.com/watch?v=HP8YODI7HhY",
+      "queued_at": "2026-11-02T05:44:21.179Z",
+      "priority": 62,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/notebooklm"
+    },
+    {
+      "id": "youtube:0aUESETTB28",
+      "youtube_id": "0aUESETTB28",
+      "title": "타입캐스트 사용법 총정리",
+      "category_slug": "typecast",
+      "source_url": "https://www.youtube.com/watch?v=0aUESETTB28",
+      "queued_at": "2026-11-02T05:44:32.917Z",
+      "priority": 62,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short",
+        "title_copy"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/typecast"
+    },
+    {
+      "id": "youtube:WEnYO4jqkN8",
+      "youtube_id": "WEnYO4jqkN8",
+      "title": "Runway AI 💯 FREE Trick |  Runway AI Se Unlimited Free Videos Kaise Banaye | Tech YT Karan",
+      "category_slug": "runway",
+      "source_url": "https://www.youtube.com/watch?v=WEnYO4jqkN8",
+      "queued_at": "2026-11-05T06:21:44.799Z",
+      "priority": 36,
+      "quality_ok": false,
+      "quality_reasons": [
+        "title_copy"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/runway"
+    },
+    {
+      "id": "youtube:YdUa1482_Jo",
+      "youtube_id": "YdUa1482_Jo",
+      "title": "Higgsfield AI Tutorial: Complete Beginner's Guide (Full Workflow)",
+      "category_slug": "higgsfield",
+      "source_url": "https://www.youtube.com/watch?v=YdUa1482_Jo",
+      "queued_at": "2026-11-05T06:21:47.612Z",
+      "priority": 35,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/higgsfield"
+    },
+    {
+      "id": "youtube:TM8hd2lnrEk",
+      "youtube_id": "TM8hd2lnrEk",
+      "title": "Creating an AI Short Film (Full Workflow) | Runway",
+      "category_slug": "runway",
+      "source_url": "https://www.youtube.com/watch?v=TM8hd2lnrEk",
+      "queued_at": "2026-11-05T06:21:44.798Z",
+      "priority": 35,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/runway"
+    },
+    {
+      "id": "youtube:CrvraynXNe4",
+      "youtube_id": "CrvraynXNe4",
+      "title": "Runway AI Tutorial for Beginners - Image to Video Generator Guide",
+      "category_slug": "runway",
+      "source_url": "https://www.youtube.com/watch?v=CrvraynXNe4",
+      "queued_at": "2026-11-05T06:21:44.799Z",
+      "priority": 35,
+      "quality_ok": false,
+      "quality_reasons": [
+        "title_copy"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/runway"
+    },
+    {
+      "id": "youtube:il83hcoHOso",
+      "youtube_id": "il83hcoHOso",
+      "title": "\"메타, 못 벌면서 투자만\"..'AI발 충격' 오나 / SBS 8뉴스",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=il83hcoHOso",
+      "queued_at": "2026-11-05T06:22:36.617Z",
+      "priority": 25,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/trend"
+    },
+    {
+      "id": "youtube:-jL7NhqBX-w",
+      "youtube_id": "-jL7NhqBX-w",
+      "title": "정말 미친 AI 나왔습니다, '이것' 모르면 완전 도태된다 (김덕진 교수)",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=-jL7NhqBX-w",
+      "queued_at": "2026-11-04T05:58:37.895Z",
+      "priority": 24,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short",
+        "title_copy"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/trend"
+    },
+    {
+      "id": "youtube:aEBcyzz4rGE",
+      "youtube_id": "aEBcyzz4rGE",
+      "title": "\"인류 멸종될 수도\"‥집단행동까지 하며 폭주하는 AI 충격 (2026.09.10/뉴스데스크/MBC)",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=aEBcyzz4rGE",
+      "queued_at": "2026-11-03T06:25:46.912Z",
+      "priority": 23,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/trend"
+    },
+    {
+      "id": "youtube:CfDD3uPYMhg",
+      "youtube_id": "CfDD3uPYMhg",
+      "title": "신의 영역 들어서는 AI…구글, 월드모델 '지니4' 공개 #소셜픽 / JTBC 아침&",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=CfDD3uPYMhg",
+      "queued_at": "2026-11-02T05:44:42.420Z",
+      "priority": 22,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/trend"
+    },
+    {
+      "id": "youtube:GpXQsjOcbVI",
+      "youtube_id": "GpXQsjOcbVI",
+      "title": "GPT 이것만 알면 됩니다.ㅣ4000명 AI 커뮤니티 운영자가 알려주는 GPT 프롬프트 사용법",
+      "category_slug": "wrtn",
+      "source_url": "https://www.youtube.com/watch?v=GpXQsjOcbVI",
+      "queued_at": "2026-11-04T05:57:38.836Z",
+      "priority": 7,
+      "quality_ok": false,
+      "quality_reasons": [
+        "promo_or_signup"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/wrtn"
+    },
+    {
+      "id": "youtube:b0uZgrG2r2I",
+      "youtube_id": "b0uZgrG2r2I",
+      "title": "업무 자동화? 그록봇 5분이면 끝납니다. 왕초보도 활용할 수 있는 역대급 에이전트의 등장ㅣ그록봇 설치와 활용 방법 총정리",
+      "category_slug": "grok",
+      "source_url": "https://www.youtube.com/watch?v=b0uZgrG2r2I",
+      "queued_at": "2026-11-04T05:58:33.107Z",
+      "priority": 6,
+      "quality_ok": false,
+      "quality_reasons": [
+        "promo_or_signup"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/grok"
+    },
+    {
+      "id": "youtube:KUcAEisnvic",
+      "youtube_id": "KUcAEisnvic",
+      "title": "제미나이 + 클로드, 무료 버전이면 충분합니다 | 실무에 바로 쓰는 모션 그래픽 만들기",
+      "category_slug": "claude",
+      "source_url": "https://www.youtube.com/watch?v=KUcAEisnvic",
+      "queued_at": "2026-11-05T06:21:28.135Z",
+      "priority": 5,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short",
+        "link_only"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/claude"
+    },
+    {
+      "id": "youtube:d2fYOehYbt8",
+      "youtube_id": "d2fYOehYbt8",
+      "title": "사진 1장으로 AI 아바타 영상 만들고 립싱크 맞추기 프리미어에서 합성까지❤️ 헤이젠, 옴니휴먼, 미니맥스, 립싱크 프로 [편집하는여자]",
+      "category_slug": "heygen",
+      "source_url": "https://www.youtube.com/watch?v=d2fYOehYbt8",
+      "queued_at": "2026-11-05T06:22:01.983Z",
+      "priority": 5,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short",
+        "link_only"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/heygen"
+    },
+    {
+      "id": "youtube:0sjb7NsBr_4",
+      "youtube_id": "0sjb7NsBr_4",
+      "title": "초보도 쉽게 따라하는 무료 AI 영상편집 프로그램 브루(VREW) 완벽 가이드",
+      "category_slug": "vrew",
+      "source_url": "https://www.youtube.com/watch?v=0sjb7NsBr_4",
+      "queued_at": "2026-11-03T06:25:02.363Z",
+      "priority": 5,
+      "quality_ok": false,
+      "quality_reasons": [
+        "promo_or_signup"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/vrew"
+    },
+    {
+      "id": "youtube:v6pDubPbpqQ",
+      "youtube_id": "v6pDubPbpqQ",
+      "title": "아무도 알려준 적 없을겁니다. 쓰면 '인생이 바뀌는' 챗GPT 활용법 (흔한 내용 ❌) [허성범의 AI 학개론 3강]",
+      "category_slug": "chatgpt",
+      "source_url": "https://www.youtube.com/watch?v=v6pDubPbpqQ",
+      "queued_at": "2026-11-04T05:57:27.197Z",
+      "priority": 4,
+      "quality_ok": false,
+      "quality_reasons": [
+        "too_short",
+        "link_only"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/chatgpt"
+    },
+    {
+      "id": "youtube:rZBz9jehE88",
+      "youtube_id": "rZBz9jehE88",
+      "title": "아무도 알려준 적 없을 겁니다. 2027 왕초보 GPT 코덱스 쉽게정복 (흔한 내용 ❌)",
+      "category_slug": "chatgpt",
+      "source_url": "https://www.youtube.com/watch?v=rZBz9jehE88",
+      "queued_at": "2026-11-02T05:43:21.534Z",
+      "priority": 3,
+      "quality_ok": false,
+      "quality_reasons": [
+        "promo_or_signup"
+      ],
+      "public_category_url": "https://ai-tools-site-liart-one.vercel.app/category/chatgpt"
+    }
+  ]
+}
