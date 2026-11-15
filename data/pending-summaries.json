@@ -423,18 +423,6 @@
       "queued_at": "2026-11-08T05:46:07.547Z"
     },
     {
-      "id": "youtube:Yqo0zcaqi7Q",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Yqo0zcaqi7Q",
-      "title": "노션 사용법 | 정말 쉽게 설명해드려요, 4분만에!",
-      "category_slug": "notion-ai",
-      "source_url": "https://www.youtube.com/watch?v=Yqo0zcaqi7Q",
-      "fallback_summary": "쉽고 예쁘게 문서관리가 가능한 노션, 정말 쉽고 빠르게 이해할수 있도록 영상 제작을 해보았습니다.",
-      "description_excerpt": "쉽고 예쁘게 문서관리가 가능한 노션, 정말 쉽고 빠르게 이해할수 있도록 영상 제작을 해보았습니다.",
-      "queued_at": "2026-11-08T05:46:12.775Z"
-    },
-    {
       "id": "youtube:xYKPWntPLi8",
       "needs_summary": true,
       "kind": "video",
@@ -459,30 +447,6 @@
       "queued_at": "2026-11-09T05:56:24.564Z"
     },
     {
-      "id": "youtube:1yLAbK5F3E8",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "1yLAbK5F3E8",
-      "title": "The Most Insane AI Film You'll See Today (Seedance 2.5)",
-      "category_slug": "seedance",
-      "source_url": "https://www.youtube.com/watch?v=1yLAbK5F3E8",
-      "fallback_summary": "PLANET HELL is an AI Sci-FI Short Film expanding on the original AI Film trailer made in Veo-3.1 This is an ongoing series about a prison planet where every inmate gets one bullet. This latest film was made with Seedance 2.5, GPT Image 2 and 2.5, Nano Banana and Midjourney, and produced on OpenArt.",
-      "description_excerpt": "PLANET HELL is an AI Sci-FI Short Film expanding on the original AI Film trailer made in Veo-3.1 This is an ongoing series about a prison planet where every inmate gets one bullet. This latest film was made with Seedance 2.5, GPT Image 2 and 2.5, Nano Banana and Midjourney, and produced on OpenArt.",
-      "queued_at": "2026-11-09T05:56:36.160Z"
-    },
-    {
-      "id": "youtube:F2-9ORj386k",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "F2-9ORj386k",
-      "title": "클링 4.0 vs 시댄스 2.5⚡AI 영상 끝장비교! 누가 끝판왕일까?",
-      "category_slug": "kling",
-      "source_url": "https://www.youtube.com/watch?v=F2-9ORj386k",
-      "fallback_summary": "⚡Kling 4.0 사용해보기 | 힉스필드",
-      "description_excerpt": "⚡Kling 4.0 사용해보기 | 힉스필드",
-      "queued_at": "2026-11-09T05:56:40.548Z"
-    },
-    {
       "id": "youtube:bkprQfnjHQs",
       "needs_summary": true,
       "kind": "video",
@@ -493,30 +457,6 @@
       "fallback_summary": "일레븐랩스 10000크레딧 무료 사용해보기 :",
       "description_excerpt": "일레븐랩스 10000크레딧 무료 사용해보기 :",
       "queued_at": "2026-11-09T05:56:54.313Z"
-    },
-    {
-      "id": "youtube:y9Dwq9ldMu8",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "y9Dwq9ldMu8",
-      "title": "AI로 120만 서비스 만든 기획자가 알려주는 러버블 시작과 비용 구조 총정리ㅣ대기업 UX 리서쳐 벨라",
-      "category_slug": "lovable",
-      "source_url": "https://www.youtube.com/watch?v=y9Dwq9ldMu8",
-      "fallback_summary": "AI를 활용하여 2시간만에 런칭한 '태국 점성술' 서비스를 만든 벨라입니다. 저는 광고비를 한푼도 쓰지 않고, 2주 만에 120만명의 유저가 방문했습니다! 그런데 이 서비스 클로드가 아닌 러버블로 만들어진 서비스 입니다 ㅎㅎ 러버블은 클로드보다 쉽고 UIUX적으로도 더 퀄리티 있게 제작이 가능한데요",
-      "description_excerpt": "AI를 활용하여 2시간만에 런칭한 '태국 점성술' 서비스를 만든 벨라입니다. 저는 광고비를 한푼도 쓰지 않고, 2주 만에 120만명의 유저가 방문했습니다! 그런데 이 서비스 클로드가 아닌 러버블로 만들어진 서비스 입니다 ㅎㅎ 러버블은 클로드보다 쉽고 UIUX적으로도 더 퀄리티 있게 제작이 가능한데요",
-      "queued_at": "2026-11-09T05:57:11.880Z"
-    },
-    {
-      "id": "youtube:GIKU3j_UcQQ",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "GIKU3j_UcQQ",
-      "title": "이게 다 100% 무제한 무료? 역대급 무료 AI 영상 툴 | 99%가 모르는 비밀 사이트 공개!",
-      "category_slug": "veo",
-      "source_url": "https://www.youtube.com/watch?v=GIKU3j_UcQQ",
-      "fallback_summary": "📂 영상 속 실전 프롬프트 4종 무료 다운로드",
-      "description_excerpt": "📂 영상 속 실전 프롬프트 4종 무료 다운로드",
-      "queued_at": "2026-11-09T05:57:16.465Z"
     },
     {
       "id": "youtube:rpiYHuKo97Y",
@@ -543,18 +483,6 @@
       "queued_at": "2026-11-10T06:59:51.780Z"
     },
     {
-      "id": "youtube:iGwLH_k_sHk",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "iGwLH_k_sHk",
-      "title": "미드저니 캐릭터 일관성 이렇게 잡습니다｜새 편집 기능 4가지 실전 활용",
-      "category_slug": "midjourney",
-      "source_url": "https://www.youtube.com/watch?v=iGwLH_k_sHk",
-      "fallback_summary": "미드저니 v8.2 에서 같은 캐릭터를 유지하면서 옷, 배경, 장면까지 자유롭게 바꿔보고 싶으셨나요?",
-      "description_excerpt": "미드저니 v8.2 에서 같은 캐릭터를 유지하면서 옷, 배경, 장면까지 자유롭게 바꿔보고 싶으셨나요?",
-      "queued_at": "2026-11-10T06:59:51.780Z"
-    },
-    {
       "id": "youtube:oH8Tdk8p1bQ",
       "needs_summary": true,
       "kind": "video",
@@ -567,18 +495,6 @@
       "queued_at": "2026-11-10T07:00:02.481Z"
     },
     {
-      "id": "youtube:-K3_tZcQ1BE",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "-K3_tZcQ1BE",
-      "title": "일주일간의 클링 3.0 사용 리뷰 | 프롬프트 꿀팁 포함 (Kling 3.0 업데이트)",
-      "category_slug": "kling",
-      "source_url": "https://www.youtube.com/watch?v=-K3_tZcQ1BE",
-      "fallback_summary": "오늘은 클링 3.0의 멀티샷과 주체 바인딩 기능을 활용해 영상을 만드는 방법을 소개해드립니다. 이번 업데이트로 여러 장면을 자연스럽게 연결하고 캐릭터 일관성까지 유지할 수 있게 되었습니다!",
-      "description_excerpt": "오늘은 클링 3.0의 멀티샷과 주체 바인딩 기능을 활용해 영상을 만드는 방법을 소개해드립니다. 이번 업데이트로 여러 장면을 자연스럽게 연결하고 캐릭터 일관성까지 유지할 수 있게 되었습니다!",
-      "queued_at": "2026-11-10T07:00:07.401Z"
-    },
-    {
       "id": "youtube:0kvkLI4mf28",
       "needs_summary": true,
       "kind": "video",
@@ -588,18 +504,6 @@
       "source_url": "https://www.youtube.com/watch?v=0kvkLI4mf28",
       "fallback_summary": "캡컷(CapCut) 모바일 앱 다운로드 후 막막하셨던 분들과 캡컷 편집이 처음이신 초보자 맞춤 강의입니다.",
       "description_excerpt": "캡컷(CapCut) 모바일 앱 다운로드 후 막막하셨던 분들과 캡컷 편집이 처음이신 초보자 맞춤 강의입니다.",
-      "queued_at": "2026-11-10T07:00:09.678Z"
-    },
-    {
-      "id": "youtube:Aep14zcNSwU",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Aep14zcNSwU",
-      "title": "초보를 위한 영상 편집 프로그램 사용 방법(캡컷 capcut a부터 z까지,영상 자르고 붙이기,글씨 넣기,모자이크,영상 가로세로 비율 바꾸기)",
-      "category_slug": "capcut",
-      "source_url": "https://www.youtube.com/watch?v=Aep14zcNSwU",
-      "fallback_summary": "영상 편집이 처음이라 막막했다면 이 영상 하나로 시작할 수 있습니다. 캡컷을 이용해 초보자도 바로 할 수 있는 기본 편집 방법을 순서대로 알려드립니다.",
-      "description_excerpt": "영상 편집이 처음이라 막막했다면 이 영상 하나로 시작할 수 있습니다. 캡컷을 이용해 초보자도 바로 할 수 있는 기본 편집 방법을 순서대로 알려드립니다.",
       "queued_at": "2026-11-10T07:00:09.678Z"
     },
     {
@@ -687,18 +591,6 @@
       "queued_at": "2026-11-11T05:52:31.766Z"
     },
     {
-      "id": "youtube:VPHYNOKbDXk",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "VPHYNOKbDXk",
-      "title": "생성형 AI가 이렇게까지 된다고!? 👀 대박적인 어도비의 신기능들을 직접 사용해 보았습니다! #adobe #firefly",
-      "category_slug": "adobe-firefly",
-      "source_url": "https://www.youtube.com/watch?v=VPHYNOKbDXk",
-      "fallback_summary": "한 곳에서 이미지, 영상, 오디오를 편하게 생성할 수 있는 Adobe Firefly! ✨ 정교하게 수정도 할 수 있어서 원하는 방향성에 맞는 콘텐츠를 쉽게 만들 수 있었어요! 💕",
-      "description_excerpt": "한 곳에서 이미지, 영상, 오디오를 편하게 생성할 수 있는 Adobe Firefly! ✨ 정교하게 수정도 할 수 있어서 원하는 방향성에 맞는 콘텐츠를 쉽게 만들 수 있었어요! 💕",
-      "queued_at": "2026-11-11T05:52:47.029Z"
-    },
-    {
       "id": "youtube:JHYnBCqL-Dc",
       "needs_summary": true,
       "kind": "video",
@@ -720,18 +612,6 @@
       "source_url": "https://www.youtube.com/watch?v=mP2mWReIzck",
       "fallback_summary": "노트북을 덮었는데 일이 끝나 있었습니다. 폰으로 한 마디 보냈더니 컴퓨터 속 클로드가 파일까지 고쳐 놨어요. 요즘 너무 달라져서 다들 클로드 2.0이라고 부릅니다. 겉모습은 그대로라 모르고 지나치기 쉬운데, 이거 모르면 진짜 손해예요.",
       "description_excerpt": "노트북을 덮었는데 일이 끝나 있었습니다. 폰으로 한 마디 보냈더니 컴퓨터 속 클로드가 파일까지 고쳐 놨어요. 요즘 너무 달라져서 다들 클로드 2.0이라고 부릅니다. 겉모습은 그대로라 모르고 지나치기 쉬운데, 이거 모르면 진짜 손해예요.",
-      "queued_at": "2026-11-12T06:56:19.684Z"
-    },
-    {
-      "id": "youtube:VXssLbMGr0w",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "VXssLbMGr0w",
-      "title": "99%는 모르는 클로드 영상 제작법, 5분만에 영상 만드는 법 (프롬프트 제공)",
-      "category_slug": "claude",
-      "source_url": "https://www.youtube.com/watch?v=VXssLbMGr0w",
-      "fallback_summary": "영상 생성 툴 없이 클로드 하나로 애니메이션을 만들어 봤어요. X에서 화제가 된 모스 키퍼 방식을 오푸스 5.5로 따라 해 보고, 페이블 5.1과 비교한 다음, three.js 한마디로 퀄리티를 끌어올리는 것까지 보여드립니다. 코딩은 1도 몰라도 되고, 쓴 프롬프트는 고정댓글에 전부 정리해 뒀어요.",
-      "description_excerpt": "영상 생성 툴 없이 클로드 하나로 애니메이션을 만들어 봤어요. X에서 화제가 된 모스 키퍼 방식을 오푸스 5.5로 따라 해 보고, 페이블 5.1과 비교한 다음, three.js 한마디로 퀄리티를 끌어올리는 것까지 보여드립니다. 코딩은 1도 몰라도 되고, 쓴 프롬프트는 고정댓글에 전부 정리해 뒀어요.",
       "queued_at": "2026-11-12T06:56:19.684Z"
     },
     {
@@ -759,18 +639,6 @@
       "queued_at": "2026-11-12T06:56:44.769Z"
     },
     {
-      "id": "youtube:KZ6gTBdSr5s",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "KZ6gTBdSr5s",
-      "title": "SUNO AI 수익화, 진짜 돈 되는 방법 알려드립니다",
-      "category_slug": "suno",
-      "source_url": "https://www.youtube.com/watch?v=KZ6gTBdSr5s",
-      "fallback_summary": "\"프로에게 직접 배우는 미디 작곡,편곡\" 미디ㅣ작사ㅣ작곡ㅣ탑라이너ㅣ비트메이킹ㅣ입시ㅣ화성학 👇 미디(MIDI) 작 편곡 수강 접수 (Class) 👇 카카오톡 레슨 상담 :",
-      "description_excerpt": "\"프로에게 직접 배우는 미디 작곡,편곡\" 미디ㅣ작사ㅣ작곡ㅣ탑라이너ㅣ비트메이킹ㅣ입시ㅣ화성학 👇 미디(MIDI) 작 편곡 수강 접수 (Class) 👇 카카오톡 레슨 상담 :",
-      "queued_at": "2026-11-12T06:56:54.902Z"
-    },
-    {
       "id": "youtube:Jz6RJiHV8DI",
       "needs_summary": true,
       "kind": "video",
@@ -781,18 +649,6 @@
       "fallback_summary": "▶ 일레븐랩스 무료로 시작하기(제휴 링크, 가입·결제 시 채널이 수수료를 받을 수 있음):",
       "description_excerpt": "▶ 일레븐랩스 무료로 시작하기(제휴 링크, 가입·결제 시 채널이 수수료를 받을 수 있음):",
       "queued_at": "2026-11-12T06:56:57.161Z"
-    },
-    {
-      "id": "youtube:AWmeCiQt5BQ",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "AWmeCiQt5BQ",
-      "title": "HeyGen AI: 단 몇 분 만에 사실감 넘치는 AI 동영상 제작",
-      "category_slug": "heygen",
-      "source_url": "https://www.youtube.com/watch?v=AWmeCiQt5BQ",
-      "fallback_summary": "HeyGen을 통해 누구나 사실적인 목소리, 번역, 립싱크 기술을 활용해 전문적인 AI 아바타 동영상을 제작할 수 있는 방법을 알아보세요.",
-      "description_excerpt": "HeyGen을 통해 누구나 사실적인 목소리, 번역, 립싱크 기술을 활용해 전문적인 AI 아바타 동영상을 제작할 수 있는 방법을 알아보세요.",
-      "queued_at": "2026-11-12T06:56:59.498Z"
     },
     {
       "id": "youtube:0S-U3ZVGjbk",
@@ -843,18 +699,6 @@
       "queued_at": "2026-11-12T06:57:16.030Z"
     },
     {
-      "id": "youtube:AJhoYoayYX0",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "AJhoYoayYX0",
-      "title": "AI 이미지 생성 끝판왕! 어도비 신기능 찐후기 | AI 광고 영상 기획부터 완성까지",
-      "category_slug": "adobe-firefly",
-      "source_url": "https://www.youtube.com/watch?v=AJhoYoayYX0",
-      "fallback_summary": "이번 영상에서는 어도비 파이어플라이로 가상 브랜드 샴푸 광고를 기획부터 완성까지 혼자 만드는 과정을 전부 공개했어요!",
-      "description_excerpt": "이번 영상에서는 어도비 파이어플라이로 가상 브랜드 샴푸 광고를 기획부터 완성까지 혼자 만드는 과정을 전부 공개했어요!",
-      "queued_at": "2026-11-12T06:57:21.702Z"
-    },
-    {
       "id": "youtube:U1h5cSjI3b0",
       "needs_summary": true,
       "kind": "video",
@@ -891,30 +735,6 @@
       "queued_at": "2026-11-12T06:57:28.253Z"
     },
     {
-      "id": "youtube:b0uZgrG2r2I",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "b0uZgrG2r2I",
-      "title": "업무 자동화? 그록봇 5분이면 끝납니다. 왕초보도 활용할 수 있는 역대급 에이전트의 등장ㅣ그록봇 설치와 활용 방법 총정리",
-      "category_slug": "grok",
-      "source_url": "https://www.youtube.com/watch?v=b0uZgrG2r2I",
-      "fallback_summary": "🪙 27만 명이 선택한 무료 강의&뉴스레터 신청하기 (링크 : ) 💰 25만 AI 크리에이터가 알려주는 무료 AI 기초 클래스 (링크 : ) 🏦 2만 명이 다양한 AI 정보와 노하우, 활용법을 무료로 나누고 얻어가고 있는 카페 (링크 : ) 💬 3천 명이 AI에 대해 서로 물어보고 알려주며 성장하고 있는 무료 오픈채팅방 (링크 : )",
-      "description_excerpt": "🪙 27만 명이 선택한 무료 강의&뉴스레터 신청하기 (링크 : ) 💰 25만 AI 크리에이터가 알려주는 무료 AI 기초 클래스 (링크 : ) 🏦 2만 명이 다양한 AI 정보와 노하우, 활용법을 무료로 나누고 얻어가고 있는 카페 (링크 : ) 💬 3천 명이 AI에 대해 서로 물어보고 알려주며 성장하고 있는 무료 오픈채팅방 (링크 : )",
-      "queued_at": "2026-11-12T06:57:28.253Z"
-    },
-    {
-      "id": "youtube:v3BXI27iQuQ",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "v3BXI27iQuQ",
-      "title": "[🔴이슈를 켜라] [속보] \"남편과 함께 AI칩 中에 밀반입\"…앨리슨 황 꼬리무는 파묘에 미국 난리 / 채널A",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=v3BXI27iQuQ",
-      "fallback_summary": "중국 스파이 의혹을 받는 앨리스 황이 젠슨 황 엔비디아 최고경영자(CEO)와의 관계를 이용해 미국산 인공지능(AI) 반도체를 중국으로 들여온 것으로 나타났습니다.",
-      "description_excerpt": "중국 스파이 의혹을 받는 앨리스 황이 젠슨 황 엔비디아 최고경영자(CEO)와의 관계를 이용해 미국산 인공지능(AI) 반도체를 중국으로 들여온 것으로 나타났습니다.",
-      "queued_at": "2026-11-12T06:57:33.700Z"
-    },
-    {
       "id": "youtube:vDKcUneGS-8",
       "needs_summary": true,
       "kind": "video",
@@ -925,18 +745,6 @@
       "fallback_summary": "일하다보면 사람들이 종종 제가 매니저가 있는지, 비서 역할을 해주는 직원이 있는지 묻는 경우가 꽤 있습니다. 한때는 밀려서 놓치는 업무가 감당이 안돼서 진지하게 고려도 해봤지만 이제는 진짜 제가 유용하게 쓰고있는 Dots로 거의 커버가 가능하더라구요 ㄷㄷ 그래서 제가 평소에 어떻게 Dots를 활용하고 있는지 영상을 만들어 봤습니다!",
       "description_excerpt": "일하다보면 사람들이 종종 제가 매니저가 있는지, 비서 역할을 해주는 직원이 있는지 묻는 경우가 꽤 있습니다. 한때는 밀려서 놓치는 업무가 감당이 안돼서 진지하게 고려도 해봤지만 이제는 진짜 제가 유용하게 쓰고있는 Dots로 거의 커버가 가능하더라구요 ㄷㄷ 그래서 제가 평소에 어떻게 Dots를 활용하고 있는지 영상을 만들어 봤습니다!",
       "queued_at": "2026-11-13T06:18:52.449Z"
-    },
-    {
-      "id": "youtube:noXZqdPSooU",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "noXZqdPSooU",
-      "title": "한국 1%들이 몰래 쓰는 클로드코드 사용법",
-      "category_slug": "claude",
-      "source_url": "https://www.youtube.com/watch?v=noXZqdPSooU",
-      "fallback_summary": "철학자가 되고 싶은 한 사람의 도전기를 지켜봐주세요.",
-      "description_excerpt": "철학자가 되고 싶은 한 사람의 도전기를 지켜봐주세요.",
-      "queued_at": "2026-11-13T06:18:56.751Z"
     },
     {
       "id": "youtube:L2miLw66jAI",
@@ -975,18 +783,6 @@
       "queued_at": "2026-11-13T06:19:08.621Z"
     },
     {
-      "id": "youtube:Rd6FhJmrV0M",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Rd6FhJmrV0M",
-      "title": "2026년 11월 최신판 힉스필드 활용 가이드 | 2026년, 2027년 힉스필드 이렇게만 써보세요",
-      "category_slug": "higgsfield",
-      "source_url": "https://www.youtube.com/watch?v=Rd6FhJmrV0M",
-      "fallback_summary": "오늘은 2026년 11월 버전으로 힉스필드 AI 활용 팁을 풀어봤습니다 현재 AI 이미지, 영상 분야에서는 압도적인 회사로 성장중인데요 :) 참고하셔서 어떤 모델을 어떻게 활용해야하는지 꿀팁 얻어가세요 !",
-      "description_excerpt": "오늘은 2026년 11월 버전으로 힉스필드 AI 활용 팁을 풀어봤습니다 현재 AI 이미지, 영상 분야에서는 압도적인 회사로 성장중인데요 :) 참고하셔서 어떤 모델을 어떻게 활용해야하는지 꿀팁 얻어가세요 !",
-      "queued_at": "2026-11-13T06:19:19.147Z"
-    },
-    {
       "id": "youtube:XGiZurFamv0",
       "needs_summary": true,
       "kind": "video",
@@ -1009,30 +805,6 @@
       "fallback_summary": "힉스필드가 통째로 공개한 AI 장편 영화 두 편의 제작 기록과, 한국 플랫폼에서 제작 과정이 드러난 중국 숏드라마 팀의 작업물에서 씨댄스(Seedance) 2.5 사용법 다섯 가지를 뽑아 정리했습니다.",
       "description_excerpt": "힉스필드가 통째로 공개한 AI 장편 영화 두 편의 제작 기록과, 한국 플랫폼에서 제작 과정이 드러난 중국 숏드라마 팀의 작업물에서 씨댄스(Seedance) 2.5 사용법 다섯 가지를 뽑아 정리했습니다.",
       "queued_at": "2026-11-13T06:19:22.199Z"
-    },
-    {
-      "id": "youtube:ScGdM3Ep9Tk",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "ScGdM3Ep9Tk",
-      "title": "How to Make AI Videos with Seedance AI in 2026 (AI Filmmaking Tutorial)",
-      "category_slug": "seedance",
-      "source_url": "https://www.youtube.com/watch?v=ScGdM3Ep9Tk",
-      "fallback_summary": "Try Topview for free!",
-      "description_excerpt": "Try Topview for free!",
-      "queued_at": "2026-11-13T06:19:23.874Z"
-    },
-    {
-      "id": "youtube:-Yqib0wWtdI",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "-Yqib0wWtdI",
-      "title": "How to Use HeyGen AI in 2026 (Beginner Guide)",
-      "category_slug": "heygen",
-      "source_url": "https://www.youtube.com/watch?v=-Yqib0wWtdI",
-      "fallback_summary": "Create AI avatars with HeyGen 👉",
-      "description_excerpt": "Create AI avatars with HeyGen 👉",
-      "queued_at": "2026-11-13T06:19:38.871Z"
     },
     {
       "id": "youtube:OHZC19qtqUo",
@@ -1095,30 +867,6 @@
       "queued_at": "2026-11-13T06:20:00.433Z"
     },
     {
-      "id": "youtube:cH9ag0hNab0",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "cH9ag0hNab0",
-      "title": "사진, PDF → 엑셀 변환, 이제 코파일럿으로 해결하세요 #코파일럿 #직장인꿀팁",
-      "category_slug": "copilot",
-      "source_url": "https://www.youtube.com/watch?v=cH9ag0hNab0",
-      "fallback_summary": "🚀사진, PDF 엑셀로 변환! 코파일럿 사용법 ① 엑셀로 변환할 사진 또는 PDF 파일을 실행합니다. ② Win + Shift + S 를 눌러 캡처도구를 실행한 후, 엑셀로 추출할 데이터가 있는 영역을 드래그합니다. ③ 편집기 중간의 '텍스트 작업' 버튼을 클릭하여 사진 속 텍스트를 추출하고, [모든 텍스트 복사] 버튼을 클릭해서 텍스트를 복사합니다. ④ Win + C 를 눌러 코파일럿을 실행한 후, 복사한 텍스트를 붙여넣고 영상 댓글에 남겨드린 프롬프트를 작성 후 채팅을 실행합니다. ⑤ 사진 속 데이터가 표 형식으로 깔끔하게 정리됩니다. 이제 완성된 표를 엑셀에 바로 붙여넣기 해서 사용해보세요! :)",
-      "description_excerpt": "🚀사진, PDF 엑셀로 변환! 코파일럿 사용법 ① 엑셀로 변환할 사진 또는 PDF 파일을 실행합니다. ② Win + Shift + S 를 눌러 캡처도구를 실행한 후, 엑셀로 추출할 데이터가 있는 영역을 드래그합니다. ③ 편집기 중간의 '텍스트 작업' 버튼을 클릭하여 사진 속 텍스트를 추출하고, [모든 텍스트 복사] 버튼을 클릭해서 텍스트를 복사합니다. ④ Win + C 를 눌러 코파일럿을 실행한 후, 복사한 텍스트를 붙여넣고 영상 댓글에 남겨드린 프롬프트를 작성 후 채팅을 실행합니다. ⑤ 사진 속 데이터가 표 형식으로 깔끔하게 정리됩니다. 이제 완성된 표를 엑셀에 바로 붙여넣기 해서 사용해보세요! :)",
-      "queued_at": "2026-11-13T06:20:01.897Z"
-    },
-    {
-      "id": "youtube:Vlr7uu0ePP0",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Vlr7uu0ePP0",
-      "title": "AI 절대적 존재의 몰락…산업계 '대혼돈' 위기 [지금이뉴스] / YTN",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=Vlr7uu0ePP0",
-      "fallback_summary": "젠슨 황 엔비디아 최고경영자(CEO)가 중국 스파이까지 연루된 잇단 불륜 의혹으로 12일(현지시간) 자리에서 물러나면서 엔비디아는 물론 인공지능(AI) 산업 전반에까지 큰 파장이 예상됩니다.",
-      "description_excerpt": "젠슨 황 엔비디아 최고경영자(CEO)가 중국 스파이까지 연루된 잇단 불륜 의혹으로 12일(현지시간) 자리에서 물러나면서 엔비디아는 물론 인공지능(AI) 산업 전반에까지 큰 파장이 예상됩니다.",
-      "queued_at": "2026-11-13T06:20:03.789Z"
-    },
-    {
       "id": "youtube:PwrkGvr4uTI",
       "needs_summary": true,
       "kind": "video",
@@ -1129,18 +877,6 @@
       "fallback_summary": "올해 세무사 시험 수석 합격자가, 스마트 안경을 사용했단 의혹이 제기됐습니다.",
       "description_excerpt": "올해 세무사 시험 수석 합격자가, 스마트 안경을 사용했단 의혹이 제기됐습니다.",
       "queued_at": "2026-11-13T06:20:03.789Z"
-    },
-    {
-      "id": "youtube:o9a9pUyx8pE",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "o9a9pUyx8pE",
-      "title": "세무사 시험서 100점에 AI 안경 의혹 제기 [자막뉴스] / 채널A",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=o9a9pUyx8pE",
-      "fallback_summary": "제63회 세무사 자격시험 수석 합격자 A씨의 성적을 두고 인공지능(AI) 안경을 사용한 것 아니냐는 의혹이 SNS에서 끊임 없이 제기 되고 있습니다.",
-      "description_excerpt": "제63회 세무사 자격시험 수석 합격자 A씨의 성적을 두고 인공지능(AI) 안경을 사용한 것 아니냐는 의혹이 SNS에서 끊임 없이 제기 되고 있습니다.",
-      "queued_at": "2026-11-13T06:20:05.688Z"
     },
     {
       "id": "youtube:vbqR91k-mVg",
@@ -1155,18 +891,6 @@
       "queued_at": "2026-11-14T06:00:04.901Z"
     },
     {
-      "id": "youtube:iY-px5zjyBc",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "iY-px5zjyBc",
-      "title": "제미나이 스파크(Spark) 사용법 12분만에 마스터ㅣ구글이 만든 자동화 AI 에이전트",
-      "category_slug": "gemini",
-      "source_url": "https://www.youtube.com/watch?v=iY-px5zjyBc",
-      "fallback_summary": "제미나이 스파크 12분으로 사용법 마스터 하세요",
-      "description_excerpt": "제미나이 스파크 12분으로 사용법 마스터 하세요",
-      "queued_at": "2026-11-14T06:00:08.672Z"
-    },
-    {
       "id": "youtube:4pQvjxmqZWc",
       "needs_summary": true,
       "kind": "video",
@@ -1177,66 +901,6 @@
       "fallback_summary": "현시점 4대장 AI 툴, 이 영상 하나로 마스터 하세요",
       "description_excerpt": "현시점 4대장 AI 툴, 이 영상 하나로 마스터 하세요",
       "queued_at": "2026-11-14T06:00:11.835Z"
-    },
-    {
-      "id": "youtube:_mRWHT502Ig",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "_mRWHT502Ig",
-      "title": "챗GPT 프롬프트 작성법 | 초보자는 이 1가지만 무조건 연습하세요.",
-      "category_slug": "wrtn",
-      "source_url": "https://www.youtube.com/watch?v=_mRWHT502Ig",
-      "fallback_summary": "그코 AI 커뮤니티:",
-      "description_excerpt": "그코 AI 커뮤니티:",
-      "queued_at": "2026-11-14T06:00:15.317Z"
-    },
-    {
-      "id": "youtube:T0IQIEDhtUY",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "T0IQIEDhtUY",
-      "title": "[영상AI]런웨이(Ruwnay) 신기능 사용법  2분 요약 (2025.Ver)ㅣ 이 영상만 따라하세요",
-      "category_slug": "runway",
-      "source_url": "https://www.youtube.com/watch?v=T0IQIEDhtUY",
-      "fallback_summary": "2025년에 새롭게 생긴 런웨이(runway) AI의 신기능들을 소개합니다. (Act-One, Franes, Gen3 Alpha, Turbo, Camera Control 등)",
-      "description_excerpt": "2025년에 새롭게 생긴 런웨이(runway) AI의 신기능들을 소개합니다. (Act-One, Franes, Gen3 Alpha, Turbo, Camera Control 등)",
-      "queued_at": "2026-11-14T06:00:21.716Z"
-    },
-    {
-      "id": "youtube:Eo6QgcoJJe8",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Eo6QgcoJJe8",
-      "title": "런웨이 마스터: 20분만에 런웨이로 AI영상 만드는 법",
-      "category_slug": "runway",
-      "source_url": "https://www.youtube.com/watch?v=Eo6QgcoJJe8",
-      "fallback_summary": "[네이버카페] 알면좋을AI공학 : (더 많은 소식과 궁금증과 해결책을 공유하기 위해 네이버 카페를 개설했습니다.)",
-      "description_excerpt": "[네이버카페] 알면좋을AI공학 : (더 많은 소식과 궁금증과 해결책을 공유하기 위해 네이버 카페를 개설했습니다.)",
-      "queued_at": "2026-11-14T06:00:21.716Z"
-    },
-    {
-      "id": "youtube:eeWVK76_Juk",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "eeWVK76_Juk",
-      "title": "AI 드라마는 이렇게 만듭니다! 너무 쉬운데 완성도 높은 드라마 만들기!｜힉스필드로 한방에!",
-      "category_slug": "higgsfield",
-      "source_url": "https://www.youtube.com/watch?v=eeWVK76_Juk",
-      "fallback_summary": "Higgsfield 바로가기:",
-      "description_excerpt": "Higgsfield 바로가기:",
-      "queued_at": "2026-11-14T06:00:25.516Z"
-    },
-    {
-      "id": "youtube:yH8xSO7tYt0",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "yH8xSO7tYt0",
-      "title": "AI 영상 제작 튜토리얼 - 캐릭터 시트 만드는 법 | GPT Image / Higgsfield soul",
-      "category_slug": "higgsfield",
-      "source_url": "https://www.youtube.com/watch?v=yH8xSO7tYt0",
-      "fallback_summary": "Higgsfield:",
-      "description_excerpt": "Higgsfield:",
-      "queued_at": "2026-11-14T06:00:27.087Z"
     },
     {
       "id": "youtube:hhzN2C-qHpE",
@@ -1256,23 +920,11 @@
       "kind": "video",
       "youtube_id": "mpMo2GIynHw",
       "title": "무료 AI 영상 무제한으로 만드는 방법｜힉스필드 활용법까지",
-      "category_slug": "higgsfield",
+      "category_slug": "kling",
       "source_url": "https://www.youtube.com/watch?v=mpMo2GIynHw",
       "fallback_summary": "무료 AI 영상 무제한으로 만드는 방법｜힉스필드 활용법까지 @돈디AI",
       "description_excerpt": "무료 AI 영상 무제한으로 만드는 방법｜힉스필드 활용법까지 @돈디AI",
       "queued_at": "2026-11-14T06:00:30.144Z"
-    },
-    {
-      "id": "youtube:pjOQBZklyH0",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "pjOQBZklyH0",
-      "title": "Seedance 2.5: The Most Realistic AI Video You'll Ever See🤯",
-      "category_slug": "seedance",
-      "source_url": "https://www.youtube.com/watch?v=pjOQBZklyH0",
-      "fallback_summary": "Seedance 2.5: The Most Realistic AI Video You'll Ever See🤯: Create Seedance videos with Vmake Labs AI Video Generator:",
-      "description_excerpt": "Seedance 2.5: The Most Realistic AI Video You'll Ever See🤯: Create Seedance videos with Vmake Labs AI Video Generator:",
-      "queued_at": "2026-11-14T06:00:32.634Z"
     },
     {
       "id": "youtube:rQck-93jOKc",
@@ -1287,18 +939,6 @@
       "queued_at": "2026-11-14T06:00:34.099Z"
     },
     {
-      "id": "youtube:URU2hqiOn9w",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "URU2hqiOn9w",
-      "title": "[Kling] 2025년 클링 AI의 모든 기능 [입문자 필수!]",
-      "category_slug": "kling",
-      "source_url": "https://www.youtube.com/watch?v=URU2hqiOn9w",
-      "fallback_summary": "누구나 사진 한 장으로 전문 크리에이터급 영상을 만들 수 있는 클링 AI! 최신 기능을 실전 테스트로 모두 다뤄봤습니다.",
-      "description_excerpt": "누구나 사진 한 장으로 전문 크리에이터급 영상을 만들 수 있는 클링 AI! 최신 기능을 실전 테스트로 모두 다뤄봤습니다.",
-      "queued_at": "2026-11-14T06:00:36.300Z"
-    },
-    {
       "id": "youtube:ekelpPtyy7o",
       "needs_summary": true,
       "kind": "video",
@@ -1309,42 +949,6 @@
       "fallback_summary": "VREW로 무료 AI 목소리 영상을 만드는 방법을 알려드립니다. 대본 입력부터 AI 내레이션, 자막, 영상 완성까지 영상 초보자도 그대로 따라할 수 있게 하나씩 보여드립니다.",
       "description_excerpt": "VREW로 무료 AI 목소리 영상을 만드는 방법을 알려드립니다. 대본 입력부터 AI 내레이션, 자막, 영상 완성까지 영상 초보자도 그대로 따라할 수 있게 하나씩 보여드립니다.",
       "queued_at": "2026-11-14T06:00:39.749Z"
-    },
-    {
-      "id": "youtube:HKE8tivl2LE",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "HKE8tivl2LE",
-      "title": "브루(Vrew)를 활용한 쉽고 편한 유튜브 영상편집 - 01 프로젝트 만들기",
-      "category_slug": "vrew",
-      "source_url": "https://www.youtube.com/watch?v=HKE8tivl2LE",
-      "fallback_summary": "브루(Vrew)를 활용한 쉽고 편한 유튜브 영상편집 - 01차시 : 프로젝트 만들기",
-      "description_excerpt": "브루(Vrew)를 활용한 쉽고 편한 유튜브 영상편집 - 01차시 : 프로젝트 만들기",
-      "queued_at": "2026-11-14T06:00:39.749Z"
-    },
-    {
-      "id": "youtube:KNaxmODXWGk",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "KNaxmODXWGk",
-      "title": "Is HeyGen's AI Video Agent ACTUALLY Good?",
-      "category_slug": "heygen",
-      "source_url": "https://www.youtube.com/watch?v=KNaxmODXWGk",
-      "fallback_summary": "Access HeyGen 👉",
-      "description_excerpt": "Access HeyGen 👉",
-      "queued_at": "2026-11-14T06:00:48.705Z"
-    },
-    {
-      "id": "youtube:tDVmn5ChJ9s",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "tDVmn5ChJ9s",
-      "title": "The Best AI Avatar Generator in 2026 (Full HeyGen Tutorial)",
-      "category_slug": "heygen",
-      "source_url": "https://www.youtube.com/watch?v=tDVmn5ChJ9s",
-      "fallback_summary": "Looking for the best AI avatar generator in 2026? This complete HeyGen tutorial shows you how to create a realistic talking AI avatar and turn a written script into a finished video.",
-      "description_excerpt": "Looking for the best AI avatar generator in 2026? This complete HeyGen tutorial shows you how to create a realistic talking AI avatar and turn a written script into a finished video.",
-      "queued_at": "2026-11-14T06:00:48.705Z"
     },
     {
       "id": "youtube:0jzQEpF0oEI",
@@ -1371,18 +975,6 @@
       "queued_at": "2026-11-14T06:00:55.884Z"
     },
     {
-      "id": "youtube:HXhXel3QFI0",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "HXhXel3QFI0",
-      "title": "PPT 노가다를 종말시킬, 진짜 ‘AI PPT’는 이거였습니다.",
-      "category_slug": "gamma",
-      "source_url": "https://www.youtube.com/watch?v=HXhXel3QFI0",
-      "fallback_summary": "PPT 유튜버로써 약 3년간 30개 이상의 AI PPT툴을 써보고 내린 결론입니다. PPT 노가다를 종말시킬, 진짜 'AI PPT'는 이거였습니다.",
-      "description_excerpt": "PPT 유튜버로써 약 3년간 30개 이상의 AI PPT툴을 써보고 내린 결론입니다. PPT 노가다를 종말시킬, 진짜 'AI PPT'는 이거였습니다.",
-      "queued_at": "2026-11-14T06:01:01.280Z"
-    },
-    {
       "id": "youtube:OuRF9llEM8U",
       "needs_summary": true,
       "kind": "video",
@@ -1393,18 +985,6 @@
       "fallback_summary": "● 3분엑셀 풀강의",
       "description_excerpt": "● 3분엑셀 풀강의",
       "queued_at": "2026-11-14T06:01:02.994Z"
-    },
-    {
-      "id": "youtube:G_arORBb6zc",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "G_arORBb6zc",
-      "title": "노트북LM 7가지만 알면 상위 2%가 될 수 있습니다",
-      "category_slug": "notebooklm",
-      "source_url": "https://www.youtube.com/watch?v=G_arORBb6zc",
-      "fallback_summary": "구글이 공개한 역대급 AI 리서치 도구 NotebookLM, 단순히 파일만 업로드해서 질문하고 계셨나요? 그렇다면 이 도구의 진정한 가치를 아직 발견하지 못하신 거랍니다.",
-      "description_excerpt": "구글이 공개한 역대급 AI 리서치 도구 NotebookLM, 단순히 파일만 업로드해서 질문하고 계셨나요? 그렇다면 이 도구의 진정한 가치를 아직 발견하지 못하신 거랍니다.",
-      "queued_at": "2026-11-14T06:01:04.565Z"
     },
     {
       "id": "youtube:HxB8DKJZmvQ",
@@ -1419,30 +999,6 @@
       "queued_at": "2026-11-14T06:01:06.392Z"
     },
     {
-      "id": "youtube:3b_PAhL9cXo",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "3b_PAhL9cXo",
-      "title": "딥시크 V4.1 개선판 공개...놀라운 성능 · 가격",
-      "category_slug": "deepseek",
-      "source_url": "https://www.youtube.com/watch?v=3b_PAhL9cXo",
-      "fallback_summary": "=============================================== 💡수익내기 어려운 주식 시장! 쩜상 수익률을 얻고 싶다면? 📌1. 유튜브 멤버십 가입 후 / @tomatotv_official 📌2. 쩜상 회원 등록 1번 2번 차례대로 진행하면 쩜상 수익률 얻을 특별한 정보와 더불어 선물까지~! ===============================================",
-      "description_excerpt": "=============================================== 💡수익내기 어려운 주식 시장! 쩜상 수익률을 얻고 싶다면? 📌1. 유튜브 멤버십 가입 후 / @tomatotv_official 📌2. 쩜상 회원 등록 1번 2번 차례대로 진행하면 쩜상 수익률 얻을 특별한 정보와 더불어 선물까지~! ===============================================",
-      "queued_at": "2026-11-14T06:01:06.393Z"
-    },
-    {
-      "id": "youtube:o_7TrdXt4U4",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "o_7TrdXt4U4",
-      "title": "Lovable Full Tutorial for Beginners: How to Build a Mobile App",
-      "category_slug": "lovable",
-      "source_url": "https://www.youtube.com/watch?v=o_7TrdXt4U4",
-      "fallback_summary": "✅ Claim your FREE $499 Masterclass: Build & Sell Apps, AI Agents & Websites with AI",
-      "description_excerpt": "✅ Claim your FREE $499 Masterclass: Build & Sell Apps, AI Agents & Websites with AI",
-      "queued_at": "2026-11-14T06:01:10.919Z"
-    },
-    {
       "id": "youtube:gosLGbyoOlQ",
       "needs_summary": true,
       "kind": "video",
@@ -1453,18 +1009,6 @@
       "fallback_summary": "무료 AI 영상 만드는 방법｜진짜처럼 만드는 힉스필드 활용법까지",
       "description_excerpt": "무료 AI 영상 만드는 방법｜진짜처럼 만드는 힉스필드 활용법까지",
       "queued_at": "2026-11-14T06:01:15.351Z"
-    },
-    {
-      "id": "youtube:dcqz0ZIQ-wA",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "dcqz0ZIQ-wA",
-      "title": "[Manufacturing NEXT] RX Ep4- 사람과 로봇의 구조가 다른데, 어떻게 같은 작업을 할까? #미라콤아이앤씨 #제조RX #리타게팅",
-      "category_slug": "typecast",
-      "source_url": "https://www.youtube.com/watch?v=dcqz0ZIQ-wA",
-      "fallback_summary": "휴머노이드 로봇은 사람과 다른 구조를 가지고 있습니다.",
-      "description_excerpt": "휴머노이드 로봇은 사람과 다른 구조를 가지고 있습니다.",
-      "queued_at": "2026-11-14T06:01:18.404Z"
     },
     {
       "id": "youtube:u4ic31KnUuk",
@@ -1503,18 +1047,6 @@
       "queued_at": "2026-11-14T06:01:26.461Z"
     },
     {
-      "id": "youtube:j8TLbUmuVS8",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "j8TLbUmuVS8",
-      "title": "불륜에 무너진 AI 황제...젠슨 황 \"난 쓰레기\" 자책 [이슈ON]  / YTN",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=j8TLbUmuVS8",
-      "fallback_summary": "■ 진행 : 이하린 앵커, 이정섭 앵커 ■ 출연 : 정철진 경제평론가",
-      "description_excerpt": "■ 진행 : 이하린 앵커, 이정섭 앵커 ■ 출연 : 정철진 경제평론가",
-      "queued_at": "2026-11-14T06:01:27.929Z"
-    },
-    {
       "id": "youtube:Ugk-jNwL0F4",
       "needs_summary": true,
       "kind": "video",
@@ -1527,40 +1059,496 @@
       "queued_at": "2026-11-14T06:01:29.550Z"
     },
     {
-      "id": "youtube:i3aPeKf2FPQ",
+      "id": "youtube:Z2alL7ve3bg",
       "needs_summary": true,
       "kind": "video",
-      "youtube_id": "i3aPeKf2FPQ",
-      "title": "[단독]공인중개사 시험서도 AI 안경 논란…검사 제각각 / 채널A / 뉴스A",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=i3aPeKf2FPQ",
-      "fallback_summary": "[단독]공인중개사 시험서도 AI 안경 논란…검사 제각각",
-      "description_excerpt": "[단독]공인중개사 시험서도 AI 안경 논란…검사 제각각",
-      "queued_at": "2026-11-14T06:01:31.217Z"
+      "youtube_id": "Z2alL7ve3bg",
+      "title": "역대급 클로드 실전 사용법 2027",
+      "category_slug": "claude",
+      "source_url": "https://www.youtube.com/watch?v=Z2alL7ve3bg",
+      "fallback_summary": "클로드 사용법 강의를 여러 번 봤는데도 막상 무엇을 시켜야 할지 모르셨나요?",
+      "description_excerpt": "클로드 사용법 강의를 여러 번 봤는데도 막상 무엇을 시켜야 할지 모르셨나요?",
+      "queued_at": "2026-11-15T06:04:06.120Z"
     },
     {
-      "id": "youtube:byyoTHQEyWQ",
+      "id": "youtube:8HnL9eBZD0M",
       "needs_summary": true,
       "kind": "video",
-      "youtube_id": "byyoTHQEyWQ",
-      "title": "[이슈] \"딱 하나 틀려\" 세무사 수석 'AI 안경' 의혹 / 갑자기 폭증한 천재들...수능 코앞 '비상'/2026년 11월 13일(금)/KBS",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=byyoTHQEyWQ",
-      "fallback_summary": "세무사 시험 수석 합격자의 'AI 스마트 안경 부정행위 의혹'과 관련해 주관 기관인 한국산업인력공단이 사실관계 확인에 나섰습니다.",
-      "description_excerpt": "세무사 시험 수석 합격자의 'AI 스마트 안경 부정행위 의혹'과 관련해 주관 기관인 한국산업인력공단이 사실관계 확인에 나섰습니다.",
-      "queued_at": "2026-11-14T06:01:31.217Z"
+      "youtube_id": "8HnL9eBZD0M",
+      "title": "클로드 쓰고 있다면 무조건 알아야 되는 클로드 아티팩트 2.0 신기능",
+      "category_slug": "claude",
+      "source_url": "https://www.youtube.com/watch?v=8HnL9eBZD0M",
+      "fallback_summary": "클로드 아티팩트 활용법을 통해 문서, 슬라이드, 디자인 작업을 획기적으로 줄이는 5가지 방법을 소개합니다. 복잡한 업무를 자동화하고 생산성을 높이는 실전 노하우를 확인해 보세요.",
+      "description_excerpt": "클로드 아티팩트 활용법을 통해 문서, 슬라이드, 디자인 작업을 획기적으로 줄이는 5가지 방법을 소개합니다. 복잡한 업무를 자동화하고 생산성을 높이는 실전 노하우를 확인해 보세요.",
+      "queued_at": "2026-11-15T06:04:06.120Z"
     },
     {
-      "id": "youtube:lWoiJ7HAiPw",
+      "id": "youtube:V33Sqr3FA_I",
       "needs_summary": true,
       "kind": "video",
-      "youtube_id": "lWoiJ7HAiPw",
-      "title": "수능 앞두고 'AI 안경' 비상..\"엄정 대응\" 경고 / SBS / 모아보는 뉴스",
+      "youtube_id": "V33Sqr3FA_I",
+      "title": "상위 1%처럼 제미나이 쓰는 법 : 업무 활용 7가지 ｜프롬프트 무료 배포",
+      "category_slug": "gemini",
+      "source_url": "https://www.youtube.com/watch?v=V33Sqr3FA_I",
+      "fallback_summary": "Gemini, 아직도 챗봇으로만 쓰시나요?",
+      "description_excerpt": "Gemini, 아직도 챗봇으로만 쓰시나요?",
+      "queued_at": "2026-11-15T06:04:09.709Z"
+    },
+    {
+      "id": "youtube:6IcNWglus1g",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "6IcNWglus1g",
+      "title": "AI 심화 도구 활용ㅣ소상공인AI 상생협업교육 뤼튼(Wrtn)",
+      "category_slug": "wrtn",
+      "source_url": "https://www.youtube.com/watch?v=6IcNWglus1g",
+      "fallback_summary": "13:00-15:00 생성형AI 입문 및 프롬프팅 기초ㅣ소상공인AI 상생협업교육 뤼튼(Wrtn) 16:00-18:00 AI 심화 도구 활용ㅣ소상공인AI 상생협업교육 뤼튼(Wrtn)",
+      "description_excerpt": "13:00-15:00 생성형AI 입문 및 프롬프팅 기초ㅣ소상공인AI 상생협업교육 뤼튼(Wrtn) 16:00-18:00 AI 심화 도구 활용ㅣ소상공인AI 상생협업교육 뤼튼(Wrtn)",
+      "queued_at": "2026-11-15T06:04:12.628Z"
+    },
+    {
+      "id": "youtube:84Xq6sZWW88",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "84Xq6sZWW88",
+      "title": "AI 최신 이미지툴 8개 전부 비교분석 ｜미드저니·나노바나나·GPT이미지2·메타이미지·그록·시드림5.0프로·Recraft·힉스필드 소울 (1분30초)",
+      "category_slug": "midjourney",
+      "source_url": "https://www.youtube.com/watch?v=84Xq6sZWW88",
+      "fallback_summary": "AI 이미지툴, 감성은 다 잡았는데 한글은요? 8개 전부에 똑같은 프롬프트를 넣어봤습니다.",
+      "description_excerpt": "AI 이미지툴, 감성은 다 잡았는데 한글은요? 8개 전부에 똑같은 프롬프트를 넣어봤습니다.",
+      "queued_at": "2026-11-15T06:04:15.876Z"
+    },
+    {
+      "id": "youtube:DHJw4OcuRqc",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "DHJw4OcuRqc",
+      "title": "AI 영상, 제발 그만 결제하세요. 100만 원 아껴주는 '올인원' AI, 이걸로 종결합니다",
+      "category_slug": "runway",
+      "source_url": "https://www.youtube.com/watch?v=DHJw4OcuRqc",
+      "fallback_summary": "👇 영상만 만들면 끝? 돈 버는 유튜브는 ‘이 5가지’부터 시작하세요 👇",
+      "description_excerpt": "👇 영상만 만들면 끝? 돈 버는 유튜브는 ‘이 5가지’부터 시작하세요 👇",
+      "queued_at": "2026-11-15T06:04:19.660Z"
+    },
+    {
+      "id": "youtube:QaG-biWIy3c",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "QaG-biWIy3c",
+      "title": "How to Make Your First AI Video with Higgsfield AI!",
+      "category_slug": "higgsfield",
+      "source_url": "https://www.youtube.com/watch?v=QaG-biWIy3c",
+      "fallback_summary": "Create Your Own AI Videos 👉",
+      "description_excerpt": "Create Your Own AI Videos 👉",
+      "queued_at": "2026-11-15T06:04:22.696Z"
+    },
+    {
+      "id": "youtube:Zqn1j4fIVNQ",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "Zqn1j4fIVNQ",
+      "title": "영상AI 초보자를 위한, 힉스필드 7분 튜토리얼 (Higgsfield)",
+      "category_slug": "higgsfield",
+      "source_url": "https://www.youtube.com/watch?v=Zqn1j4fIVNQ",
+      "fallback_summary": "최대 50% 할인으로, 올인원AI 힉스필드 바로 사용하기:",
+      "description_excerpt": "최대 50% 할인으로, 올인원AI 힉스필드 바로 사용하기:",
+      "queued_at": "2026-11-15T06:04:25.800Z"
+    },
+    {
+      "id": "youtube:FRukXPBqlNo",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "FRukXPBqlNo",
+      "title": "Seedance 2.5 4K Just Made AI Creatures Look Ultra Realistic! (Free Claude Skill)",
+      "category_slug": "seedance",
+      "source_url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
+      "fallback_summary": "👉 All Prompts + Claude Skills: 🎁 The biggest discount of the year: 🧩Try Higgsfield MCP:",
+      "description_excerpt": "👉 All Prompts + Claude Skills: 🎁 The biggest discount of the year: 🧩Try Higgsfield MCP:",
+      "queued_at": "2026-11-15T06:04:29.902Z"
+    },
+    {
+      "id": "youtube:IqCdzY-aPSQ",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "IqCdzY-aPSQ",
+      "title": "Seedance2.5 vs Seedance 2.0 결과물 비교!! 시댄스2.5 무제한 사용 꿀팁",
+      "category_slug": "seedance",
+      "source_url": "https://www.youtube.com/watch?v=IqCdzY-aPSQ",
+      "fallback_summary": "* 지금 Topview AI 를 구독하고 시댄스2.5 & 2.0 - 60일 무제한 혜택을 받으세요!",
+      "description_excerpt": "* 지금 Topview AI 를 구독하고 시댄스2.5 & 2.0 - 60일 무제한 혜택을 받으세요!",
+      "queued_at": "2026-11-15T06:04:29.903Z"
+    },
+    {
+      "id": "youtube:zIwN0UAakZo",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "zIwN0UAakZo",
+      "title": "Seedance 2.0 클링은 이제안씀 시댄스가 짱이다",
+      "category_slug": "seedance",
+      "source_url": "https://www.youtube.com/watch?v=zIwN0UAakZo",
+      "fallback_summary": ".0 .0",
+      "description_excerpt": ".0 .0",
+      "queued_at": "2026-11-15T06:04:31.322Z"
+    },
+    {
+      "id": "youtube:pDX_J37-M7Y",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "pDX_J37-M7Y",
+      "title": "Kling 3.0, AI 영상 무료 생성",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=pDX_J37-M7Y",
+      "fallback_summary": "👍 추천 영상 모음 재생목록 👍",
+      "description_excerpt": "👍 추천 영상 모음 재생목록 👍",
+      "queued_at": "2026-11-15T06:04:36.462Z"
+    },
+    {
+      "id": "youtube:R3QZCdrQevg",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "R3QZCdrQevg",
+      "title": "'구독료 0원' 2026년 AI 영상 제작, '이 툴'이면 평생 결제할 일 없습니다. 무료 AI 도구 TOP5",
+      "category_slug": "kling",
+      "source_url": "https://www.youtube.com/watch?v=R3QZCdrQevg",
+      "fallback_summary": "👉 누구나 쉽게 영상 편집을 할 수 있는 AI 영상 편집 필모라 :",
+      "description_excerpt": "👉 누구나 쉽게 영상 편집을 할 수 있는 AI 영상 편집 필모라 :",
+      "queued_at": "2026-11-15T06:04:38.118Z"
+    },
+    {
+      "id": "youtube:rdVGOKIpqPw",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "rdVGOKIpqPw",
+      "title": "더이상 무시할 수 없는 캡컷… 기능 미쳤네요",
+      "category_slug": "capcut",
+      "source_url": "https://www.youtube.com/watch?v=rdVGOKIpqPw",
+      "fallback_summary": "*3월에 제작된 영상으로 그간 캡컷에 대해 이슈가 있었으나 어느정도 정리되었습니다! ( 그나저나 캡컷 계속 좋아지네요...",
+      "description_excerpt": "*3월에 제작된 영상으로 그간 캡컷에 대해 이슈가 있었으나 어느정도 정리되었습니다! ( 그나저나 캡컷 계속 좋아지네요...",
+      "queued_at": "2026-11-15T06:04:39.736Z"
+    },
+    {
+      "id": "youtube:1bDBitWhKr4",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "1bDBitWhKr4",
+      "title": "왕초보자를 위한 브루 사용법 2027 | 쇼츠 영상 편집을 위한 14단계 완벽가이드",
+      "category_slug": "vrew",
+      "source_url": "https://www.youtube.com/watch?v=1bDBitWhKr4",
+      "fallback_summary": "브루 바로가기: 그린코끼리 커뮤니티 바로가기:",
+      "description_excerpt": "브루 바로가기: 그린코끼리 커뮤니티 바로가기:",
+      "queued_at": "2026-11-15T06:04:43.248Z"
+    },
+    {
+      "id": "youtube:C6D3rPEQXjI",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "C6D3rPEQXjI",
+      "title": "30초면 끝! 50·60대도 무료로 AI 음악 만드는 법",
+      "category_slug": "suno",
+      "source_url": "https://www.youtube.com/watch?v=C6D3rPEQXjI",
+      "fallback_summary": "요즘 전 세계에서 가장 많이 사용하는 Suno AI 노래만들기 방법, 오늘 영상 하나로 완전 정리해드립니다.",
+      "description_excerpt": "요즘 전 세계에서 가장 많이 사용하는 Suno AI 노래만들기 방법, 오늘 영상 하나로 완전 정리해드립니다.",
+      "queued_at": "2026-11-15T06:04:44.831Z"
+    },
+    {
+      "id": "youtube:KrZ9JcmOpiM",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "KrZ9JcmOpiM",
+      "title": "일레븐랩스 사용법 - 완벽한 ai 성우 생성",
+      "category_slug": "elevenlabs",
+      "source_url": "https://www.youtube.com/watch?v=KrZ9JcmOpiM",
+      "fallback_summary": "일레븐랩스: 에피데믹사운드:",
+      "description_excerpt": "일레븐랩스: 에피데믹사운드:",
+      "queued_at": "2026-11-15T06:04:48.366Z"
+    },
+    {
+      "id": "youtube:d2fYOehYbt8",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "d2fYOehYbt8",
+      "title": "사진 1장으로 AI 아바타 영상 만들고 립싱크 맞추기 프리미어에서 합성까지❤️ 헤이젠, 옴니휴먼, 미니맥스, 립싱크 프로 [편집하는여자]",
+      "category_slug": "heygen",
+      "source_url": "https://www.youtube.com/watch?v=d2fYOehYbt8",
+      "fallback_summary": "제 링크를 통해 Artlist를 체험해 보세요❤️",
+      "description_excerpt": "제 링크를 통해 Artlist를 체험해 보세요❤️",
+      "queued_at": "2026-11-15T06:04:51.222Z"
+    },
+    {
+      "id": "youtube:UYU_natPl-I",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "UYU_natPl-I",
+      "title": "리얼한 AI 아바타 영상 만드는 방법 #ai영상",
+      "category_slug": "heygen",
+      "source_url": "https://www.youtube.com/watch?v=UYU_natPl-I",
+      "fallback_summary": "* 아래 링크를 통해 지금 Artlist에 가입하세요! 연간 플랜 결제 시 2개월 추가 혜택을 드립니다.",
+      "description_excerpt": "* 아래 링크를 통해 지금 Artlist에 가입하세요! 연간 플랜 결제 시 2개월 추가 혜택을 드립니다.",
+      "queued_at": "2026-11-15T06:04:51.223Z"
+    },
+    {
+      "id": "youtube:6Sw_bbK5KEA",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "6Sw_bbK5KEA",
+      "title": "AI 아바타 영상, 이렇게 쉽게 만든다고? feat. HeyGen",
+      "category_slug": "heygen",
+      "source_url": "https://www.youtube.com/watch?v=6Sw_bbK5KEA",
+      "fallback_summary": "요즘 가장 많이 활용되는 생성형 AI 영상 제작 방법! 이번 영상에서는 HeyGen을 활용해 AI 아바타 영상을 제작하는 방법을 소개합니다.",
+      "description_excerpt": "요즘 가장 많이 활용되는 생성형 AI 영상 제작 방법! 이번 영상에서는 HeyGen을 활용해 AI 아바타 영상을 제작하는 방법을 소개합니다.",
+      "queued_at": "2026-11-15T06:04:51.223Z"
+    },
+    {
+      "id": "youtube:6emSuO7Ffes",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "6emSuO7Ffes",
+      "title": "생성형 AI를 활용한 교육 콘텐츠 제작 방법/ 하이젠Heygen을 활용한 AI 영상 제작 방법/ AI 강의/ AI 채원쌤",
+      "category_slug": "heygen",
+      "source_url": "https://www.youtube.com/watch?v=6emSuO7Ffes",
+      "fallback_summary": "생성형 AI를 활용해 강의 영상을 쉽고 효율적으로 제작하는 방법을 소개합니다.",
+      "description_excerpt": "생성형 AI를 활용해 강의 영상을 쉽고 효율적으로 제작하는 방법을 소개합니다.",
+      "queued_at": "2026-11-15T06:04:51.223Z"
+    },
+    {
+      "id": "youtube:dfPOrvJRu8k",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "dfPOrvJRu8k",
+      "title": "노션 AI, 초고수는 이렇게 씁니다 | 2026년 노션은 'AI 에이전트'로 활용이 대세가 될거에요.",
+      "category_slug": "notion-ai",
+      "source_url": "https://www.youtube.com/watch?v=dfPOrvJRu8k",
+      "fallback_summary": "🤖 노션 AI 3.0, 실무에서 이렇게 씁니다 (Feat. 노션다움) 노션 AI가 이제 단순 글쓰기 도구가 아니라 데이터베이스·문서·협업 정보를 모두 활용하는 에이전트로 진화했습니다. 이번 인터뷰에서는 ‘노션다움’ 현성님과 함께 노션 AI를 실무에서 어떻게 활용하고 있는지, 그리고 데이터 기반 자동화와 분석 방식을 깊이 있게 다룹니다. 노션을 메모 앱이 아니라 업무·협업·AI 시스템으로 업그레이드하고 싶은 분들에게 큰 도움이 될 영상입니다. 그럼 바로 함께 보시죠!",
+      "description_excerpt": "🤖 노션 AI 3.0, 실무에서 이렇게 씁니다 (Feat. 노션다움) 노션 AI가 이제 단순 글쓰기 도구가 아니라 데이터베이스·문서·협업 정보를 모두 활용하는 에이전트로 진화했습니다. 이번 인터뷰에서는 ‘노션다움’ 현성님과 함께 노션 AI를 실무에서 어떻게 활용하고 있는지, 그리고 데이터 기반 자동화와 분석 방식을 깊이 있게 다룹니다. 노션을 메모 앱이 아니라 업무·협업·AI 시스템으로 업그레이드하고 싶은 분들에게 큰 도움이 될 영상입니다. 그럼 바로 함께 보시죠!",
+      "queued_at": "2026-11-15T06:04:52.962Z"
+    },
+    {
+      "id": "youtube:Kpvi6R83EEU",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "Kpvi6R83EEU",
+      "title": "(26년 10월 업데이트) 클로드 x Gamma로 PPT 고퀄 만드는 방법ㅣ실습자료 제공",
+      "category_slug": "gamma",
+      "source_url": "https://www.youtube.com/watch?v=Kpvi6R83EEU",
+      "fallback_summary": "🔥 지금 바로 Gamma 시작하기 →",
+      "description_excerpt": "🔥 지금 바로 Gamma 시작하기 →",
+      "queued_at": "2026-11-15T06:05:00.525Z"
+    },
+    {
+      "id": "youtube:vjT43Qy0M4k",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "vjT43Qy0M4k",
+      "title": "이걸 무료로 쓴다고? \"노트북LM 슬라이드\" 역대급 업데이트 | 9가지 실전 예제 + 50종 템플릿",
+      "category_slug": "notebooklm",
+      "source_url": "https://www.youtube.com/watch?v=vjT43Qy0M4k",
+      "fallback_summary": "🚀[NotebookLM 슬라이드] 스타일 가이드북 이번 영상에 '좋아요'와 '댓글'을 남긴 후, 아래 설문을 제출해 주세요! 노트북LM 슬라이드 50종 템플릿 + 실습자료가 정리된 노션 가이드북을 보내드립니다.",
+      "description_excerpt": "🚀[NotebookLM 슬라이드] 스타일 가이드북 이번 영상에 '좋아요'와 '댓글'을 남긴 후, 아래 설문을 제출해 주세요! 노트북LM 슬라이드 50종 템플릿 + 실습자료가 정리된 노션 가이드북을 보내드립니다.",
+      "queued_at": "2026-11-15T06:05:01.696Z"
+    },
+    {
+      "id": "youtube:R4qZd3-APk4",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "R4qZd3-APk4",
+      "title": "딥시크·화웨이까지 번진 스캔들...'반도체 고래싸움' 격화? / YTN",
+      "category_slug": "deepseek",
+      "source_url": "https://www.youtube.com/watch?v=R4qZd3-APk4",
+      "fallback_summary": "[앵커] 젠슨 황 스캔들이 중국의 AI 유니콘 딥시크와 '국책기업' 화웨이까지 번지고 있습니다.",
+      "description_excerpt": "[앵커] 젠슨 황 스캔들이 중국의 AI 유니콘 딥시크와 '국책기업' 화웨이까지 번지고 있습니다.",
+      "queued_at": "2026-11-15T06:05:03.530Z"
+    },
+    {
+      "id": "youtube:20O5jFKpar4",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "20O5jFKpar4",
+      "title": "중국AI 미쳤네요.. api가격 50배차이나는 deepseek4.1버전 출시! 설치법과 테스트 전부 담아봤습니다.",
+      "category_slug": "deepseek",
+      "source_url": "https://www.youtube.com/watch?v=20O5jFKpar4",
+      "fallback_summary": "중국AI 미쳤네요.. api가격 50배차이나는 deepseek4.1버전 출시! 설치법과 테스트 전부 담아봤습니다. 해당블로그글",
+      "description_excerpt": "중국AI 미쳤네요.. api가격 50배차이나는 deepseek4.1버전 출시! 설치법과 테스트 전부 담아봤습니다. 해당블로그글",
+      "queued_at": "2026-11-15T06:05:03.530Z"
+    },
+    {
+      "id": "youtube:pJkRenmZXXE",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "pJkRenmZXXE",
+      "title": "바이브코딩 시작하는 방법 직접 보여드립니다 (진짜 처음 해본 사람 입장에서)",
+      "category_slug": "lovable",
+      "source_url": "https://www.youtube.com/watch?v=pJkRenmZXXE",
+      "fallback_summary": "바이브코딩, 처음이라 막막하시나요? 해보고 싶어도 비개발자 입장에서 무슨 툴로 어떻게 시작할지 모르겠나요?",
+      "description_excerpt": "바이브코딩, 처음이라 막막하시나요? 해보고 싶어도 비개발자 입장에서 무슨 툴로 어떻게 시작할지 모르겠나요?",
+      "queued_at": "2026-11-15T06:05:07.641Z"
+    },
+    {
+      "id": "youtube:eJnh7VFO4Cg",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "eJnh7VFO4Cg",
+      "title": "러버블(Lovable) 공식 앰버서더가 알려주는 1시간안에 끝내는 초고속 앱 개발 노하우",
+      "category_slug": "lovable",
+      "source_url": "https://www.youtube.com/watch?v=eJnh7VFO4Cg",
+      "fallback_summary": "안녕하세요! Lovable 공식 앰버서더 댄더맨입니다. 요즘 핫한 AI 코딩 툴 'Lovable', 얼마나 강력한지 궁금하셨죠?",
+      "description_excerpt": "안녕하세요! Lovable 공식 앰버서더 댄더맨입니다. 요즘 핫한 AI 코딩 툴 'Lovable', 얼마나 강력한지 궁금하셨죠?",
+      "queued_at": "2026-11-15T06:05:07.641Z"
+    },
+    {
+      "id": "youtube:w-tzKW-p62M",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "w-tzKW-p62M",
+      "title": "어도비 AI의 충격적인 역대급 기능, 직접 써봤습니다",
+      "category_slug": "adobe-firefly",
+      "source_url": "https://www.youtube.com/watch?v=w-tzKW-p62M",
+      "fallback_summary": "⬇️ 어도비 파이어플라이 지금 바로 사용해보기 ⬇️",
+      "description_excerpt": "⬇️ 어도비 파이어플라이 지금 바로 사용해보기 ⬇️",
+      "queued_at": "2026-11-15T06:05:10.368Z"
+    },
+    {
+      "id": "youtube:qOV-iaoc5_s",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "qOV-iaoc5_s",
+      "title": "AI 이미지, 그만 생성하세요. 이제 잘 고치는 게 실력입니다",
+      "category_slug": "adobe-firefly",
+      "source_url": "https://www.youtube.com/watch?v=qOV-iaoc5_s",
+      "fallback_summary": "AI 이미지, 수정 시간 몇 배는 더 아껴가세요. 이제 노가다 멈추셔야 합니다.",
+      "description_excerpt": "AI 이미지, 수정 시간 몇 배는 더 아껴가세요. 이제 노가다 멈추셔야 합니다.",
+      "queued_at": "2026-11-15T06:05:10.368Z"
+    },
+    {
+      "id": "youtube:PNxBqAlEuAI",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "PNxBqAlEuAI",
+      "title": "AI 영상 만드려면, '이것'부터 아셔야합니다! | 구글이 AI 영상툴을 무료로 풀었습니다(VEO 3.1 구글 비즈)",
+      "category_slug": "veo",
+      "source_url": "https://www.youtube.com/watch?v=PNxBqAlEuAI",
+      "fallback_summary": "👇 영상만 만들면 끝? 돈 버는 유튜브 ‘이 5가지’부터 시작하세요 👇",
+      "description_excerpt": "👇 영상만 만들면 끝? 돈 버는 유튜브 ‘이 5가지’부터 시작하세요 👇",
+      "queued_at": "2026-11-15T06:05:13.172Z"
+    },
+    {
+      "id": "youtube:NtxLXtz2w8U",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "NtxLXtz2w8U",
+      "title": "【다른그림찾기/치매예방】🔥차이점 3개 중 2개만 찾아도 매우 건강한 두뇌!【 find difference / 두뇌운동/3개 찾기/5문제/#1602】",
+      "category_slug": "typecast",
+      "source_url": "https://www.youtube.com/watch?v=NtxLXtz2w8U",
+      "fallback_summary": "안녕하세요! 우선 찾아주신 모든 분들 감사합니다!! 다른그림찾기는 관찰력과 기억력에 큰 도움을 주고 치매예방에도 탁월합니다. 저희 같이 다른 그림 찾기 게임을 하면서 똑똑한 뇌를 만들어봐요! 영상이 재미있으셨다면 구독과 좋아요 부탁드려요 :) (☞ﾟヮﾟ)☞ @user-it9ur4iq4o 매일 새로운 게임이 업데이트 됩니다!",
+      "description_excerpt": "안녕하세요! 우선 찾아주신 모든 분들 감사합니다!! 다른그림찾기는 관찰력과 기억력에 큰 도움을 주고 치매예방에도 탁월합니다. 저희 같이 다른 그림 찾기 게임을 하면서 똑똑한 뇌를 만들어봐요! 영상이 재미있으셨다면 구독과 좋아요 부탁드려요 :) (☞ﾟヮﾟ)☞ @user-it9ur4iq4o 매일 새로운 게임이 업데이트 됩니다!",
+      "queued_at": "2026-11-15T06:05:14.476Z"
+    },
+    {
+      "id": "youtube:s4kLeE0SFik",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "s4kLeE0SFik",
+      "title": "지금 바로 그록봇을 써봐야 하는 이유 [무료 사용법 소개]",
+      "category_slug": "grok",
+      "source_url": "https://www.youtube.com/watch?v=s4kLeE0SFik",
+      "fallback_summary": "AI 입문은 챗지피티 워크로 코딩 없이 예약 시스템 만들기 클로드 모션그래픽 꿀팁 대공개",
+      "description_excerpt": "AI 입문은 챗지피티 워크로 코딩 없이 예약 시스템 만들기 클로드 모션그래픽 꿀팁 대공개",
+      "queued_at": "2026-11-15T06:05:15.987Z"
+    },
+    {
+      "id": "youtube:d-CuF6dlqLg",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "d-CuF6dlqLg",
+      "title": "Microsoft Copilot Tutorial",
+      "category_slug": "copilot",
+      "source_url": "https://www.youtube.com/watch?v=d-CuF6dlqLg",
+      "fallback_summary": "In this step-by-step tutorial, learn how to use Microsoft Copilot. We'll explore how to use Copilot in Windows, in Microsoft 365 apps like Word, PowerPoint, Outlook, and Excel, and on the web. By the end of this training, you'll know exactly what Copilot is and how to use it.",
+      "description_excerpt": "In this step-by-step tutorial, learn how to use Microsoft Copilot. We'll explore how to use Copilot in Windows, in Microsoft 365 apps like Word, PowerPoint, Outlook, and Excel, and on the web. By the end of this training, you'll know exactly what Copilot is and how to use it.",
+      "queued_at": "2026-11-15T06:05:18.367Z"
+    },
+    {
+      "id": "youtube:6qchVdv5YrQ",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "6qchVdv5YrQ",
+      "title": "[오늘 이 뉴스] \"AI 부정행위 인정 자수했다\"..세무사 수석 '급자백 영상' (2026.11.15/MBC뉴스)",
       "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=lWoiJ7HAiPw",
-      "fallback_summary": "(기획: 손형안 / 디자인: 이수민 / 제작: 디지털뉴스부)",
-      "description_excerpt": "(기획: 손형안 / 디자인: 이수민 / 제작: 디지털뉴스부)",
-      "queued_at": "2026-11-14T06:01:32.945Z"
+      "source_url": "https://www.youtube.com/watch?v=6qchVdv5YrQ",
+      "fallback_summary": "ㅤ ⓒ MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지",
+      "description_excerpt": "ㅤ ⓒ MBC & iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지",
+      "queued_at": "2026-11-15T06:05:20.290Z"
+    },
+    {
+      "id": "youtube:UV7-75CNrSo",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "UV7-75CNrSo",
+      "title": "세무사 수석, 'AI 안경 의혹' 직접 반박 [MBN 뉴스센터]",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=UV7-75CNrSo",
+      "fallback_summary": "【 앵커멘트 】 올해 세무사 1차 시험 수석 합격자가 AI 안경을 이용했다는 부정행위 의혹에 입을 열었습니다. 160문제 중 단 한 문제만 틀린 합격자인데요. AI 안경으로 시험 문제를 풀 수 있다면 공부를 왜 하겠느냐며 법적 대응을 예고했습니다. 정혜진 기자가 취재했습니다.",
+      "description_excerpt": "【 앵커멘트 】 올해 세무사 1차 시험 수석 합격자가 AI 안경을 이용했다는 부정행위 의혹에 입을 열었습니다. 160문제 중 단 한 문제만 틀린 합격자인데요. AI 안경으로 시험 문제를 풀 수 있다면 공부를 왜 하겠느냐며 법적 대응을 예고했습니다. 정혜진 기자가 취재했습니다.",
+      "queued_at": "2026-11-15T06:05:20.290Z"
+    },
+    {
+      "id": "youtube:7l5zf786g2I",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "7l5zf786g2I",
+      "title": "[🔴이슈를 켜라] [LIVE] [속보] \"AI로 부정행위\"…세무사 수석 합격자 자수 영상 / 채널A",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=7l5zf786g2I",
+      "fallback_summary": "올해 세무사 시험에서 수석으로 합격한 응시자가 인공지능(AI)과 전자기기를 이용한 부정행위를 인정하고 경찰에 자수했습니다.",
+      "description_excerpt": "올해 세무사 시험에서 수석으로 합격한 응시자가 인공지능(AI)과 전자기기를 이용한 부정행위를 인정하고 경찰에 자수했습니다.",
+      "queued_at": "2026-11-15T06:05:20.290Z"
+    },
+    {
+      "id": "youtube:3oURb43j5Ek",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "3oURb43j5Ek",
+      "title": "[속보] \"AI로 부정행위\"…세무사 수석 합격자 결국 자수 [자막뉴스] / 채널A",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=3oURb43j5Ek",
+      "fallback_summary": "올해 세무사 시험에서 수석으로 합격한 응시자가 인공지능(AI)과 전자기기를 이용한 부정행위를 인정하고 경찰에 자수했습니다.",
+      "description_excerpt": "올해 세무사 시험에서 수석으로 합격한 응시자가 인공지능(AI)과 전자기기를 이용한 부정행위를 인정하고 경찰에 자수했습니다.",
+      "queued_at": "2026-11-15T06:05:20.290Z"
+    },
+    {
+      "id": "youtube:g4X0X6BfoqM",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "g4X0X6BfoqM",
+      "title": "[이슈체크] 'AI안경' 쓰고 수능보기 가능할까?…직접 테스트 해봤습니다",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=g4X0X6BfoqM",
+      "fallback_summary": "[이슈체크] 'AI안경' 쓰고 수능보기 가능할까?…\"직접 테스트 해봤습니다\"",
+      "description_excerpt": "[이슈체크] 'AI안경' 쓰고 수능보기 가능할까?…\"직접 테스트 해봤습니다\"",
+      "queued_at": "2026-11-15T06:05:20.290Z"
+    },
+    {
+      "id": "youtube:T281839cKd0",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "T281839cKd0",
+      "title": "[이슈] 역대급 폭로 '봇물'…무너지는 'AI 왕국', 젠슨 황 나락행…'돈 삭제' 주주들 절규/2026년 11월 14일(토)/KBS",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=T281839cKd0",
+      "fallback_summary": "젠슨 황 엔비디아 최고경영자(CEO)가 중국 정보기관의 첩자로 의심받는 여성 기업인과의 불륜 관계를 시인했습니다.",
+      "description_excerpt": "젠슨 황 엔비디아 최고경영자(CEO)가 중국 정보기관의 첩자로 의심받는 여성 기업인과의 불륜 관계를 시인했습니다.",
+      "queued_at": "2026-11-15T06:05:20.290Z"
+    },
+    {
+      "id": "youtube:u2nt8T-zeyw",
+      "needs_summary": true,
+      "kind": "video",
+      "youtube_id": "u2nt8T-zeyw",
+      "title": "지게차·굴착기 기능사, AI시대 대체 불가능한 일자리? 산업뉴스_[산업방송 채널i]",
+      "category_slug": "trend",
+      "source_url": "https://www.youtube.com/watch?v=u2nt8T-zeyw",
+      "fallback_summary": "[리포트] 충북 청주에 사는 37살 직장인 송지영 씨.",
+      "description_excerpt": "[리포트] 충북 청주에 사는 37살 직장인 송지영 씨.",
+      "queued_at": "2026-11-15T06:05:21.762Z"
     }
   ]
 }
