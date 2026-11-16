@@ -152,11 +152,19 @@ test("the documented examples apply into a video row", () => {
   assert.equal(direct.writes[0]?.fields.hook, fromFile.writes[0]?.fields.hook);
 });
 
-test("the committed queue is empty until collect finds videos that need a summary", () => {
+test("committed queue files stay valid while videos wait for a summary", () => {
   const pending = loadPendingFile();
+  const filled = loadFilledFile();
   assert.equal(pending.version, 1);
-  assert.equal(pendingCount(pending), 0);
-  assert.equal(loadFilledFile().items.length, 0);
+  assert.equal(filled.version, 1);
+  const pendingIds = new Set(pending.items.map((item) => item.id));
+  const pendingYoutubeIds = new Set(pending.items.map((item) => item.youtube_id));
+  for (const item of filled.items) {
+    assert.equal(typeof item.summary, "string");
+    assert.ok(item.summary?.trim());
+    const raw = item.id.startsWith("youtube:") ? item.id.slice("youtube:".length) : item.id;
+    assert.ok(pendingIds.has(item.id) || pendingYoutubeIds.has(raw), item.id);
+  }
 });
 
 test("round-trips the pending file and derives youtube_id from the id", () => {
