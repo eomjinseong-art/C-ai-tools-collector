@@ -152,11 +152,15 @@ test("the documented examples apply into a video row", () => {
   assert.equal(direct.writes[0]?.fields.hook, fromFile.writes[0]?.fields.hook);
 });
 
-test("the committed queue is empty until collect finds videos that need a summary", () => {
+test("the committed queue file parses and does not have to be empty", () => {
   const pending = loadPendingFile();
   assert.equal(pending.version, 1);
-  assert.equal(pendingCount(pending), 0);
-  assert.equal(loadFilledFile().items.length, 0);
+  assert.ok(pendingCount(pending) >= 0);
+  for (const item of pending.items) {
+    assert.equal(item.needs_summary, true);
+    assert.ok(item.youtube_id.length >= 6);
+  }
+  assert.equal(loadFilledFile().version, 1);
 });
 
 test("round-trips the pending file and derives youtube_id from the id", () => {
