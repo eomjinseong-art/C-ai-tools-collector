@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { stringList, type SummaryFields } from "./summary-fields.js";
+import { readSourceCues, type SourceCue } from "./summary-quality.js";
 
 export const PENDING_RELATIVE_PATH = "data/pending-summaries.json";
 export const FILLED_RELATIVE_PATH = "data/filled-summaries.json";
@@ -39,6 +40,25 @@ export type FilledSummaryItem = {
   tool_features?: string[];
   difficulty?: string;
   takeaway?: string;
+  useful_facts?: string[];
+  costs?: string;
+  limitations?: string;
+  source_cues?: SourceCue[] | null;
+  human_reviewed?: boolean;
+  user_approved?: boolean;
+};
+
+export type EditorialMeta = {
+  human_reviewed?: boolean;
+  user_approved?: boolean;
+  deployed?: boolean;
+};
+
+export type EditorSummaryFields = SummaryFields & {
+  source_cues: SourceCue[] | null;
+  source_cues_invalid: boolean;
+  human_reviewed?: boolean;
+  user_approved?: boolean;
 };
 
 export type PendingFile = {
@@ -50,13 +70,14 @@ export type PendingFile = {
 export type FilledFile = {
   version: 1;
   note?: string;
+  editorial_meta?: EditorialMeta;
   items: FilledSummaryItem[];
 };
 
 export type PlannedWrite = {
   id: string;
   youtube_id: string;
-  fields: SummaryFields;
+  fields: EditorSummaryFields;
 };
 
 export function youtubeWatchUrl(youtubeId: string): string {
@@ -128,6 +149,23 @@ function parsePendingItem(value: unknown, index: number): PendingSummaryItem {
   };
 }
 
+function optionalBoolean(value: unknown): boolean | undefined {
+  return typeof value === "boolean" ? value : undefined;
+}
+
+function parseEditorialMeta(value: unknown): EditorialMeta | undefined {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return undefined;
+  const record = value as Record<string, unknown>;
+  const meta: EditorialMeta = {};
+  const humanReviewed = optionalBoolean(record.human_reviewed);
+  const userApproved = optionalBoolean(record.user_approved);
+  const deployed = optionalBoolean(record.deployed);
+  if (humanReviewed !== undefined) meta.human_reviewed = humanReviewed;
+  if (userApproved !== undefined) meta.user_approved = userApproved;
+  if (deployed !== undefined) meta.deployed = deployed;
+  return Object.keys(meta).length > 0 ? meta : undefined;
+}
+
 function parseFilledItem(value: unknown, index: number): FilledSummaryItem {
   const record = asRecord(value, `filled item ${index}`);
   const id = typeof record.id === "string" ? record.id.trim() : "";
@@ -162,9 +200,11 @@ export function loadFilledFile(root = process.cwd()): FilledFile {
   const record = asRecord(readJson(filePath), FILLED_RELATIVE_PATH);
   assertVersion(record, FILLED_RELATIVE_PATH);
   if (!Array.isArray(record.items)) throw new Error(`${FILLED_RELATIVE_PATH} items must be an array`);
+  const editorialMeta = parseEditorialMeta(record.editorial_meta);
   return {
     version: 1,
     note: typeof record.note === "string" ? record.note : DEFAULT_FILLED_NOTE,
+    ...(editorialMeta ? { editorial_meta: editorialMeta } : {}),
     items: record.items.map((item, index) => parseFilledItem(item, index)),
   };
 }
@@ -251,8 +291,17 @@ function fieldsFrom(source: {
   tool_features?: unknown;
   difficulty?: string;
   takeaway?: string;
-}): SummaryFields | null {
+  useful_facts?: unknown;
+  costs?: unknown;
+  limitations?: unknown;
+  source_cues?: unknown;
+  human_reviewed?: unknown;
+  user_approved?: unknown;
+}): EditorSummaryFields | null {
   if (!hasEditorSummary(source) || source.summary === undefined) return null;
+  const cues = readSourceCues(source.source_cues);
+  const humanReviewed = optionalBoolean(source.human_reviewed);
+  const userApproved = optionalBoolean(source.user_approved);
   return {
     summary: source.summary.trim(),
     summary_points: stringList(source.summary_points),
@@ -260,6 +309,13 @@ function fieldsFrom(source: {
     tool_features: stringList(source.tool_features),
     difficulty: typeof source.difficulty === "string" ? source.difficulty.trim() : "",
     takeaway: typeof source.takeaway === "string" ? source.takeaway.trim() : "",
+    useful_facts: stringList(source.useful_facts),
+    costs: typeof source.costs === "string" ? source.costs.trim() : "",
+    limitations: typeof source.limitations === "string" ? source.limitations.trim() : "",
+    source_cues: cues.cues,
+    source_cues_invalid: cues.invalid,
+    ...(humanReviewed !== undefined ? { human_reviewed: humanReviewed } : {}),
+    ...(userApproved !== undefined ? { user_approved: userApproved } : {}),
   };
 }
 

@@ -31,6 +31,16 @@ test("uses the cleaned first paragraph of the description", () => {
   assert.ok(result.takeaway.length > 0);
 });
 
+test("prefers a usable transcript over a long description", () => {
+  const result = buildFallbackSummary({
+    title: "보고서 초안",
+    description: LONG_DESCRIPTION,
+    transcript: "자막은 자료를 붙인 위치와 문단을 고치는 화면을 순서대로 읽습니다. 설명 문단보다 이 자막을 먼저 고릅니다.",
+  });
+  assert.equal(result.source, "transcript");
+  assert.match(result.summary, /자막은 자료/);
+});
+
 test("uses og:description when the description has no usable paragraph", () => {
   const og = "오쥐 설명에서 가져온 문장입니다. 길이를 넉넉히 채워서 임시 요약으로 선택됩니다.";
   const result = buildFallbackSummary({

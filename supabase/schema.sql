@@ -43,7 +43,14 @@ create table if not exists videos (
   difficulty text,              -- 입문 | 초급 | 중급 | 고급
   takeaway text,                -- one-line closing takeaway
   transcript_lang text,         -- language of transcript used for summary, if any
-  rank int,                     -- 1..10 position within its category
+  summary_source text check (summary_source is null or summary_source in ('description', 'transcript', 'reviewed')),
+  summary_generated_at timestamptz,
+  summary_verified_at timestamptz,
+  source_cues jsonb,
+  useful_facts text[],
+  costs text,
+  limitations text,
+  rank int,                     -- 1..target_video_count recommendation; 1000 keeps an archived row
   status text not null default 'published' check (status in ('published','pending','excluded')),
   collected_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
