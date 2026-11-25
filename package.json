@@ -8,6 +8,7 @@
     "collect": "tsx src/collect.ts",
     "apply-summaries": "tsx src/apply-summaries.ts",
     "check-pending": "tsx src/check-pending.ts",
+    "export-review-batch": "tsx src/export-review-batch.ts",
     "guidebook": "tsx src/guidebook.ts",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test src/lib/*.test.ts"

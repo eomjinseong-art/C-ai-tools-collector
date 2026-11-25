@@ -1,5 +1,8 @@
 name: Collect AI tool videos
 
+# pull_request does not trigger this workflow. Opening a pull request does not collect or write to Supabase.
+# npm run apply-summaries below is a dry-run: it does not pass --apply.
+
 on:
   schedule:
     - cron: "0 0 * * *" # 09:00 KST daily (00:00 UTC)

@@ -121,15 +121,18 @@
 
 ## 적용 명령
 
-`SUPABASE_URL`과 `SUPABASE_SERVICE_ROLE_KEY`가 있는 환경에서 실행합니다.
+`SUPABASE_URL`과 `SUPABASE_SERVICE_ROLE_KEY`가 있는 환경에서 실행합니다. 인자 없이 실행하면 검증만 하고 데이터베이스는 바꾸지 않습니다.
 
 ```bash
 npm run apply-summaries
+npm run apply-summaries -- --apply
 ```
 
-적용에 성공한 항목은 대기 파일과 형제 파일에서 빠집니다. DB에 영상이 없으면 그 항목은 대기 목록에 남습니다.
+`--apply`는 `supabase/migration_add_summary_provenance.sql`이 적용된 뒤에만 씁니다. 컬럼이 없으면 한 행도 갱신하지 않습니다. 쓰기 직전에 `data/backups/`에 대기 파일 원본을 복사합니다. 검증에 실패한 항목은 대기 목록에 남습니다. DB에 영상이 없으면 그 항목도 남습니다.
 
-매일 09:00 KST 수집 워크플로가 수집 뒤에 같은 명령을 실행하고, 바뀐 대기 파일을 커밋합니다. `main`에 두 JSON 파일이 푸시되어도 한 번 더 적용합니다. 워크플로가 만든 커밋 메시지에는 `[skip apply]`가 붙어 적용이 반복되지 않습니다.
+`editorial_meta.human_reviewed` 또는 `editorial_meta.user_approved`가 `false`인 파일은 초안입니다. dry-run이든 `--apply`든 검토됨으로 표시하지 않고 데이터베이스에 넣지 않습니다.
+
+매일 09:00 KST 수집 워크플로는 수집 뒤에 인자 없는 `npm run apply-summaries`만 실행하고, 바뀐 대기 파일을 커밋합니다. `main`에 두 JSON 파일이 푸시되어도 같은 dry-run입니다. 워크플로가 만든 커밋 메시지에는 `[skip apply]`가 붙어 적용 워크플로가 반복되지 않습니다. 풀 리퀘스트는 이 워크플로를 실행하지 않습니다.
 
 대기 확인만 따로 실행하려면:
 

@@ -149,9 +149,9 @@ function pickSource(input: {
   const title = input.title.replace(/\s+/g, " ").trim();
 
   const ranked: Array<{ text: string; source: FallbackSource }> = [
+    { text: transcript, source: "transcript" },
     { text: description, source: "description" },
     { text: og, source: "og:description" },
-    { text: transcript, source: "transcript" },
   ];
   const useful = ranked.find((candidate) => candidate.text.length >= MIN_USEFUL_CHARS);
   if (useful) return useful;
