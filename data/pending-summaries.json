@@ -63,18 +63,6 @@
       "queued_at": "2026-11-23T07:15:10.634Z"
     },
     {
-      "id": "youtube:W22qlb4IlfA",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "W22qlb4IlfA",
-      "title": "무료 AI 쓰고 돈 버는 뤼튼 앱테크 (한국 생성형 AI 도구 추천, 글쓰기, 이미지 생성, N잡러 필수 설치 AI 툴 플랫폼, 캐쉬 리워드, 천보기 어플 짠테크)",
-      "category_slug": "wrtn",
-      "source_url": "https://www.youtube.com/watch?v=W22qlb4IlfA",
-      "fallback_summary": "무료 AI 쓰고 돈 버는 방법 한국의 생성형 AI 도구 추천 글쓰기, 이미지 생성, N잡러 필수 설치 AI 툴 플랫폼 캐쉬 리워드 앱테크, 만보기 어플 짠테크",
-      "description_excerpt": "무료 AI 쓰고 돈 버는 방법 한국의 생성형 AI 도구 추천 글쓰기, 이미지 생성, N잡러 필수 설치 AI 툴 플랫폼 캐쉬 리워드 앱테크, 만보기 어플 짠테크",
-      "queued_at": "2026-11-23T07:15:15.787Z"
-    },
-    {
       "id": "youtube:3W1VhiKLNp4",
       "needs_summary": true,
       "kind": "video",
@@ -84,18 +72,6 @@
       "source_url": "https://www.youtube.com/watch?v=3W1VhiKLNp4",
       "fallback_summary": "This Higgsfield AI tutorial walks you through everything you need to know as a beginner. Go from generating your first image all the way to a finished video, step by step. ✅ Higgsfield (Best Deal):",
       "description_excerpt": "This Higgsfield AI tutorial walks you through everything you need to know as a beginner. Go from generating your first image all the way to a finished video, step by step. ✅ Higgsfield (Best Deal):",
-      "queued_at": "2026-11-23T07:15:26.560Z"
-    },
-    {
-      "id": "youtube:Mt91SiQotOU",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "Mt91SiQotOU",
-      "title": "Higgsfield AI Tutorial for Beginners (2026) | Step-by-Step",
-      "category_slug": "higgsfield",
-      "source_url": "https://www.youtube.com/watch?v=Mt91SiQotOU",
-      "fallback_summary": "This Higgsfield AI tutorial for beginners shows you how to use Higgsfield AI, from your first AI image to a finished 4K video, without wasting credits. ✅ Higgsfield (Best Deal):",
-      "description_excerpt": "This Higgsfield AI tutorial for beginners shows you how to use Higgsfield AI, from your first AI image to a finished 4K video, without wasting credits. ✅ Higgsfield (Best Deal):",
       "queued_at": "2026-11-23T07:15:26.560Z"
     },
     {
@@ -123,18 +99,6 @@
       "queued_at": "2026-11-23T07:15:32.290Z"
     },
     {
-      "id": "youtube:QO8VXljyJ-I",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "QO8VXljyJ-I",
-      "title": "these ai videos are stupid (seedance 2)",
-      "category_slug": "seedance",
-      "source_url": "https://www.youtube.com/watch?v=QO8VXljyJ-I",
-      "fallback_summary": "more slop 👍 merch that ISN'T AI SLOP - everything in this video is AI and not real",
-      "description_excerpt": "more slop 👍 merch that ISN'T AI SLOP - everything in this video is AI and not real",
-      "queued_at": "2026-11-23T07:15:32.290Z"
-    },
-    {
       "id": "youtube:rQck-93jOKc",
       "needs_summary": true,
       "kind": "video",
@@ -159,18 +123,6 @@
       "queued_at": "2026-11-23T07:15:38.719Z"
     },
     {
-      "id": "youtube:jkj-VuFTGHk",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "jkj-VuFTGHk",
-      "title": "AI 애니메이션 만드는 법 전부 공개합니다 (프롬프트 제공)",
-      "category_slug": "kling",
-      "source_url": "https://www.youtube.com/watch?v=jkj-VuFTGHk",
-      "fallback_summary": "👇인원제한 AI 커뮤니티 입장하기",
-      "description_excerpt": "👇인원제한 AI 커뮤니티 입장하기",
-      "queued_at": "2026-11-23T07:15:40.319Z"
-    },
-    {
       "id": "youtube:R3QZCdrQevg",
       "needs_summary": true,
       "kind": "video",
@@ -181,18 +133,6 @@
       "fallback_summary": "👉 누구나 쉽게 영상 편집을 할 수 있는 AI 영상 편집 필모라 :",
       "description_excerpt": "👉 누구나 쉽게 영상 편집을 할 수 있는 AI 영상 편집 필모라 :",
       "queued_at": "2026-11-23T07:15:41.907Z"
-    },
-    {
-      "id": "youtube:OG-iME_sWBs",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "OG-iME_sWBs",
-      "title": "캡컷 마스터 클래스 : 초보자를 위한 영상편집 강의",
-      "category_slug": "capcut",
-      "source_url": "https://www.youtube.com/watch?v=OG-iME_sWBs",
-      "fallback_summary": "초보자도 쉽게 사용할 수 있는 AI 기반 영상 편집 필모라:",
-      "description_excerpt": "초보자도 쉽게 사용할 수 있는 AI 기반 영상 편집 필모라:",
-      "queued_at": "2026-11-23T07:15:45.876Z"
     },
     {
       "id": "youtube:1CvCBk4hcXc",
@@ -219,18 +159,6 @@
       "queued_at": "2026-11-23T07:15:52.668Z"
     },
     {
-      "id": "youtube:G7T-M3Dt3V4",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "G7T-M3Dt3V4",
-      "title": "무료 TTS인데 퀄리티는 유료급? TTS는 이 영상만 보시면 완벽하게 이해됩니다",
-      "category_slug": "typecast",
-      "source_url": "https://www.youtube.com/watch?v=G7T-M3Dt3V4",
-      "fallback_summary": "유튜브를 하고 싶은데 내 목소리 노출이 부담될 때 TTS를 사용하고 싶은데 가격이 너무 비싸서 망설여지나요?",
-      "description_excerpt": "유튜브를 하고 싶은데 내 목소리 노출이 부담될 때 TTS를 사용하고 싶은데 가격이 너무 비싸서 망설여지나요?",
-      "queued_at": "2026-11-23T07:15:55.611Z"
-    },
-    {
       "id": "youtube:RTmlxuroR50",
       "needs_summary": true,
       "kind": "video",
@@ -253,18 +181,6 @@
       "fallback_summary": "생성형 AI를 활용해 강의 영상을 쉽고 효율적으로 제작하는 방법을 소개합니다.",
       "description_excerpt": "생성형 AI를 활용해 강의 영상을 쉽고 효율적으로 제작하는 방법을 소개합니다.",
       "queued_at": "2026-11-23T07:15:59.338Z"
-    },
-    {
-      "id": "youtube:bmbNjx6U-p4",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "bmbNjx6U-p4",
-      "title": "Notion 노션 템플릿도 필요 없음! 30분 → 5분 🚀 노션 AI 에이전트의 진짜 능력",
-      "category_slug": "notion-ai",
-      "source_url": "https://www.youtube.com/watch?v=bmbNjx6U-p4",
-      "fallback_summary": "이 영상에는 Notion의 유료 광고가 포함되어 있습니다",
-      "description_excerpt": "이 영상에는 Notion의 유료 광고가 포함되어 있습니다",
-      "queued_at": "2026-11-23T07:16:04.243Z"
     },
     {
       "id": "youtube:Tv8mLrLtyxo",
@@ -375,18 +291,6 @@
       "queued_at": "2026-11-23T07:16:37.102Z"
     },
     {
-      "id": "youtube:knOhSmOkqMM",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "knOhSmOkqMM",
-      "title": "How to Use the NEW Agent Builder in Microsoft Copilot - Build an AI Agent in Minutes (2026)",
-      "category_slug": "copilot",
-      "source_url": "https://www.youtube.com/watch?v=knOhSmOkqMM",
-      "fallback_summary": "A step-by-step tutorial on how to use the NEW Agent Builder in Microsoft Copilot (Fall 2026) to create your own custom AI agent in just minutes. I’ll show you how to build an agent from scratch, give it instructions, connect it to your own content and knowledge sources, and test it directly inside Copilot.",
-      "description_excerpt": "A step-by-step tutorial on how to use the NEW Agent Builder in Microsoft Copilot (Fall 2026) to create your own custom AI agent in just minutes. I’ll show you how to build an agent from scratch, give it instructions, connect it to your own content and knowledge sources, and test it directly inside Copilot. In this example, I’ll build a practical onboarding agent so you can see exactly how Agent Builder works and how quickly you can create something useful without writing code.",
-      "queued_at": "2026-11-23T07:16:37.103Z"
-    },
-    {
       "id": "youtube:B2s1oB36iCQ",
       "needs_summary": true,
       "kind": "video",
@@ -423,18 +327,6 @@
       "queued_at": "2026-11-23T07:16:41.504Z"
     },
     {
-      "id": "youtube:rZBz9jehE88",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "rZBz9jehE88",
-      "title": "아무도 알려준 적 없을 겁니다. 2027 왕초보 GPT 코덱스 쉽게정복 (흔한 내용 ❌)",
-      "category_slug": "chatgpt",
-      "source_url": "https://www.youtube.com/watch?v=rZBz9jehE88",
-      "fallback_summary": "🎓 무료 3시간 AI 특강 | 12월 라이브 예정 오늘 본 편집기·프로그램·자동화, 상상하는 모든 걸 처음부터 같이 만들어 봅시다! ▶️신청링크",
-      "description_excerpt": "🎓 무료 3시간 AI 특강 | 12월 라이브 예정 오늘 본 편집기·프로그램·자동화, 상상하는 모든 걸 처음부터 같이 만들어 봅시다! ▶️신청링크",
-      "queued_at": "2026-11-24T09:38:08.601Z"
-    },
-    {
       "id": "youtube:IyHsxrCK_Zk",
       "needs_summary": true,
       "kind": "video",
@@ -445,18 +337,6 @@
       "fallback_summary": "아직도 클로드에게 질문만 하고 계신가요? 이제 Claude는 엑셀·PPT·PDF 생성, 업무도구 제작, Gmail·Calendar·Drive 연결, 리서치, 반복 업무 자동화까지 실제 일을 맡길 수 있는 AI로 바뀌고 있습니다. 이번 영상에서는 많은 분들이 놓치고 있는 클로드 활용법 10가지를 실제 업무 예시와 함께 보여드립니다. 핵심은 복잡한 프롬프트가 아니라*“내 업무 중 어디까지 AI에게 맡길 수 있는가?”입니다.",
       "description_excerpt": "아직도 클로드에게 질문만 하고 계신가요? 이제 Claude는 엑셀·PPT·PDF 생성, 업무도구 제작, Gmail·Calendar·Drive 연결, 리서치, 반복 업무 자동화까지 실제 일을 맡길 수 있는 AI로 바뀌고 있습니다. 이번 영상에서는 많은 분들이 놓치고 있는 클로드 활용법 10가지를 실제 업무 예시와 함께 보여드립니다. 핵심은 복잡한 프롬프트가 아니라*“내 업무 중 어디까지 AI에게 맡길 수 있는가?”입니다.",
       "queued_at": "2026-11-24T09:38:10.796Z"
-    },
-    {
-      "id": "youtube:If_U_zmXWYo",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "If_U_zmXWYo",
-      "title": "2026년 클로드, 1시간 올인원 강의 (claude)",
-      "category_slug": "claude",
-      "source_url": "https://www.youtube.com/watch?v=If_U_zmXWYo",
-      "fallback_summary": "목차:",
-      "description_excerpt": "목차:",
-      "queued_at": "2026-11-24T09:38:12.202Z"
     },
     {
       "id": "youtube:y7Ps748CACg",
@@ -543,18 +423,6 @@
       "queued_at": "2026-11-24T09:38:30.173Z"
     },
     {
-      "id": "youtube:uEUhVKIR70I",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "uEUhVKIR70I",
-      "title": "AI 영상이 가짜 같은 이유, 딱 3가지만 바꾸세요 | Seedance 2.5",
-      "category_slug": "seedance",
-      "source_url": "https://www.youtube.com/watch?v=uEUhVKIR70I",
-      "fallback_summary": "참조 이미지, 자연스러운 질감, 빛과 그림자. Seedance 2.5 실사 느낌을 만드는 세 가지 기준을 실제 자료로 설명합니다.",
-      "description_excerpt": "참조 이미지, 자연스러운 질감, 빛과 그림자. Seedance 2.5 실사 느낌을 만드는 세 가지 기준을 실제 자료로 설명합니다.",
-      "queued_at": "2026-11-24T09:38:30.173Z"
-    },
-    {
       "id": "youtube:tai83Z8GlPw",
       "needs_summary": true,
       "kind": "video",
@@ -613,30 +481,6 @@
       "fallback_summary": "캡컷 자동 자막, 아직도 하나하나 손으로 수정하고 계신가요? 자막 편집 시간만 절반으로 줄여도 영상의 퀄리티가 달라집니다. 이제 번거로운 수정 작업은 AI '브루(Vrew) 에이전트'에게 맡기세요!",
       "description_excerpt": "캡컷 자동 자막, 아직도 하나하나 손으로 수정하고 계신가요? 자막 편집 시간만 절반으로 줄여도 영상의 퀄리티가 달라집니다. 이제 번거로운 수정 작업은 AI '브루(Vrew) 에이전트'에게 맡기세요!",
       "queued_at": "2026-11-24T09:38:36.916Z"
-    },
-    {
-      "id": "youtube:HKE8tivl2LE",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "HKE8tivl2LE",
-      "title": "브루(Vrew)를 활용한 쉽고 편한 유튜브 영상편집 - 01 프로젝트 만들기",
-      "category_slug": "vrew",
-      "source_url": "https://www.youtube.com/watch?v=HKE8tivl2LE",
-      "fallback_summary": "브루(Vrew)를 활용한 쉽고 편한 유튜브 영상편집 - 01차시 : 프로젝트 만들기",
-      "description_excerpt": "브루(Vrew)를 활용한 쉽고 편한 유튜브 영상편집 - 01차시 : 프로젝트 만들기",
-      "queued_at": "2026-11-24T09:38:36.917Z"
-    },
-    {
-      "id": "youtube:KrZ9JcmOpiM",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "KrZ9JcmOpiM",
-      "title": "일레븐랩스 사용법 - 완벽한 ai 성우 생성",
-      "category_slug": "elevenlabs",
-      "source_url": "https://www.youtube.com/watch?v=KrZ9JcmOpiM",
-      "fallback_summary": "일레븐랩스: 에피데믹사운드:",
-      "description_excerpt": "일레븐랩스: 에피데믹사운드:",
-      "queued_at": "2026-11-24T09:38:41.656Z"
     },
     {
       "id": "youtube:-6HW8gNWo6s",
@@ -759,18 +603,6 @@
       "queued_at": "2026-11-24T09:39:06.302Z"
     },
     {
-      "id": "youtube:c80XdvftRD4",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "c80XdvftRD4",
-      "title": "Grok Bot에게 모든 자동화를 맡겨봤습니다.",
-      "category_slug": "grok",
-      "source_url": "https://www.youtube.com/watch?v=c80XdvftRD4",
-      "fallback_summary": "오늘의 썸네일을 만든 AI 딱테잎: 디자인까지 점령한 클로드! 클로드 디자인: 디자인에 이어서 영상 편집까지 해주는 클로드:",
-      "description_excerpt": "오늘의 썸네일을 만든 AI 딱테잎: 디자인까지 점령한 클로드! 클로드 디자인: 디자인에 이어서 영상 편집까지 해주는 클로드:",
-      "queued_at": "2026-11-24T09:39:08.060Z"
-    },
-    {
       "id": "youtube:b0uZgrG2r2I",
       "needs_summary": true,
       "kind": "video",
@@ -829,18 +661,6 @@
       "fallback_summary": "〈앵커〉",
       "description_excerpt": "〈앵커〉",
       "queued_at": "2026-11-24T09:39:14.159Z"
-    },
-    {
-      "id": "youtube:CfDD3uPYMhg",
-      "needs_summary": true,
-      "kind": "video",
-      "youtube_id": "CfDD3uPYMhg",
-      "title": "신의 영역 들어서는 AI…구글, 월드모델 '지니4' 공개 #소셜픽 / JTBC 아침&",
-      "category_slug": "trend",
-      "source_url": "https://www.youtube.com/watch?v=CfDD3uPYMhg",
-      "fallback_summary": "구글이 '월드 모델' 인공지능인 지니 4를 공개했습니다.",
-      "description_excerpt": "구글이 '월드 모델' 인공지능인 지니 4를 공개했습니다.",
-      "queued_at": "2026-11-24T09:39:15.615Z"
     },
     {
       "id": "youtube:Vlr7uu0ePP0",
