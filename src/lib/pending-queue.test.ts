@@ -152,13 +152,18 @@ test("the documented examples apply into a video row", () => {
   assert.equal(direct.writes[0]?.fields.hook, fromFile.writes[0]?.fields.hook);
 });
 
-test("the committed queue files parse", () => {
+test("the committed queue files parse and the pending queue does not have to be empty", () => {
   const pending = loadPendingFile();
   const filled = loadFilledFile();
   assert.equal(pending.version, 1);
   assert.equal(filled.version, 1);
   assert.ok(Array.isArray(pending.items));
   assert.ok(Array.isArray(filled.items));
+  assert.ok(pendingCount(pending) >= 0);
+  for (const item of pending.items) {
+    assert.equal(item.needs_summary, true);
+    assert.ok(item.youtube_id.length >= 6);
+  }
   const seen = new Set<string>();
   for (const item of filled.items) {
     assert.equal(typeof item.id, "string");
